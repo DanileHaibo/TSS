@@ -6,10 +6,11 @@ import random
 from pathlib import Path
 from typing import Any
 
+from spec_exp.data_paths import eagle_data_dir, mmlu_jsonl, nq_open_jsonl, spec_bench_question_jsonl
 from spec_exp.self_spec_decode import DecodeItem
 
-EAGLE_DATA = Path("/root/autodl-tmp/eagle3-system-exp/repos/EAGLE/eagle/data")
-SPEC_BENCH_DATA = Path(__file__).resolve().parents[1] / "data/Spec-Bench-repo/data/spec_bench/question.jsonl"
+EAGLE_DATA = eagle_data_dir()
+SPEC_BENCH_DATA = spec_bench_question_jsonl()
 
 
 def _qwen_chat_prompt(user_text: str) -> str:
@@ -53,8 +54,14 @@ def load_spec_bench_category(
     output_len: int,
     use_chat_template: bool = True,
 ) -> list[DecodeItem]:
+    path = spec_bench_question_jsonl()
+    if not path.is_file():
+        raise FileNotFoundError(
+            f"Spec-Bench question.jsonl not found at {path}. "
+            "Run: python scripts/download_and_preprocess_datasets.py"
+        )
     rows = []
-    for line in SPEC_BENCH_DATA.read_text().splitlines():
+    for line in path.read_text().splitlines():
         if not line.strip():
             continue
         r = json.loads(line)
@@ -82,7 +89,7 @@ def load_spec_bench_category(
 
 
 def load_gsm8k(*, num_requests: int | None, seed: int, output_len: int) -> list[DecodeItem]:
-    path = EAGLE_DATA / "gsm8k" / "question.jsonl"
+    path = eagle_data_dir() / "gsm8k" / "question.jsonl"
     rows = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     rng = random.Random(seed)
     rng.shuffle(rows)
@@ -104,7 +111,7 @@ def load_gsm8k(*, num_requests: int | None, seed: int, output_len: int) -> list[
 
 
 def load_humaneval(*, num_requests: int | None, seed: int, output_len: int) -> list[DecodeItem]:
-    path = EAGLE_DATA / "humaneval" / "question.jsonl"
+    path = eagle_data_dir() / "humaneval" / "question.jsonl"
     rows = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     rng = random.Random(seed)
     rng.shuffle(rows)
@@ -135,7 +142,7 @@ def load_translation(*, num_requests: int | None, seed: int, output_len: int) ->
 
 
 def load_summarization(*, num_requests: int | None, seed: int, output_len: int) -> list[DecodeItem]:
-    path = EAGLE_DATA / "sum" / "question.jsonl"
+    path = eagle_data_dir() / "sum" / "question.jsonl"
     rows = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     rng = random.Random(seed)
     rng.shuffle(rows)
@@ -162,11 +169,10 @@ def load_summarization(*, num_requests: int | None, seed: int, output_len: int) 
 def load_qa(*, num_requests: int | None, seed: int, output_len: int) -> list[DecodeItem]:
     import os
 
-    os.environ.setdefault("HF_HOME", "/root/autodl-tmp/hf-cache")
-    os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
+    os.environ.setdefault("HF_HOME", os.environ.get("HF_HOME", str(Path.home() / ".cache" / "huggingface")))
 
     rows: list[dict] = []
-    cache = Path("/root/autodl-tmp/specdecode-system-exp/data/nq_open/validation.jsonl")
+    cache = nq_open_jsonl()
     if cache.exists():
         for line in cache.read_text().splitlines():
             if line.strip():
@@ -203,12 +209,15 @@ def load_qa(*, num_requests: int | None, seed: int, output_len: int) -> list[Dec
 def load_mmlu(*, num_requests: int | None, seed: int, output_len: int) -> list[DecodeItem]:
     import os
 
-    os.environ.setdefault("HF_HOME", "/root/autodl-tmp/hf-cache")
-    os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
+    os.environ.setdefault("HF_HOME", os.environ.get("HF_HOME", str(Path.home() / ".cache" / "huggingface")))
 
-    from datasets import load_dataset
+    cache = mmlu_jsonl()
+    if cache.is_file():
+        rows = [json.loads(line) for line in cache.read_text().splitlines() if line.strip()]
+    else:
+        from datasets import load_dataset
 
-    rows = list(load_dataset("cais/mmlu", "all", split="test"))
+        rows = list(load_dataset("cais/mmlu", "all", split="test"))
     rng = random.Random(seed)
     rng.shuffle(rows)
     if num_requests:

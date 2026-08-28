@@ -9,7 +9,8 @@ This repo contains:
 1. **Core selection + skip code** for Vicuna-7B (EAGLE) and Llama-2-13B (SAMD Token-Recycle)
 2. **Experiment logs / tables** used in the paper (main results, ablations, qualitative cases, sensitivity)
 
-Model weights and large datasets are **not** shipped; download them separately (see below).
+Model weights and large datasets are **not** shipped. Download datasets with the
+script below (see [DATASETS.md](DATASETS.md)); download model weights yourself.
 
 ---
 
@@ -40,7 +41,26 @@ experiment_logs/          # paper-facing logs & tables
   ablations/
 paper/                    # LaTeX fragments for tables / setup
 third_party/              # eagle / samd / hydra Python (no weights)
+DATASETS.md               # dataset sources, download, preprocess, splits
+scripts/download_and_preprocess_datasets.py
+data/                     # created locally (jsonl; not in git)
 ```
+
+---
+
+## Datasets (download + preprocess)
+
+Weights are **not** included. Datasets are also not in git; run:
+
+```bash
+pip install datasets
+python scripts/download_and_preprocess_datasets.py
+```
+
+This clones [Spec-Bench](https://github.com/hemingkx/Spec-Bench) and
+[EAGLE](https://github.com/SafeAILab/EAGLE) (jsonl only), and dumps NQ-Open +
+MMLU from Hugging Face into `data/`. Full sources, split protocol, and env vars:
+**[DATASETS.md](DATASETS.md)**.
 
 ---
 
@@ -71,6 +91,7 @@ Published skip sets: `configs/published_skip_sets.json`.
 ```bash
 # 1) Install deps (PyTorch + transformers + eagle/samd stacks as in your env)
 pip install -r requirements.txt
+python scripts/download_and_preprocess_datasets.py
 
 # 2) 7B EAGLE TSS search / held-out (example)
 python scripts/run_tss_max_toks_pipeline.py \

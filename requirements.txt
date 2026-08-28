@@ -13,5 +13,7 @@ sacrebleu
 rouge-score
 # Chat templates (Vicuna)
 fschat
+# Dataset download / preprocess
+datasets
 # Optional plotting (case gallery / figures)
 matplotlib
