@@ -1,0 +1,441 @@
+{
+  "rows": [
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "floor_ratio": 1.0,
+      "metric": 0.23699194767486134,
+      "native_accept_len": 2.6972034715525552,
+      "native_metric": 0.1311862346675408,
+      "native_throughput": 80.62545932066263,
+      "num_skip_layers": 3,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.09375,
+      "throughput": 127.25845134706083,
+      "tol_label": "0",
+      "tol_pct": 0.0
+    },
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "floor_ratio": 1.05,
+      "metric": 0.23699194767486134,
+      "native_accept_len": 2.6972034715525552,
+      "native_metric": 0.1311862346675408,
+      "native_throughput": 80.62545932066263,
+      "num_skip_layers": 3,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.09375,
+      "throughput": 127.25845134706083,
+      "tol_label": "+5%",
+      "tol_pct": 5.0
+    },
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "floor_ratio": 0.95,
+      "metric": 0.23699194767486134,
+      "native_accept_len": 2.6972034715525552,
+      "native_metric": 0.1311862346675408,
+      "native_throughput": 75.57046459388553,
+      "num_skip_layers": 3,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "source": "published_triple_win",
+      "sparsity": 0.09375,
+      "three_win": true,
+      "throughput": 127.25845134706083,
+      "tol_label": "-5%",
+      "tol_pct": -5.0,
+      "tri_mean_ratio": 1.7221462479412915
+    },
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "floor_ratio": 0.9,
+      "metric": 0.23699194767486134,
+      "native_accept_len": 2.6972034715525552,
+      "native_metric": 0.1311862346675408,
+      "native_throughput": 80.62545932066263,
+      "num_skip_layers": 3,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.09375,
+      "throughput": 127.25845134706083,
+      "tol_label": "-10%",
+      "tol_pct": -10.0
+    },
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "floor_ratio": 0.8,
+      "metric": 0.23699194767486134,
+      "native_accept_len": 2.6972034715525552,
+      "native_metric": 0.1311862346675408,
+      "native_throughput": 80.62545932066263,
+      "num_skip_layers": 3,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.09375,
+      "throughput": 127.25845134706083,
+      "tol_label": "-20%",
+      "tol_pct": -20.0
+    },
+    {
+      "accept_len": 3.7261682242990655,
+      "dataset": "qa",
+      "floor_ratio": 1.0,
+      "metric": 0.06000933188789743,
+      "native_accept_len": 2.925650557620818,
+      "native_metric": 0.042224046966981864,
+      "native_throughput": 82.49357075694525,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        27
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 106.30748231967638,
+      "tol_label": "0",
+      "tol_pct": 0.0
+    },
+    {
+      "accept_len": 3.7261682242990655,
+      "dataset": "qa",
+      "floor_ratio": 1.05,
+      "metric": 0.06000933188789743,
+      "native_accept_len": 2.925650557620818,
+      "native_metric": 0.042224046966981864,
+      "native_throughput": 82.49357075694525,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        27
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 106.30748231967638,
+      "tol_label": "+5%",
+      "tol_pct": 5.0
+    },
+    {
+      "accept_len": 3.970164609053498,
+      "dataset": "qa",
+      "floor_ratio": 0.95,
+      "metric": 0.06399317670478696,
+      "native_accept_len": 2.925650557620818,
+      "native_metric": 0.042224046966981864,
+      "native_throughput": 79.95412205691683,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "source": "published_triple_win",
+      "sparsity": 0.15625,
+      "three_win": true,
+      "throughput": 113.65367214847207,
+      "tol_label": "-5%",
+      "tol_pct": -5.0,
+      "tri_mean_ratio": 1.4298840755355706
+    },
+    {
+      "accept_len": 3.7261682242990655,
+      "dataset": "qa",
+      "floor_ratio": 0.9,
+      "metric": 0.06000933188789743,
+      "native_accept_len": 2.925650557620818,
+      "native_metric": 0.042224046966981864,
+      "native_throughput": 82.49357075694525,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        27
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 106.30748231967638,
+      "tol_label": "-10%",
+      "tol_pct": -10.0
+    },
+    {
+      "accept_len": 3.7261682242990655,
+      "dataset": "qa",
+      "floor_ratio": 0.8,
+      "metric": 0.06000933188789743,
+      "native_accept_len": 2.925650557620818,
+      "native_metric": 0.042224046966981864,
+      "native_throughput": 82.49357075694525,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        27
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 106.30748231967638,
+      "tol_label": "-20%",
+      "tol_pct": -20.0
+    },
+    {
+      "accept_len": 4.016578749058025,
+      "dataset": "rag",
+      "floor_ratio": 1.0,
+      "metric": 0.10377783076608936,
+      "native_accept_len": 3.2376654632972324,
+      "native_metric": 0.09638776375313801,
+      "native_throughput": 80.20483804963541,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        2,
+        12,
+        23,
+        29
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 101.54507484809157,
+      "tol_label": "0",
+      "tol_pct": 0.0
+    },
+    {
+      "accept_len": 4.016578749058025,
+      "dataset": "rag",
+      "floor_ratio": 1.05,
+      "metric": 0.10377783076608936,
+      "native_accept_len": 3.2376654632972324,
+      "native_metric": 0.09638776375313801,
+      "native_throughput": 80.20483804963541,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        2,
+        12,
+        23,
+        29
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 101.54507484809157,
+      "tol_label": "+5%",
+      "tol_pct": 5.0
+    },
+    {
+      "accept_len": 4.026813880126182,
+      "dataset": "rag",
+      "floor_ratio": 0.95,
+      "metric": 0.10914941401111782,
+      "native_accept_len": 3.2376654632972324,
+      "native_metric": 0.09638776375313801,
+      "native_throughput": 75.99814713170953,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        3,
+        6,
+        14,
+        25,
+        30
+      ],
+      "source": "published_triple_win",
+      "sparsity": 0.15625,
+      "three_win": true,
+      "throughput": 97.1422318862414,
+      "tol_label": "-5%",
+      "tol_pct": -5.0,
+      "tri_mean_ratio": 1.2164979661263946
+    },
+    {
+      "accept_len": 4.016578749058025,
+      "dataset": "rag",
+      "floor_ratio": 0.9,
+      "metric": 0.10377783076608936,
+      "native_accept_len": 3.2376654632972324,
+      "native_metric": 0.09638776375313801,
+      "native_throughput": 80.20483804963541,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        2,
+        12,
+        23,
+        29
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 101.54507484809157,
+      "tol_label": "-10%",
+      "tol_pct": -10.0
+    },
+    {
+      "accept_len": 4.016578749058025,
+      "dataset": "rag",
+      "floor_ratio": 0.8,
+      "metric": 0.10377783076608936,
+      "native_accept_len": 3.2376654632972324,
+      "native_metric": 0.09638776375313801,
+      "native_throughput": 80.20483804963541,
+      "num_skip_layers": 4,
+      "skip_layers": [
+        2,
+        12,
+        23,
+        29
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.125,
+      "throughput": 101.54507484809157,
+      "tol_label": "-20%",
+      "tol_pct": -20.0
+    },
+    {
+      "accept_len": 4.074,
+      "dataset": "mmlu",
+      "floor_ratio": 1.0,
+      "metric": 0.296875,
+      "native_accept_len": 3.115264797507788,
+      "native_metric": 0.28125,
+      "native_throughput": 72.67520007382382,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        3,
+        7,
+        14,
+        24,
+        26
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.15625,
+      "throughput": 96.12016580158331,
+      "tol_label": "0",
+      "tol_pct": 0.0
+    },
+    {
+      "accept_len": 3.6624775583482942,
+      "dataset": "mmlu",
+      "floor_ratio": 1.05,
+      "metric": 0.296875,
+      "native_accept_len": 3.115264797507788,
+      "native_metric": 0.28125,
+      "native_throughput": 72.67520007382382,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        6,
+        7,
+        14,
+        17,
+        23
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.15625,
+      "throughput": 88.19441651580696,
+      "tol_label": "+5%",
+      "tol_pct": 5.0
+    },
+    {
+      "accept_len": 3.955426356589147,
+      "dataset": "mmlu",
+      "floor_ratio": 0.95,
+      "metric": 0.328125,
+      "native_accept_len": 3.115264797507788,
+      "native_metric": 0.28125,
+      "native_throughput": 67.48581509282525,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "source": "published_triple_win",
+      "sparsity": 0.15625,
+      "three_win": true,
+      "throughput": 90.82210605738618,
+      "tol_label": "-5%",
+      "tol_pct": -5.0,
+      "tri_mean_ratio": 1.2585623393529455
+    },
+    {
+      "accept_len": 4.074,
+      "dataset": "mmlu",
+      "floor_ratio": 0.9,
+      "metric": 0.296875,
+      "native_accept_len": 3.115264797507788,
+      "native_metric": 0.28125,
+      "native_throughput": 72.67520007382382,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        3,
+        7,
+        14,
+        24,
+        26
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.15625,
+      "throughput": 96.12016580158331,
+      "tol_label": "-10%",
+      "tol_pct": -10.0
+    },
+    {
+      "accept_len": 4.074,
+      "dataset": "mmlu",
+      "floor_ratio": 0.8,
+      "metric": 0.296875,
+      "native_accept_len": 3.115264797507788,
+      "native_metric": 0.28125,
+      "native_throughput": 72.67520007382382,
+      "num_skip_layers": 5,
+      "skip_layers": [
+        3,
+        7,
+        14,
+        24,
+        26
+      ],
+      "source": "train_pool_select",
+      "sparsity": 0.15625,
+      "throughput": 96.12016580158331,
+      "tol_label": "-20%",
+      "tol_pct": -20.0
+    }
+  ],
+  "tol_levels": [
+    "0",
+    "+5%",
+    "-5%",
+    "-10%",
+    "-20%"
+  ]
+}

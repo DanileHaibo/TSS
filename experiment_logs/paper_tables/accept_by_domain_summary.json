@@ -1,0 +1,49 @@
+{
+  "schema_version": "accept_by_domain_v2",
+  "domains": [
+    "Translation",
+    "Summarization",
+    "QA",
+    "MMLU"
+  ],
+  "sources": {
+    "eagle7": "/root/autodl-tmp/specdecode-system-exp/results/tss_triple_win_final_20260716/triple_win_summary.json",
+    "samd7": "/root/autodl-tmp/experiments-data/paper_figure/samd7_native_four_domains.json",
+    "eagle13": "/root/autodl-tmp/specdecode-system-exp/results/tss_tri_objective_13b_non_eg3_20260714/eagle13_transfer_heldout",
+    "samd13": "/root/autodl-tmp/specdecode-system-exp/results/tss_tri_objective_13b_non_eg3_20260714/samd_score_first_final_validation"
+  },
+  "figures": {
+    "7B": {
+      "model": "Vicuna-7B",
+      "EAGLE": [
+        2.6972034715525552,
+        3.92964824120603,
+        2.925650557620818,
+        3.115264797507788
+      ],
+      "SAMD": [
+        4.303082191780822,
+        5.258156028368794,
+        4.380952380952381,
+        5.8474576271186445
+      ],
+      "tss": false
+    },
+    "13B": {
+      "model": "Llama-2-13B",
+      "EAGLE": [
+        4.200684931506849,
+        4.179333333333333,
+        3.4613379669852304,
+        5.656410256410257
+      ],
+      "SAMD": [
+        2.6947053800170795,
+        3.1073369565217392,
+        2.5256045519203414,
+        3.9602076124567476
+      ],
+      "tss": false
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": "eagle7_verification_mechanism_v1",
+  "protocol": {
+    "num_requests": 8,
+    "seed": 42,
+    "output_len": 96,
+    "frozen_same_draft_tree": true,
+    "native_prefix_trajectory": true
+  },
+  "domains": [
+    {
+      "dataset": "translation",
+      "domain": "Translation",
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "num_requests": 8,
+      "num_steps": 200,
+      "native_mean_accept": 3.28,
+      "tss_mean_accept_same_tree": 3.19,
+      "delta_mean_accept_same_tree": -0.09,
+      "same_first_token_rate": 1.0,
+      "same_best_candidate_rate": 0.835,
+      "gain_step_rate": 0.045,
+      "mechanisms": {
+        "equal": 173,
+        "same_branch_extension": 1,
+        "branch_switch_gain": 8,
+        "loss": 18
+      },
+      "gain_mechanism_share": {
+        "same_branch_extension": 0.1111111111111111,
+        "branch_switch_gain": 0.8888888888888888
+      },
+      "recovered_same_branch_tokens": [
+        {
+          "token": "0",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "summarization",
+      "domain": "Summarization",
+      "skip_layers": [
+        15,
+        22,
+        23
+      ],
+      "num_requests": 8,
+      "num_steps": 200,
+      "native_mean_accept": 3.955,
+      "tss_mean_accept_same_tree": 3.755,
+      "delta_mean_accept_same_tree": -0.2,
+      "same_first_token_rate": 1.0,
+      "same_best_candidate_rate": 0.785,
+      "gain_step_rate": 0.06,
+      "mechanisms": {
+        "equal": 163,
+        "branch_switch_gain": 10,
+        "loss": 25,
+        "same_branch_extension": 2
+      },
+      "gain_mechanism_share": {
+        "same_branch_extension": 0.16666666666666666,
+        "branch_switch_gain": 0.8333333333333334
+      },
+      "recovered_same_branch_tokens": [
+        {
+          "token": "now",
+          "count": 1
+        },
+        {
+          "token": "for",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "qa",
+      "domain": "QA",
+      "skip_layers": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "num_requests": 8,
+      "num_steps": 158,
+      "native_mean_accept": 3.2974683544303796,
+      "tss_mean_accept_same_tree": 3.3164556962025316,
+      "delta_mean_accept_same_tree": 0.0189873417721519,
+      "same_first_token_rate": 1.0,
+      "same_best_candidate_rate": 0.6518987341772152,
+      "gain_step_rate": 0.1962025316455696,
+      "mechanisms": {
+        "equal": 101,
+        "loss": 26,
+        "same_branch_extension": 8,
+        "branch_switch_gain": 23
+      },
+      "gain_mechanism_share": {
+        "same_branch_extension": 0.25806451612903225,
+        "branch_switch_gain": 0.7419354838709677
+      },
+      "recovered_same_branch_tokens": [
+        {
+          "token": "the",
+          "count": 2
+        },
+        {
+          "token": "2",
+          "count": 1
+        },
+        {
+          "token": "United",
+          "count": 1
+        },
+        {
+          "token": "European",
+          "count": 1
+        },
+        {
+          "token": "which",
+          "count": 1
+        },
+        {
+          "token": "7",
+          "count": 1
+        },
+        {
+          "token": "your",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "dataset": "mmlu",
+      "domain": "MMLU",
+      "skip_layers": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "num_requests": 8,
+      "num_steps": 67,
+      "native_mean_accept": 3.1940298507462686,
+      "tss_mean_accept_same_tree": 3.3582089552238807,
+      "delta_mean_accept_same_tree": 0.16417910447761194,
+      "same_first_token_rate": 1.0,
+      "same_best_candidate_rate": 0.746268656716418,
+      "gain_step_rate": 0.14925373134328357,
+      "mechanisms": {
+        "equal": 53,
+        "branch_switch_gain": 8,
+        "loss": 4,
+        "same_branch_extension": 2
+      },
+      "gain_mechanism_share": {
+        "same_branch_extension": 0.2,
+        "branch_switch_gain": 0.8
+      },
+      "recovered_same_branch_tokens": [
+        {
+          "token": "the",
+          "count": 1
+        },
+        {
+          "token": "</s>",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

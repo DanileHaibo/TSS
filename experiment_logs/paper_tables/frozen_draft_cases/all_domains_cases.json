@@ -1,0 +1,598 @@
+[
+  {
+    "dataset": "translation",
+    "skip_layer": 6,
+    "requests": [
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_210",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 24,
+        "base_mean_accepted_len": 4.333333333333333,
+        "skip_mean_accepted_len": 4.333333333333333,
+        "delta_mean_accepted_len": 0.0,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 2.5763994893059134,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_224",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 23,
+        "base_mean_accepted_len": 4.478260869565218,
+        "skip_mean_accepted_len": 4.173913043478261,
+        "delta_mean_accepted_len": -0.304347826086957,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 2.0736621040850878,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_184",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 21,
+        "base_mean_accepted_len": 4.761904761904762,
+        "skip_mean_accepted_len": 4.761904761904762,
+        "delta_mean_accepted_len": 0.0,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 2,
+        "newly_accepted_tokens": [
+          "\\n",
+          "\\n"
+        ],
+        "wall_s": 1.9091789592057467,
+        "example_newly_accepted": [
+          "\\n",
+          "\\n"
+        ],
+        "best_step_delta": 2
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_211",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 23,
+        "base_mean_accepted_len": 4.173913043478261,
+        "skip_mean_accepted_len": 3.9565217391304346,
+        "delta_mean_accepted_len": -0.21739130434782616,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 1,
+        "newly_accepted_tokens": [
+          "\\n"
+        ],
+        "wall_s": 2.1032636426389217,
+        "example_newly_accepted": [
+          "\\n"
+        ],
+        "best_step_delta": 1
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_191",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 20,
+        "base_mean_accepted_len": 5.1,
+        "skip_mean_accepted_len": 4.95,
+        "delta_mean_accepted_len": -0.14999999999999947,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.8296080799773335,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_216",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 21,
+        "base_mean_accepted_len": 4.761904761904762,
+        "skip_mean_accepted_len": 4.238095238095238,
+        "delta_mean_accepted_len": -0.5238095238095237,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.9024170152842999,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_169",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 26,
+        "base_mean_accepted_len": 4.0,
+        "skip_mean_accepted_len": 3.8461538461538463,
+        "delta_mean_accepted_len": -0.15384615384615374,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 2.3252745950594544,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "translation",
+        "request_id": "sb_translation_207",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 44,
+        "base_mean_accepted_len": 2.1818181818181817,
+        "skip_mean_accepted_len": 2.090909090909091,
+        "delta_mean_accepted_len": -0.09090909090909083,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 3.8938523437827826,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      }
+    ]
+  },
+  {
+    "dataset": "summarization",
+    "skip_layer": 2,
+    "requests": [
+      {
+        "dataset": "summarization",
+        "request_id": "sum_290",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 12,
+        "base_mean_accepted_len": 8.333333333333334,
+        "skip_mean_accepted_len": 7.5,
+        "delta_mean_accepted_len": -0.8333333333333339,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.3318773536011577,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_304",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 24,
+        "base_mean_accepted_len": 3.9583333333333335,
+        "skip_mean_accepted_len": 3.8333333333333335,
+        "delta_mean_accepted_len": -0.125,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 1,
+        "newly_accepted_tokens": [
+          "a"
+        ],
+        "wall_s": 2.3204507110640407,
+        "example_newly_accepted": [
+          "a"
+        ],
+        "best_step_delta": 1
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_264",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 13,
+        "base_mean_accepted_len": 7.615384615384615,
+        "skip_mean_accepted_len": 7.384615384615385,
+        "delta_mean_accepted_len": -0.23076923076922995,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.5305731315165758,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_291",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 11,
+        "base_mean_accepted_len": 8.818181818181818,
+        "skip_mean_accepted_len": 8.272727272727273,
+        "delta_mean_accepted_len": -0.545454545454545,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.1198837598785758,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_271",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 15,
+        "base_mean_accepted_len": 6.6,
+        "skip_mean_accepted_len": 6.0,
+        "delta_mean_accepted_len": -0.5999999999999996,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.5672987950965762,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_296",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 14,
+        "base_mean_accepted_len": 7.0,
+        "skip_mean_accepted_len": 6.857142857142857,
+        "delta_mean_accepted_len": -0.14285714285714324,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.5737069435417652,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_249",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 17,
+        "base_mean_accepted_len": 5.764705882352941,
+        "skip_mean_accepted_len": 5.647058823529412,
+        "delta_mean_accepted_len": -0.117647058823529,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.7527533052489161,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "summarization",
+        "request_id": "sum_287",
+        "skip_layer": 2,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 18,
+        "base_mean_accepted_len": 5.444444444444445,
+        "skip_mean_accepted_len": 5.277777777777778,
+        "delta_mean_accepted_len": -0.16666666666666696,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.729233213700354,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      }
+    ]
+  },
+  {
+    "dataset": "gsm8k",
+    "skip_layer": 4,
+    "requests": [
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_49",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 15,
+        "base_mean_accepted_len": 6.933333333333334,
+        "skip_mean_accepted_len": 6.4,
+        "delta_mean_accepted_len": -0.5333333333333332,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.374752894975245,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_63",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 18,
+        "base_mean_accepted_len": 5.388888888888889,
+        "skip_mean_accepted_len": 4.666666666666667,
+        "delta_mean_accepted_len": -0.7222222222222223,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.6318560969084501,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_23",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 12,
+        "base_mean_accepted_len": 8.0,
+        "skip_mean_accepted_len": 6.333333333333333,
+        "delta_mean_accepted_len": -1.666666666666667,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.109075359068811,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_50",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 17,
+        "base_mean_accepted_len": 5.705882352941177,
+        "skip_mean_accepted_len": 5.705882352941177,
+        "delta_mean_accepted_len": 0.0,
+        "num_steps_accept_up": 2,
+        "num_newly_accepted_tokens": 2,
+        "newly_accepted_tokens": [
+          "x",
+          "is"
+        ],
+        "wall_s": 1.5377137511968613,
+        "example_newly_accepted": [
+          "x",
+          "is"
+        ],
+        "best_step_delta": 1
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_30",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 17,
+        "base_mean_accepted_len": 5.9411764705882355,
+        "skip_mean_accepted_len": 5.588235294117647,
+        "delta_mean_accepted_len": -0.35294117647058876,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.5426176842302084,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_55",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 15,
+        "base_mean_accepted_len": 6.4,
+        "skip_mean_accepted_len": 5.533333333333333,
+        "delta_mean_accepted_len": -0.8666666666666671,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.3722086641937494,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_8",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 15,
+        "base_mean_accepted_len": 6.866666666666666,
+        "skip_mean_accepted_len": 6.133333333333334,
+        "delta_mean_accepted_len": -0.7333333333333325,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.3679176047444344,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "gsm8k",
+        "request_id": "gsm_46",
+        "skip_layer": 4,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 13,
+        "base_mean_accepted_len": 7.461538461538462,
+        "skip_mean_accepted_len": 7.538461538461538,
+        "delta_mean_accepted_len": 0.07692307692307665,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 3,
+        "newly_accepted_tokens": [
+          "her",
+          "age",
+          "is"
+        ],
+        "wall_s": 1.1915828110650182,
+        "example_newly_accepted": [
+          "her",
+          "age",
+          "is"
+        ],
+        "best_step_delta": 3
+      }
+    ]
+  },
+  {
+    "dataset": "rag",
+    "skip_layer": 6,
+    "requests": [
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_530",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 17,
+        "base_mean_accepted_len": 5.647058823529412,
+        "skip_mean_accepted_len": 5.235294117647059,
+        "delta_mean_accepted_len": -0.41176470588235325,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.7873528487980366,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_544",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 29,
+        "base_mean_accepted_len": 3.3448275862068964,
+        "skip_mean_accepted_len": 3.1379310344827585,
+        "delta_mean_accepted_len": -0.2068965517241379,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 1,
+        "newly_accepted_tokens": [
+          "0"
+        ],
+        "wall_s": 2.941376032307744,
+        "example_newly_accepted": [
+          "0"
+        ],
+        "best_step_delta": 1
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_504",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 16,
+        "base_mean_accepted_len": 6.125,
+        "skip_mean_accepted_len": 5.8125,
+        "delta_mean_accepted_len": -0.3125,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 1.7081362828612328,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_531",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 24,
+        "base_mean_accepted_len": 4.0,
+        "skip_mean_accepted_len": 4.0,
+        "delta_mean_accepted_len": 0.0,
+        "num_steps_accept_up": 2,
+        "num_newly_accepted_tokens": 5,
+        "newly_accepted_tokens": [
+          "Raj",
+          "ya",
+          "Sab",
+          "ha",
+          "\\n"
+        ],
+        "wall_s": 2.449292555451393,
+        "example_newly_accepted": [
+          "Raj",
+          "ya",
+          "Sab",
+          "ha",
+          "\\n"
+        ],
+        "best_step_delta": 4
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_511",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 19,
+        "base_mean_accepted_len": 5.105263157894737,
+        "skip_mean_accepted_len": 4.7894736842105265,
+        "delta_mean_accepted_len": -0.3157894736842106,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 2.0024831192567945,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_536",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 15,
+        "base_mean_accepted_len": 6.4,
+        "skip_mean_accepted_len": 5.866666666666666,
+        "delta_mean_accepted_len": -0.5333333333333341,
+        "num_steps_accept_up": 1,
+        "num_newly_accepted_tokens": 1,
+        "newly_accepted_tokens": [
+          "University"
+        ],
+        "wall_s": 1.6083746068179607,
+        "example_newly_accepted": [
+          "University"
+        ],
+        "best_step_delta": 1
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_489",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 17,
+        "base_mean_accepted_len": 5.647058823529412,
+        "skip_mean_accepted_len": 5.529411764705882,
+        "delta_mean_accepted_len": -0.11764705882352988,
+        "num_steps_accept_up": 2,
+        "num_newly_accepted_tokens": 5,
+        "newly_accepted_tokens": [
+          ",",
+          "while",
+          "Dem",
+          "ing",
+          "The"
+        ],
+        "wall_s": 1.8047961853444576,
+        "example_newly_accepted": [
+          ",",
+          "while",
+          "Dem",
+          "ing",
+          "The"
+        ],
+        "best_step_delta": 4
+      },
+      {
+        "dataset": "rag",
+        "request_id": "sb_rag_527",
+        "skip_layer": 6,
+        "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+        "num_steps": 22,
+        "base_mean_accepted_len": 4.7272727272727275,
+        "skip_mean_accepted_len": 4.5,
+        "delta_mean_accepted_len": -0.22727272727272751,
+        "num_steps_accept_up": 0,
+        "num_newly_accepted_tokens": 0,
+        "newly_accepted_tokens": [],
+        "wall_s": 2.2861096588894725,
+        "example_newly_accepted": [],
+        "best_step_delta": 0
+      }
+    ]
+  }
+]

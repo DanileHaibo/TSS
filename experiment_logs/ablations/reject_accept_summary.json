@@ -1,0 +1,412 @@
+{
+  "schema_version": "eagle7_reject_to_accept_tokens_v1",
+  "protocol": {
+    "model": "Vicuna-7B + EAGLE",
+    "all_verify_steps": true,
+    "frozen_same_draft_path": true,
+    "count": "tokens on Native path with Native reject but TSS accept",
+    "skip_layers": {
+      "translation": [
+        3,
+        25,
+        30
+      ],
+      "summarization": [
+        15,
+        22,
+        23
+      ],
+      "qa": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "mmlu": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "rag": [
+        3,
+        6,
+        14,
+        25,
+        30
+      ]
+    },
+    "num_requests": 64
+  },
+  "domains": [
+    {
+      "dataset": "translation",
+      "domain": "Translation",
+      "num_requests": 64,
+      "num_steps": 1970,
+      "num_fixed_path_gain_steps": 49,
+      "num_recovered_tokens": 50
+    },
+    {
+      "dataset": "summarization",
+      "domain": "Summarization",
+      "num_requests": 64,
+      "num_steps": 1571,
+      "num_fixed_path_gain_steps": 32,
+      "num_recovered_tokens": 38
+    },
+    {
+      "dataset": "qa",
+      "domain": "QA",
+      "num_requests": 64,
+      "num_steps": 1104,
+      "num_fixed_path_gain_steps": 41,
+      "num_recovered_tokens": 47
+    },
+    {
+      "dataset": "mmlu",
+      "domain": "MMLU",
+      "num_requests": 64,
+      "num_steps": 604,
+      "num_fixed_path_gain_steps": 28,
+      "num_recovered_tokens": 39
+    },
+    {
+      "dataset": "rag",
+      "domain": "RAG",
+      "num_requests": 64,
+      "num_steps": 1543,
+      "num_fixed_path_gain_steps": 51,
+      "num_recovered_tokens": 57
+    }
+  ],
+  "top_tokens": [
+    {
+      "token": "the",
+      "count": 43,
+      "first_flip_count": 43,
+      "domain_counts": {
+        "translation": 3,
+        "summarization": 6,
+        "qa": 7,
+        "mmlu": 12,
+        "rag": 15
+      }
+    },
+    {
+      "token": "and",
+      "count": 17,
+      "first_flip_count": 17,
+      "domain_counts": {
+        "translation": 6,
+        "summarization": 2,
+        "qa": 2,
+        "rag": 7
+      }
+    },
+    {
+      "token": "0",
+      "count": 15,
+      "first_flip_count": 15,
+      "domain_counts": {
+        "translation": 12,
+        "qa": 2,
+        "rag": 1
+      }
+    },
+    {
+      "token": "<eos>",
+      "count": 10,
+      "first_flip_count": 10,
+      "domain_counts": {
+        "qa": 1,
+        "mmlu": 9
+      }
+    },
+    {
+      "token": "<bos>",
+      "count": 10,
+      "first_flip_count": 0,
+      "domain_counts": {
+        "qa": 1,
+        "mmlu": 9
+      }
+    },
+    {
+      "token": "women",
+      "count": 9,
+      "first_flip_count": 9,
+      "domain_counts": {
+        "translation": 1,
+        "mmlu": 1,
+        "rag": 7
+      }
+    },
+    {
+      "token": "in",
+      "count": 8,
+      "first_flip_count": 8,
+      "domain_counts": {
+        "translation": 2,
+        "summarization": 1,
+        "qa": 1,
+        "mmlu": 1,
+        "rag": 3
+      }
+    },
+    {
+      "token": ",",
+      "count": 7,
+      "first_flip_count": 7,
+      "domain_counts": {
+        "translation": 3,
+        "summarization": 1,
+        "qa": 1,
+        "mmlu": 1,
+        "rag": 1
+      }
+    },
+    {
+      "token": "2",
+      "count": 6,
+      "first_flip_count": 6,
+      "domain_counts": {
+        "qa": 5,
+        "mmlu": 1
+      }
+    },
+    {
+      "token": "is",
+      "count": 4,
+      "first_flip_count": 3,
+      "domain_counts": {
+        "translation": 3,
+        "rag": 1
+      }
+    },
+    {
+      "token": "of",
+      "count": 4,
+      "first_flip_count": 3,
+      "domain_counts": {
+        "translation": 2,
+        "qa": 2
+      }
+    },
+    {
+      "token": "a",
+      "count": 4,
+      "first_flip_count": 4,
+      "domain_counts": {
+        "summarization": 1,
+        "qa": 1,
+        "rag": 2
+      }
+    },
+    {
+      "token": "report",
+      "count": 3,
+      "first_flip_count": 3,
+      "domain_counts": {
+        "translation": 2,
+        "qa": 1
+      }
+    },
+    {
+      "token": "for",
+      "count": 3,
+      "first_flip_count": 2,
+      "domain_counts": {
+        "translation": 1,
+        "summarization": 1,
+        "rag": 1
+      }
+    },
+    {
+      "token": "with",
+      "count": 3,
+      "first_flip_count": 3,
+      "domain_counts": {
+        "translation": 1,
+        "summarization": 1,
+        "rag": 1
+      }
+    }
+  ],
+  "per_domain_top": {
+    "translation": [
+      {
+        "token": "0",
+        "count": 12
+      },
+      {
+        "token": "and",
+        "count": 6
+      },
+      {
+        "token": "is",
+        "count": 3
+      },
+      {
+        "token": ",",
+        "count": 3
+      },
+      {
+        "token": "the",
+        "count": 3
+      },
+      {
+        "token": "in",
+        "count": 2
+      },
+      {
+        "token": "report",
+        "count": 2
+      },
+      {
+        "token": "market",
+        "count": 2
+      }
+    ],
+    "summarization": [
+      {
+        "token": "the",
+        "count": 6
+      },
+      {
+        "token": "and",
+        "count": 2
+      },
+      {
+        "token": "to",
+        "count": 2
+      },
+      {
+        "token": "now",
+        "count": 1
+      },
+      {
+        "token": "for",
+        "count": 1
+      },
+      {
+        "token": "st",
+        "count": 1
+      },
+      {
+        "token": "city",
+        "count": 1
+      },
+      {
+        "token": "have",
+        "count": 1
+      }
+    ],
+    "qa": [
+      {
+        "token": "the",
+        "count": 7
+      },
+      {
+        "token": "2",
+        "count": 5
+      },
+      {
+        "token": "th",
+        "count": 2
+      },
+      {
+        "token": "your",
+        "count": 2
+      },
+      {
+        "token": "0",
+        "count": 2
+      },
+      {
+        "token": "of",
+        "count": 2
+      },
+      {
+        "token": "6",
+        "count": 2
+      },
+      {
+        "token": "and",
+        "count": 2
+      }
+    ],
+    "mmlu": [
+      {
+        "token": "the",
+        "count": 12
+      },
+      {
+        "token": "<eos>",
+        "count": 9
+      },
+      {
+        "token": "<bos>",
+        "count": 9
+      },
+      {
+        "token": "women",
+        "count": 1
+      },
+      {
+        "token": "in",
+        "count": 1
+      },
+      {
+        "token": "was",
+        "count": 1
+      },
+      {
+        "token": "2",
+        "count": 1
+      },
+      {
+        "token": ",",
+        "count": 1
+      }
+    ],
+    "rag": [
+      {
+        "token": "the",
+        "count": 15
+      },
+      {
+        "token": "women",
+        "count": 7
+      },
+      {
+        "token": "and",
+        "count": 7
+      },
+      {
+        "token": "in",
+        "count": 3
+      },
+      {
+        "token": ".",
+        "count": 2
+      },
+      {
+        "token": "by",
+        "count": 2
+      },
+      {
+        "token": "a",
+        "count": 2
+      },
+      {
+        "token": "twelve",
+        "count": 1
+      }
+    ]
+  },
+  "total_recovered_tokens": 231,
+  "unique_tokens": 84
+}

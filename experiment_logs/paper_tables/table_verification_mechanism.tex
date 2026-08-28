@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Frozen-tree counterfactual verification. Native and TSS receive the same candidate tree at the same prefix; each may select its own best branch.}
+\label{tab:tss_verification_mechanism}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Domain & Steps & First token same & Same branch & Gain steps & Same-branch gain & Branch-switch gain & Native acc & TSS acc \\
+\midrule
+Translation & 200 & 100.0% & 83.5% & 9 & 1 & 8 & 3.28 & 3.19 \\
+Summarization & 200 & 100.0% & 78.5% & 12 & 2 & 10 & 3.96 & 3.75 \\
+QA & 158 & 100.0% & 65.2% & 31 & 8 & 23 & 3.30 & 3.32 \\
+MMLU & 67 & 100.0% & 74.6% & 10 & 2 & 8 & 3.19 & 3.36 \\
+\bottomrule
+\end{tabular}
+\end{table*}

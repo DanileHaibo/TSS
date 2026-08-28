@@ -1,0 +1,6 @@
+dataset,domain,num_requests,native_mean_accept,tss_mean_accept,fixed_path_tss_mean_accept,delta_mean_accept,same_first_token_rate,same_branch_rate,recover_request_rate
+translation,Translation,64,2.953125,3.0625,2.953125,0.109375,1.0,0.875,0.046875
+summarization,Summarization,64,4.25,4.109375,3.84375,-0.140625,1.0,0.796875,0.046875
+qa,QA,64,3.890625,3.9375,3.625,0.046875,1.0,0.828125,0.015625
+mmlu,MMLU,64,3.4375,4.09375,3.28125,0.65625,1.0,0.609375,0.140625
+rag,RAG,64,4.921875,4.953125,4.3125,0.03125,1.0,0.765625,0.046875

@@ -1,0 +1,419 @@
+{
+  "baseline": {
+    "accept_rate": 0.03008130081300813,
+    "mean_accepted_per_step": 2.8048780487804876,
+    "num_skip_layers": 0,
+    "num_verify_steps": 41,
+    "skip_layers": [],
+    "task_score": 0.25,
+    "tok_per_s": 69.2114447039292,
+    "total_output_tokens": 115,
+    "wall_s": 1.661574909929186
+  },
+  "best": {
+    "accept_rate": 0.0337037037037037,
+    "layer": 3,
+    "mean_accepted_per_step": 3.022222222222222,
+    "phase": "metric_only",
+    "round": 1,
+    "skip_layers": [
+      3
+    ],
+    "task_score": 0.25,
+    "tok_per_s": 65.98696678209913
+  },
+  "dataset": "mmlu",
+  "display_name": "Metric-only",
+  "domain": "multiple_choice",
+  "history": [
+    {
+      "accept_rate": 0.03008130081300813,
+      "mean_accepted_per_step": 2.8048780487804876,
+      "phase": "baseline",
+      "round": 0,
+      "skip_layers": [],
+      "task_score": 0.25,
+      "tok_per_s": 69.2114447039292
+    },
+    {
+      "accept_rate": 0.03222222222222222,
+      "layer": 2,
+      "mean_accepted_per_step": 2.9333333333333336,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        2
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 75.55485587950228
+    },
+    {
+      "accept_rate": 0.0337037037037037,
+      "layer": 3,
+      "mean_accepted_per_step": 3.022222222222222,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        3
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 65.98696678209913
+    },
+    {
+      "accept_rate": 0.0446078431372549,
+      "layer": 4,
+      "mean_accepted_per_step": 3.676470588235294,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        4
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 80.43692803623595
+    },
+    {
+      "accept_rate": 0.0375,
+      "layer": 5,
+      "mean_accepted_per_step": 3.25,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        5
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 75.47491701955455
+    },
+    {
+      "accept_rate": 0.04047619047619048,
+      "layer": 6,
+      "mean_accepted_per_step": 3.4285714285714284,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        6
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 79.70912513867185
+    },
+    {
+      "accept_rate": 0.041176470588235294,
+      "layer": 7,
+      "mean_accepted_per_step": 3.4705882352941178,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        7
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 70.24376198987444
+    },
+    {
+      "accept_rate": 0.03888888888888889,
+      "layer": 8,
+      "mean_accepted_per_step": 3.3333333333333335,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        8
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 81.3354316553163
+    },
+    {
+      "accept_rate": 0.03048780487804878,
+      "layer": 9,
+      "mean_accepted_per_step": 2.8292682926829267,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        9
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 68.95461121839823
+    },
+    {
+      "accept_rate": 0.03290598290598291,
+      "layer": 10,
+      "mean_accepted_per_step": 2.9743589743589745,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        10
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 68.3931334941169
+    },
+    {
+      "accept_rate": 0.0322463768115942,
+      "layer": 11,
+      "mean_accepted_per_step": 2.9347826086956523,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        11
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 71.68338658975493
+    },
+    {
+      "accept_rate": 0.032962962962962965,
+      "layer": 12,
+      "mean_accepted_per_step": 2.977777777777778,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        12
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 75.99284876350993
+    },
+    {
+      "accept_rate": 0.02803030303030303,
+      "layer": 13,
+      "mean_accepted_per_step": 2.6818181818181817,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        13
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 66.83859460214326
+    },
+    {
+      "accept_rate": 0.034444444444444444,
+      "layer": 14,
+      "mean_accepted_per_step": 3.066666666666667,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        14
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 68.27446102845867
+    },
+    {
+      "accept_rate": 0.034210526315789476,
+      "layer": 15,
+      "mean_accepted_per_step": 3.0526315789473686,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        15
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 67.5093603339212
+    },
+    {
+      "accept_rate": 0.038492063492063494,
+      "layer": 16,
+      "mean_accepted_per_step": 3.3095238095238093,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        16
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 78.00929142064741
+    },
+    {
+      "accept_rate": 0.03049645390070922,
+      "layer": 17,
+      "mean_accepted_per_step": 2.829787234042553,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        17
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 70.58281422430157
+    },
+    {
+      "accept_rate": 0.03333333333333333,
+      "layer": 18,
+      "mean_accepted_per_step": 3.0,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        18
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 69.27227927817677
+    },
+    {
+      "accept_rate": 0.030555555555555555,
+      "layer": 19,
+      "mean_accepted_per_step": 2.833333333333333,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        19
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 63.585610280995425
+    },
+    {
+      "accept_rate": 0.030894308943089432,
+      "layer": 20,
+      "mean_accepted_per_step": 2.8536585365853657,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        20
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 69.56735837228992
+    },
+    {
+      "accept_rate": 0.03434343434343434,
+      "layer": 21,
+      "mean_accepted_per_step": 3.0606060606060606,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        21
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 71.08385158044416
+    },
+    {
+      "accept_rate": 0.03185185185185185,
+      "layer": 22,
+      "mean_accepted_per_step": 2.9111111111111114,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        22
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 68.71308920079765
+    },
+    {
+      "accept_rate": 0.03376068376068376,
+      "layer": 23,
+      "mean_accepted_per_step": 3.0256410256410255,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        23
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 63.74533004553227
+    },
+    {
+      "accept_rate": 0.03222222222222222,
+      "layer": 24,
+      "mean_accepted_per_step": 2.9333333333333336,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        24
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 73.25434887908165
+    },
+    {
+      "accept_rate": 0.029078014184397163,
+      "layer": 25,
+      "mean_accepted_per_step": 2.74468085106383,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        25
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 68.38924040057191
+    },
+    {
+      "accept_rate": 0.030141843971631204,
+      "layer": 26,
+      "mean_accepted_per_step": 2.8085106382978724,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        26
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 67.11043809248437
+    },
+    {
+      "accept_rate": 0.03464912280701754,
+      "layer": 27,
+      "mean_accepted_per_step": 3.0789473684210527,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        27
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 71.09521503365563
+    },
+    {
+      "accept_rate": 0.03290598290598291,
+      "layer": 28,
+      "mean_accepted_per_step": 2.9743589743589745,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        28
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 71.82225936470962
+    },
+    {
+      "accept_rate": 0.03717948717948718,
+      "layer": 29,
+      "mean_accepted_per_step": 3.230769230769231,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        29
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 79.70321683142099
+    },
+    {
+      "accept_rate": 0.03780487804878049,
+      "layer": 30,
+      "mean_accepted_per_step": 3.268292682926829,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        30
+      ],
+      "task_score": 0.0,
+      "tok_per_s": 78.00024702656127
+    },
+    {
+      "accept_rate": 0.01935483870967742,
+      "layer": 31,
+      "mean_accepted_per_step": 2.161290322580645,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        31
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 59.17073870276221
+    }
+  ],
+  "method_backend": "eagle",
+  "mode": "metric_only",
+  "preset": "vicuna7",
+  "protocol_note": "fast search on first 4 of official train-16; heldout uses test-64",
+  "search_config": {
+    "early_barrier": 2,
+    "latter_barrier": 0,
+    "layer_step": 1,
+    "max_skip_layers": 4,
+    "random_budget": null
+  },
+  "search_evaluations": 30,
+  "selection_criterion": "Forward greedy maximize task metric only; ignore accept/toks",
+  "size": "7b",
+  "skip_layers": [
+    3
+  ],
+  "split": "train",
+  "train_size": 4,
+  "wall_s": 54.19940209388733
+}

@@ -1,0 +1,17 @@
+# Core scientific stack (versions used in paper experiments may differ slightly by env)
+torch>=2.1
+transformers>=4.46
+accelerate
+sentencepiece
+protobuf
+numpy
+pandas
+tqdm
+safetensors
+# Task metrics
+sacrebleu
+rouge-score
+# Chat templates (Vicuna)
+fschat
+# Optional plotting (case gallery / figures)
+matplotlib

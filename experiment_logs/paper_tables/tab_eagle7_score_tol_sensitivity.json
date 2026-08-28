@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "dataset": "translation",
+      "tol_label": "-5%",
+      "score_drop_tol": 0.05,
+      "min_score_ratio": 0.95,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "sparsity": 0.09375,
+      "accept_len": 4.528391167192429,
+      "metric": 0.23699194767486134,
+      "throughput": 127.25845134706083,
+      "search_evaluations": null,
+      "source": "published_triple_win"
+    },
+    {
+      "accept_len": 4.307513555383424,
+      "dataset": "translation",
+      "metric": 0.1401527198392117,
+      "min_score_ratio": 1.0,
+      "score_drop_tol": 0.0,
+      "search_evaluations": 349,
+      "skip_layers": [
+        3,
+        11,
+        14,
+        15
+      ],
+      "sparsity": 0.125,
+      "throughput": 122.84829316620177,
+      "tol_label": "0%"
+    },
+    {
+      "accept_len": 4.307513555383424,
+      "dataset": "translation",
+      "metric": 0.1401527198392117,
+      "min_score_ratio": 0.9,
+      "score_drop_tol": 0.1,
+      "search_evaluations": 348,
+      "skip_layers": [
+        3,
+        11,
+        14,
+        15
+      ],
+      "sparsity": 0.125,
+      "throughput": 122.84829316620177,
+      "tol_label": "10%"
+    },
+    {
+      "accept_len": 4.289128758673863,
+      "dataset": "translation",
+      "metric": 0.14621963693534973,
+      "min_score_ratio": 0.8,
+      "score_drop_tol": 0.2,
+      "search_evaluations": 347,
+      "skip_layers": [
+        3,
+        15,
+        23,
+        24
+      ],
+      "sparsity": 0.125,
+      "throughput": 125.45301624283181,
+      "tol_label": "20%"
+    },
+    {
+      "accept_len": 4.134453781512605,
+      "dataset": "translation",
+      "metric": 0.1207152721122866,
+      "min_score_ratio": 1.05,
+      "score_drop_tol": -0.05,
+      "search_evaluations": 351,
+      "skip_layers": [
+        4,
+        9,
+        14,
+        25
+      ],
+      "sparsity": 0.125,
+      "throughput": 120.68017512059441,
+      "tol_label": "+5%"
+    },
+    {
+      "dataset": "qa",
+      "tol_label": "-5%",
+      "score_drop_tol": 0.05,
+      "min_score_ratio": 0.95,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "sparsity": 0.15625,
+      "accept_len": 3.970164609053498,
+      "metric": 0.06399317670478696,
+      "throughput": 113.65367214847207,
+      "search_evaluations": null,
+      "source": "published_triple_win"
+    },
+    {
+      "accept_len": 3.800619834710744,
+      "dataset": "qa",
+      "metric": 0.05999991396133786,
+      "min_score_ratio": 1.0,
+      "score_drop_tol": 0.0,
+      "search_evaluations": 349,
+      "skip_layers": [
+        3,
+        14,
+        22,
+        25,
+        30
+      ],
+      "sparsity": 0.15625,
+      "throughput": 107.31364147916571,
+      "tol_label": "0%"
+    },
+    {
+      "accept_len": 3.800619834710744,
+      "dataset": "qa",
+      "metric": 0.05999991396133786,
+      "min_score_ratio": 0.9,
+      "score_drop_tol": 0.1,
+      "search_evaluations": 350,
+      "skip_layers": [
+        3,
+        14,
+        22,
+        25,
+        30
+      ],
+      "sparsity": 0.15625,
+      "throughput": 107.31364147916571,
+      "tol_label": "10%"
+    },
+    {
+      "accept_len": 3.78147029204431,
+      "dataset": "qa",
+      "metric": 0.041548532557651015,
+      "min_score_ratio": 0.8,
+      "score_drop_tol": 0.2,
+      "search_evaluations": 352,
+      "skip_layers": [
+        3,
+        11,
+        30
+      ],
+      "sparsity": 0.09375,
+      "throughput": 104.84317640952167,
+      "tol_label": "20%"
+    },
+    {
+      "accept_len": 3.7261682242990655,
+      "dataset": "qa",
+      "metric": 0.06000933188789743,
+      "min_score_ratio": 1.05,
+      "score_drop_tol": -0.05,
+      "search_evaluations": 354,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        27
+      ],
+      "sparsity": 0.125,
+      "throughput": 100.05853126957713,
+      "tol_label": "+5%"
+    },
+    {
+      "dataset": "rag",
+      "tol_label": "-5%",
+      "score_drop_tol": 0.05,
+      "min_score_ratio": 0.95,
+      "skip_layers": [
+        3,
+        6,
+        14,
+        25,
+        30
+      ],
+      "sparsity": 0.15625,
+      "accept_len": 4.026813880126182,
+      "metric": 0.10914941401111782,
+      "throughput": 97.1422318862414,
+      "search_evaluations": null,
+      "source": "published_triple_win"
+    },
+    {
+      "accept_len": 4.373549883990719,
+      "dataset": "rag",
+      "metric": 0.04321845081977374,
+      "min_score_ratio": 1.0,
+      "score_drop_tol": 0.0,
+      "search_evaluations": 352,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        11,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 102.41889749308218,
+      "tol_label": "0%"
+    },
+    {
+      "accept_len": 3.9904,
+      "dataset": "rag",
+      "metric": 0.082407276706487,
+      "min_score_ratio": 0.9,
+      "score_drop_tol": 0.1,
+      "search_evaluations": 351,
+      "skip_layers": [
+        4,
+        5,
+        11,
+        12,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 97.71166013153316,
+      "tol_label": "10%"
+    },
+    {
+      "accept_len": 4.427843803056027,
+      "dataset": "rag",
+      "metric": 0.08256835627745088,
+      "min_score_ratio": 0.8,
+      "score_drop_tol": 0.2,
+      "search_evaluations": 351,
+      "skip_layers": [
+        4,
+        7,
+        11,
+        12,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 106.48306892534129,
+      "tol_label": "20%"
+    },
+    {
+      "accept_len": 4.373549883990719,
+      "dataset": "rag",
+      "metric": 0.04321845081977374,
+      "min_score_ratio": 1.05,
+      "score_drop_tol": -0.05,
+      "search_evaluations": 351,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        11,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 102.41889749308218,
+      "tol_label": "+5%"
+    },
+    {
+      "dataset": "mmlu",
+      "tol_label": "-5%",
+      "score_drop_tol": 0.05,
+      "min_score_ratio": 0.95,
+      "skip_layers": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "sparsity": 0.15625,
+      "accept_len": 3.955426356589147,
+      "metric": 0.328125,
+      "throughput": 90.82210605738618,
+      "search_evaluations": null,
+      "source": "published_triple_win"
+    },
+    {
+      "accept_len": 3.9715370018975333,
+      "dataset": "mmlu",
+      "metric": 0.296875,
+      "min_score_ratio": 1.0,
+      "score_drop_tol": 0.0,
+      "search_evaluations": 352,
+      "skip_layers": [
+        5,
+        8,
+        11,
+        23,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 92.45706805789663,
+      "tol_label": "0%"
+    },
+    {
+      "accept_len": 3.9715370018975333,
+      "dataset": "mmlu",
+      "metric": 0.296875,
+      "min_score_ratio": 0.9,
+      "score_drop_tol": 0.1,
+      "search_evaluations": 352,
+      "skip_layers": [
+        5,
+        8,
+        11,
+        23,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 92.45706805789663,
+      "tol_label": "10%"
+    },
+    {
+      "accept_len": 3.9715370018975333,
+      "dataset": "mmlu",
+      "metric": 0.296875,
+      "min_score_ratio": 0.8,
+      "score_drop_tol": 0.2,
+      "search_evaluations": 352,
+      "skip_layers": [
+        5,
+        8,
+        11,
+        23,
+        29
+      ],
+      "sparsity": 0.15625,
+      "throughput": 92.45706805789663,
+      "tol_label": "20%"
+    },
+    {
+      "accept_len": 3.115264797507788,
+      "dataset": "mmlu",
+      "metric": 0.28125,
+      "min_score_ratio": 1.05,
+      "score_drop_tol": -0.05,
+      "search_evaluations": 30,
+      "skip_layers": [],
+      "sparsity": 0.0,
+      "throughput": 70.46846742224724,
+      "tol_label": "+5%"
+    }
+  ]
+}

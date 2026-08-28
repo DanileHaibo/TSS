@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{First-rejection statistics on frozen draft paths. $R$ is the accept length. $\mathrm{FTRR}=\Pr(R=1)$, $\mathrm{SwitchRate}=\Pr(R\le 2)$, $\mathrm{PreRejectLen}=\mathbb{E}[R-1]$.}
+\label{tab:first_reject_survival}
+\begin{tabular}{lrrrrrr}
+\toprule
+Domain & Steps & FTRR N/T & Switch($\gamma=2$) N/T & PreRejectLen N/T \\
+\midrule
+Translation & 2074 & 24.2/9.6 & 54.0/22.4 & 1.70/3.53 \\
+Summarization & 1592 & 8.0/7.8 & 25.9/24.8 & 2.93/3.01 \\
+QA & 1345 & 25.0/23.0 & 47.5/39.6 & 1.93/2.97 \\
+MMLU & 642 & 15.0/9.9 & 45.5/26.7 & 2.12/2.96 \\
+RAG & 1662 & 22.4/14.1 & 45.2/31.9 & 2.24/3.03 \\
+Overall & 7315 & 19.6/12.5 & 44.0/28.6 & 2.17/3.12 \\
+\bottomrule
+\end{tabular}
+\end{table}

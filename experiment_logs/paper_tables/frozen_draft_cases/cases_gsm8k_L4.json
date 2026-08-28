@@ -1,0 +1,4646 @@
+{
+  "dataset": "gsm8k",
+  "skip_layer": 4,
+  "metric": "accuracy",
+  "domain": "math_reasoning",
+  "requests": [
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_49",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 15,
+      "base_mean_accepted_len": 6.933333333333334,
+      "skip_mean_accepted_len": 6.4,
+      "delta_mean_accepted_len": -0.5333333333333332,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_49",
+          "step_id": 0,
+          "prefix_len": 128,
+          "drafted_len": 60,
+          "path_ids": [
+            2803,
+            29915,
+            29879,
+            1369,
+            491,
+            4444
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Let",
+            "'",
+            "s",
+            "start",
+            "by",
+            "setting"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 1,
+          "prefix_len": 133,
+          "drafted_len": 60,
+          "path_ids": [
+            773,
+            278,
+            2472,
+            2183,
+            297,
+            278,
+            1108,
+            304,
+            731
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -8,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 2,
+              "token_id": 2472,
+              "token": "information"
+            },
+            {
+              "pos": 3,
+              "token_id": 2183,
+              "token": "given"
+            },
+            {
+              "pos": 4,
+              "token_id": 297,
+              "token": "in"
+            },
+            {
+              "pos": 5,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 6,
+              "token_id": 1108,
+              "token": "problem"
+            },
+            {
+              "pos": 7,
+              "token_id": 304,
+              "token": "to"
+            },
+            {
+              "pos": 8,
+              "token_id": 731,
+              "token": "set"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "using",
+            "the",
+            "information",
+            "given",
+            "in",
+            "the",
+            "problem",
+            "to",
+            "set"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 2,
+          "prefix_len": 142,
+          "drafted_len": 60,
+          "path_ids": [
+            701,
+            385,
+            6306,
+            29889,
+            13,
+            13
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "up",
+            "an",
+            "equation",
+            ".",
+            "\\n",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 3,
+          "prefix_len": 148,
+          "drafted_len": 60,
+          "path_ids": [
+            4591,
+            278,
+            1108,
+            29892,
+            591,
+            1073,
+            393,
+            4111,
+            1460
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "From",
+            "the",
+            "problem",
+            ",",
+            "we",
+            "know",
+            "that",
+            "Ben",
+            "ny"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 4,
+          "prefix_len": 157,
+          "drafted_len": 60,
+          "path_ids": [
+            18318,
+            29871,
+            29906,
+            12785,
+            310,
+            289,
+            1189,
+            1056,
+            472
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "threw",
+            "<29871>",
+            "2",
+            "pieces",
+            "of",
+            "b",
+            "olog",
+            "na",
+            "at"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 5,
+          "prefix_len": 166,
+          "drafted_len": 60,
+          "path_ids": [
+            1269,
+            2654,
+            6411,
+            417,
+            265,
+            322,
+            29871,
+            29941,
+            12785
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "each",
+            "red",
+            "bal",
+            "lo",
+            "on",
+            "and",
+            "<29871>",
+            "3",
+            "pieces"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 6,
+          "prefix_len": 175,
+          "drafted_len": 60,
+          "path_ids": [
+            310,
+            289,
+            1189,
+            1056,
+            472,
+            1269,
+            13328,
+            6411,
+            417
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "of",
+            "b",
+            "olog",
+            "na",
+            "at",
+            "each",
+            "yellow",
+            "bal",
+            "lo"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 7,
+          "prefix_len": 184,
+          "drafted_len": 60,
+          "path_ids": [
+            265,
+            29889,
+            1105,
+            29892,
+            565,
+            540,
+            18318
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "on",
+            ".",
+            "So",
+            ",",
+            "if",
+            "he",
+            "threw"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 8,
+          "prefix_len": 188,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            3001,
+            1353,
+            310,
+            12785,
+            310,
+            289,
+            1189,
+            1056
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "total",
+            "number",
+            "of",
+            "pieces",
+            "of",
+            "b",
+            "olog",
+            "na"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 9,
+          "prefix_len": 197,
+          "drafted_len": 60,
+          "path_ids": [
+            12005,
+            472,
+            1269,
+            6411,
+            417,
+            265,
+            338,
+            5186
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 6,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "thrown",
+            "at",
+            "each",
+            "bal",
+            "lo",
+            "on",
+            "is",
+            "equal"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 10,
+          "prefix_len": 199,
+          "drafted_len": 60,
+          "path_ids": [
+            599,
+            278,
+            6411,
+            417,
+            787,
+            338,
+            29901,
+            13,
+            13
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "all",
+            "the",
+            "bal",
+            "lo",
+            "ons",
+            "is",
+            ":",
+            "\\n",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 11,
+          "prefix_len": 208,
+          "drafted_len": 60,
+          "path_ids": [
+            29906,
+            29916,
+            313
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "2",
+            "x",
+            "("
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 12,
+          "prefix_len": 209,
+          "drafted_len": 60,
+          "path_ids": [
+            29878,
+            718,
+            29871,
+            29941,
+            29891,
+            353,
+            29871,
+            29946
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "r",
+            "+",
+            "<29871>",
+            "3",
+            "y",
+            "=",
+            "<29871>",
+            "4"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 13,
+          "prefix_len": 214,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            13,
+            3062,
+            364,
+            338,
+            278,
+            1353,
+            310,
+            2654
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "\\n",
+            "where",
+            "r",
+            "is",
+            "the",
+            "number",
+            "of",
+            "red"
+          ]
+        },
+        {
+          "request_id": "gsm_49",
+          "step_id": 14,
+          "prefix_len": 223,
+          "drafted_len": 60,
+          "path_ids": [
+            6411,
+            417,
+            787,
+            322,
+            343,
+            338,
+            278,
+            1353,
+            310
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "bal",
+            "lo",
+            "ons",
+            "and",
+            "y",
+            "is",
+            "the",
+            "number",
+            "of"
+          ]
+        }
+      ],
+      "wall_s": 1.374752894975245
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_63",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 18,
+      "base_mean_accepted_len": 5.388888888888889,
+      "skip_mean_accepted_len": 4.666666666666667,
+      "delta_mean_accepted_len": -0.7222222222222223,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_63",
+          "step_id": 0,
+          "prefix_len": 83,
+          "drafted_len": 60,
+          "path_ids": [
+            2803,
+            29915,
+            29879,
+            1369,
+            491
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 1369,
+              "token": "start"
+            },
+            {
+              "pos": 4,
+              "token_id": 491,
+              "token": "by"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Let",
+            "'",
+            "s",
+            "start",
+            "by"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 1,
+          "prefix_len": 88,
+          "drafted_len": 60,
+          "path_ids": [
+            773,
+            278,
+            2472,
+            2183,
+            297,
+            278,
+            1108,
+            304,
+            731
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "using",
+            "the",
+            "information",
+            "given",
+            "in",
+            "the",
+            "problem",
+            "to",
+            "set"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 2,
+          "prefix_len": 97,
+          "drafted_len": 60,
+          "path_ids": [
+            701,
+            10693,
+            29901,
+            13,
+            13
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "up",
+            "equations",
+            ":",
+            "\\n",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 3,
+          "prefix_len": 99,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            13,
+            13,
+            4806,
+            1073,
+            393,
+            1530,
+            262,
+            338
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "\\n",
+            "\\n",
+            "We",
+            "know",
+            "that",
+            "Col",
+            "in",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 4,
+          "prefix_len": 105,
+          "drafted_len": 60,
+          "path_ids": [
+            29022,
+            29891,
+            338,
+            5279,
+            29871,
+            29945,
+            2440
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -3,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 5279,
+              "token": "currently"
+            },
+            {
+              "pos": 4,
+              "token_id": 29871,
+              "token": "<29871>"
+            },
+            {
+              "pos": 5,
+              "token_id": 29945,
+              "token": "5"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Wend",
+            "y",
+            "is",
+            "currently",
+            "<29871>",
+            "5",
+            "years"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 5,
+          "prefix_len": 111,
+          "drafted_len": 60,
+          "path_ids": [
+            29916,
+            29898
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "x",
+            "("
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 6,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            2440,
+            2030,
+            29892,
+            988,
+            1530,
+            262,
+            338
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "years",
+            "old",
+            ",",
+            "where",
+            "Col",
+            "in",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 7,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            921,
+            338,
+            278,
+            1353,
+            310,
+            2440,
+            393,
+            784
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "x",
+            "is",
+            "the",
+            "number",
+            "of",
+            "years",
+            "that",
+            "col"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 8,
+          "prefix_len": 123,
+          "drafted_len": 60,
+          "path_ids": [
+            505,
+            4502,
+            1951,
+            1530,
+            262,
+            471
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "have",
+            "passed",
+            "since",
+            "Col",
+            "in",
+            "was"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 9,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            6345,
+            29889,
+            1334,
+            884,
+            1073,
+            393,
+            1530,
+            262,
+            338
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 1334,
+              "token": "We"
+            },
+            {
+              "pos": 3,
+              "token_id": 884,
+              "token": "also"
+            },
+            {
+              "pos": 4,
+              "token_id": 1073,
+              "token": "know"
+            },
+            {
+              "pos": 5,
+              "token_id": 393,
+              "token": "that"
+            }
+          ],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "born",
+            ".",
+            "We",
+            "also",
+            "know",
+            "that",
+            "Col",
+            "in",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 10,
+          "prefix_len": 135,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            29871,
+            29906,
+            29945,
+            2440,
+            29892,
+            1530,
+            262,
+            674
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "<29871>",
+            "2",
+            "5",
+            "years",
+            ",",
+            "Col",
+            "in",
+            "will"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 11,
+          "prefix_len": 144,
+          "drafted_len": 60,
+          "path_ids": [
+            367,
+            263,
+            4654,
+            408,
+            2030,
+            408,
+            29022,
+            29891,
+            338
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "be",
+            "a",
+            "third",
+            "as",
+            "old",
+            "as",
+            "Wend",
+            "y",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 12,
+          "prefix_len": 153,
+          "drafted_len": 60,
+          "path_ids": [
+            1286,
+            29889,
+            910,
+            2794,
+            393
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "now",
+            ".",
+            "This",
+            "means",
+            "that"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 13,
+          "prefix_len": 158,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            29871,
+            29906,
+            29945,
+            2440,
+            29892,
+            1530,
+            262,
+            674
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "<29871>",
+            "2",
+            "5",
+            "years",
+            ",",
+            "Col",
+            "in",
+            "will"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 14,
+          "prefix_len": 167,
+          "drafted_len": 60,
+          "path_ids": [
+            367,
+            5046
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "be",
+            "age"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 15,
+          "prefix_len": 168,
+          "drafted_len": 60,
+          "path_ids": [
+            313,
+            29896,
+            29914,
+            29906,
+            29897
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "(",
+            "1",
+            "/",
+            "2",
+            ")"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 16,
+          "prefix_len": 171,
+          "drafted_len": 60,
+          "path_ids": [
+            29941,
+            29897,
+            29916,
+            353,
+            29871
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "3",
+            ")",
+            "x",
+            "=",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "gsm_63",
+          "step_id": 17,
+          "prefix_len": 174,
+          "drafted_len": 60,
+          "path_ids": [
+            2440,
+            2030,
+            29892,
+            988,
+            921,
+            338
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 29892,
+              "token": ","
+            },
+            {
+              "pos": 3,
+              "token_id": 988,
+              "token": "where"
+            },
+            {
+              "pos": 4,
+              "token_id": 921,
+              "token": "x"
+            },
+            {
+              "pos": 5,
+              "token_id": 338,
+              "token": "is"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "years",
+            "old",
+            ",",
+            "where",
+            "x",
+            "is"
+          ]
+        }
+      ],
+      "wall_s": 1.6318560969084501
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_23",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 12,
+      "base_mean_accepted_len": 8.0,
+      "skip_mean_accepted_len": 6.333333333333333,
+      "delta_mean_accepted_len": -1.666666666666667,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_23",
+          "step_id": 0,
+          "prefix_len": 107,
+          "drafted_len": 60,
+          "path_ids": [
+            1763,
+            1284,
+            714,
+            920,
+            1568,
+            29043,
+            9744,
+            363,
+            697
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "To",
+            "find",
+            "out",
+            "how",
+            "much",
+            "Ellen",
+            "pays",
+            "for",
+            "one"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 1,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            1559,
+            5450,
+            1432,
+            2462,
+            29892,
+            591,
+            817,
+            304,
+            937
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "car",
+            "rot",
+            "every",
+            "day",
+            ",",
+            "we",
+            "need",
+            "to",
+            "first"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 2,
+          "prefix_len": 125,
+          "drafted_len": 60,
+          "path_ids": [
+            8147,
+            278,
+            3001,
+            3438,
+            310,
+            278,
+            22535,
+            1183
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "calculate",
+            "the",
+            "total",
+            "cost",
+            "of",
+            "the",
+            "goods",
+            "she"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 3,
+          "prefix_len": 131,
+          "drafted_len": 60,
+          "path_ids": [
+            4497,
+            328,
+            322,
+            278,
+            343,
+            468,
+            4227,
+            29889,
+            4001
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sal",
+            "ad",
+            "and",
+            "the",
+            "y",
+            "og",
+            "urt",
+            ".",
+            "Since"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 4,
+          "prefix_len": 140,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            4497,
+            328,
+            21544,
+            395,
+            29953,
+            322,
+            278,
+            343
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "sal",
+            "ad",
+            "costs",
+            "$",
+            "6",
+            "and",
+            "the",
+            "y"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 5,
+          "prefix_len": 149,
+          "drafted_len": 60,
+          "path_ids": [
+            468,
+            4227,
+            338,
+            4203,
+            278,
+            8666,
+            29892
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "og",
+            "urt",
+            "is",
+            "half",
+            "the",
+            "price",
+            ","
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 6,
+          "prefix_len": 156,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            3001,
+            3438,
+            310,
+            278,
+            4497,
+            328,
+            322,
+            278
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -8,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 3001,
+              "token": "total"
+            },
+            {
+              "pos": 2,
+              "token_id": 3438,
+              "token": "cost"
+            },
+            {
+              "pos": 3,
+              "token_id": 310,
+              "token": "of"
+            },
+            {
+              "pos": 4,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 5,
+              "token_id": 4497,
+              "token": "sal"
+            },
+            {
+              "pos": 6,
+              "token_id": 328,
+              "token": "ad"
+            },
+            {
+              "pos": 7,
+              "token_id": 322,
+              "token": "and"
+            },
+            {
+              "pos": 8,
+              "token_id": 278,
+              "token": "the"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "total",
+            "cost",
+            "of",
+            "the",
+            "sal",
+            "ad",
+            "and",
+            "the"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 7,
+          "prefix_len": 165,
+          "drafted_len": 60,
+          "path_ids": [
+            343,
+            468,
+            4227,
+            338,
+            395,
+            29953
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "y",
+            "og",
+            "urt",
+            "is",
+            "$",
+            "6"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 8,
+          "prefix_len": 171,
+          "drafted_len": 60,
+          "path_ids": [
+            718,
+            395,
+            29941,
+            353,
+            395,
+            9314,
+            29906
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "+",
+            "$",
+            "3",
+            "=",
+            "$",
+            "<<",
+            "2"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 9,
+          "prefix_len": 176,
+          "drafted_len": 60,
+          "path_ids": [
+            29929,
+            29889,
+            13,
+            13,
+            9190,
+            29892,
+            591,
+            817,
+            304
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -5,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 9190,
+              "token": "Next"
+            },
+            {
+              "pos": 5,
+              "token_id": 29892,
+              "token": ","
+            },
+            {
+              "pos": 6,
+              "token_id": 591,
+              "token": "we"
+            },
+            {
+              "pos": 7,
+              "token_id": 817,
+              "token": "need"
+            },
+            {
+              "pos": 8,
+              "token_id": 304,
+              "token": "to"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "9",
+            ".",
+            "\\n",
+            "\\n",
+            "Next",
+            ",",
+            "we",
+            "need",
+            "to"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 10,
+          "prefix_len": 185,
+          "drafted_len": 60,
+          "path_ids": [
+            23197,
+            278,
+            3438,
+            310,
+            278,
+            4497,
+            328,
+            322,
+            278
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 7,
+              "token_id": 322,
+              "token": "and"
+            },
+            {
+              "pos": 8,
+              "token_id": 278,
+              "token": "the"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "subtract",
+            "the",
+            "cost",
+            "of",
+            "the",
+            "sal",
+            "ad",
+            "and",
+            "the"
+          ]
+        },
+        {
+          "request_id": "gsm_23",
+          "step_id": 11,
+          "prefix_len": 194,
+          "drafted_len": 60,
+          "path_ids": [
+            343,
+            468,
+            4227,
+            515,
+            278,
+            3001,
+            3438,
+            310,
+            29043
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -5,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 5,
+              "token_id": 3001,
+              "token": "total"
+            },
+            {
+              "pos": 6,
+              "token_id": 3438,
+              "token": "cost"
+            },
+            {
+              "pos": 7,
+              "token_id": 310,
+              "token": "of"
+            },
+            {
+              "pos": 8,
+              "token_id": 29043,
+              "token": "Ellen"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "y",
+            "og",
+            "urt",
+            "from",
+            "the",
+            "total",
+            "cost",
+            "of",
+            "Ellen"
+          ]
+        }
+      ],
+      "wall_s": 1.109075359068811
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_50",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 17,
+      "base_mean_accepted_len": 5.705882352941177,
+      "skip_mean_accepted_len": 5.705882352941177,
+      "delta_mean_accepted_len": 0.0,
+      "num_steps_accept_up": 2,
+      "num_newly_accepted_tokens": 2,
+      "newly_accepted_tokens": [
+        "x",
+        "is"
+      ],
+      "steps": [
+        {
+          "request_id": "gsm_50",
+          "step_id": 0,
+          "prefix_len": 62,
+          "drafted_len": 60,
+          "path_ids": [
+            2803,
+            29915,
+            29879,
+            5251,
+            23052,
+            338,
+            29871,
+            29945,
+            2440
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 4,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Let",
+            "'",
+            "s",
+            "assume",
+            "Jerry",
+            "is",
+            "<29871>",
+            "5",
+            "years"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 1,
+          "prefix_len": 67,
+          "drafted_len": 60,
+          "path_ids": [
+            29915,
+            29879,
+            1857,
+            5046,
+            338,
+            921
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 1,
+          "newly_accepted": [
+            {
+              "pos": 5,
+              "token_id": 921,
+              "token": "x"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "'",
+            "s",
+            "current",
+            "age",
+            "is",
+            "x"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 2,
+          "prefix_len": 72,
+          "drafted_len": 60,
+          "path_ids": [
+            1060,
+            29889,
+            13,
+            13,
+            7504,
+            3278,
+            304,
+            278,
+            2472
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "X",
+            ".",
+            "\\n",
+            "\\n",
+            "Acc",
+            "ording",
+            "to",
+            "the",
+            "information"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 3,
+          "prefix_len": 80,
+          "drafted_len": 60,
+          "path_ids": [
+            1108,
+            29892,
+            23052,
+            338,
+            8951,
+            408,
+            2030,
+            408,
+            540
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "problem",
+            ",",
+            "Jerry",
+            "is",
+            "twice",
+            "as",
+            "old",
+            "as",
+            "he"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 4,
+          "prefix_len": 89,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            29871,
+            29945,
+            2440,
+            8020,
+            29892,
+            607,
+            2794,
+            540
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "<29871>",
+            "5",
+            "years",
+            "ago",
+            ",",
+            "which",
+            "means",
+            "he"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 5,
+          "prefix_len": 97,
+          "drafted_len": 60,
+          "path_ids": [
+            393,
+            29871,
+            29945,
+            2440,
+            8020,
+            313
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "that",
+            "<29871>",
+            "5",
+            "years",
+            "ago",
+            "("
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 6,
+          "prefix_len": 102,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            23052,
+            471,
+            1060
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "Jerry",
+            "was",
+            "X"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 7,
+          "prefix_len": 106,
+          "drafted_len": 60,
+          "path_ids": [
+            29914,
+            29906,
+            2440,
+            2030,
+            29889,
+            13,
+            13,
+            4806
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "/",
+            "2",
+            "years",
+            "old",
+            ".",
+            "\\n",
+            "\\n",
+            "We"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 8,
+          "prefix_len": 113,
+          "drafted_len": 60,
+          "path_ids": [
+            10454,
+            29892,
+            591,
+            508
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Now",
+            ",",
+            "we",
+            "can"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 9,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            817,
+            304,
+            1284,
+            714,
+            920,
+            23052,
+            338
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "need",
+            "to",
+            "find",
+            "out",
+            "how",
+            "Jerry",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 10,
+          "prefix_len": 120,
+          "drafted_len": 60,
+          "path_ids": [
+            23052,
+            29915,
+            29879,
+            5046,
+            297,
+            29871,
+            29941,
+            2440,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Jerry",
+            "'",
+            "s",
+            "age",
+            "in",
+            "<29871>",
+            "3",
+            "years",
+            "."
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 11,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            1334,
+            508,
+            671,
+            278,
+            2114,
+            393
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 2114,
+              "token": "fact"
+            },
+            {
+              "pos": 5,
+              "token_id": 393,
+              "token": "that"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "We",
+            "can",
+            "use",
+            "the",
+            "fact",
+            "that"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 12,
+          "prefix_len": 135,
+          "drafted_len": 60,
+          "path_ids": [
+            23052,
+            29915,
+            29879,
+            5046,
+            338,
+            472
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 1,
+          "newly_accepted": [
+            {
+              "pos": 4,
+              "token_id": 338,
+              "token": "is"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Jerry",
+            "'",
+            "s",
+            "age",
+            "is",
+            "at"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 13,
+          "prefix_len": 139,
+          "drafted_len": 60,
+          "path_ids": [
+            16415,
+            491,
+            29871,
+            29906
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "increases",
+            "by",
+            "<29871>",
+            "2"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 14,
+          "prefix_len": 142,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            1629,
+            1432
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "year",
+            "every"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 15,
+          "prefix_len": 145,
+          "drafted_len": 60,
+          "path_ids": [
+            1629,
+            29889,
+            13,
+            13,
+            6295,
+            29892,
+            23052,
+            29915,
+            29879
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "year",
+            ".",
+            "\\n",
+            "\\n",
+            "So",
+            ",",
+            "Jerry",
+            "'",
+            "s"
+          ]
+        },
+        {
+          "request_id": "gsm_50",
+          "step_id": 16,
+          "prefix_len": 151,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            29871,
+            29941,
+            2440,
+            29892,
+            23052,
+            674,
+            367,
+            29871
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "<29871>",
+            "3",
+            "years",
+            ",",
+            "Jerry",
+            "will",
+            "be",
+            "<29871>"
+          ]
+        }
+      ],
+      "wall_s": 1.5377137511968613
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_30",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 17,
+      "base_mean_accepted_len": 5.9411764705882355,
+      "skip_mean_accepted_len": 5.588235294117647,
+      "delta_mean_accepted_len": -0.35294117647058876,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_30",
+          "step_id": 0,
+          "prefix_len": 81,
+          "drafted_len": 60,
+          "path_ids": [
+            1763,
+            1284,
+            714,
+            920,
+            1784,
+            3841,
+            372,
+            674,
+            367
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "To",
+            "find",
+            "out",
+            "how",
+            "many",
+            "days",
+            "it",
+            "will",
+            "be"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 1,
+          "prefix_len": 87,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            29955,
+            29906,
+            29900,
+            867,
+            2232,
+            310,
+            6635,
+            9687
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "7",
+            "2",
+            "0",
+            "gr",
+            "ams",
+            "of",
+            "cat",
+            "food"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 2,
+          "prefix_len": 96,
+          "drafted_len": 60,
+          "path_ids": [
+            674,
+            1833,
+            29892,
+            366,
+            817,
+            304,
+            16429,
+            278,
+            5253
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 8,
+              "token_id": 5253,
+              "token": "amount"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "will",
+            "last",
+            ",",
+            "you",
+            "need",
+            "to",
+            "divide",
+            "the",
+            "amount"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 3,
+          "prefix_len": 105,
+          "drafted_len": 60,
+          "path_ids": [
+            310,
+            6635,
+            9687,
+            491,
+            278,
+            7688,
+            310
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "of",
+            "cat",
+            "food",
+            "by",
+            "the",
+            "weight",
+            "of"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 4,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            5253,
+            310,
+            6635,
+            9687,
+            393,
+            1183
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "amount",
+            "of",
+            "cat",
+            "food",
+            "that",
+            "she"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 5,
+          "prefix_len": 115,
+          "drafted_len": 60,
+          "path_ids": [
+            1954,
+            655,
+            1238,
+            5779,
+            639,
+            2462
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Im",
+            "ma",
+            "fe",
+            "eds",
+            "per",
+            "day"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 6,
+          "prefix_len": 119,
+          "drafted_len": 60,
+          "path_ids": [
+            902,
+            274,
+            1446,
+            297,
+            1269,
+            2462,
+            313
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "her",
+            "c",
+            "ats",
+            "in",
+            "each",
+            "day",
+            "("
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 7,
+          "prefix_len": 123,
+          "drafted_len": 60,
+          "path_ids": [
+            697,
+            2462,
+            29889,
+            13,
+            13,
+            1888
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "one",
+            "day",
+            ".",
+            "\\n",
+            "\\n",
+            "Im"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 8,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            655,
+            1238,
+            5779,
+            902,
+            274,
+            1446,
+            29871,
+            29953,
+            29900
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ma",
+            "fe",
+            "eds",
+            "her",
+            "c",
+            "ats",
+            "<29871>",
+            "6",
+            "0"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 9,
+          "prefix_len": 138,
+          "drafted_len": 60,
+          "path_ids": [
+            867,
+            2232,
+            310,
+            6635,
+            9687,
+            472
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "gr",
+            "ams",
+            "of",
+            "cat",
+            "food",
+            "at"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 10,
+          "prefix_len": 143,
+          "drafted_len": 60,
+          "path_ids": [
+            8951,
+            263,
+            2462,
+            29892,
+            577,
+            445
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "twice",
+            "a",
+            "day",
+            ",",
+            "so",
+            "this"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 11,
+          "prefix_len": 148,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            697,
+            2462,
+            1183,
+            756,
+            29871,
+            29906
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "one",
+            "day",
+            "she",
+            "has",
+            "<29871>",
+            "2"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 12,
+          "prefix_len": 152,
+          "drafted_len": 60,
+          "path_ids": [
+            1238,
+            5779,
+            29871,
+            29941,
+            29900
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "fe",
+            "eds",
+            "<29871>",
+            "3",
+            "0"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 13,
+          "prefix_len": 154,
+          "drafted_len": 60,
+          "path_ids": [
+            963,
+            29871,
+            29955,
+            29906,
+            29900,
+            867,
+            2232
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 6,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "them",
+            "<29871>",
+            "7",
+            "2",
+            "0",
+            "gr",
+            "ams"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 14,
+          "prefix_len": 155,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            3001,
+            310,
+            29871,
+            29896,
+            29906,
+            29900,
+            867,
+            2232
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -5,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 29896,
+              "token": "1"
+            },
+            {
+              "pos": 5,
+              "token_id": 29906,
+              "token": "2"
+            },
+            {
+              "pos": 6,
+              "token_id": 29900,
+              "token": "0"
+            },
+            {
+              "pos": 7,
+              "token_id": 867,
+              "token": "gr"
+            },
+            {
+              "pos": 8,
+              "token_id": 2232,
+              "token": "ams"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "total",
+            "of",
+            "<29871>",
+            "1",
+            "2",
+            "0",
+            "gr",
+            "ams"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 15,
+          "prefix_len": 164,
+          "drafted_len": 60,
+          "path_ids": [
+            310,
+            6635,
+            9687,
+            29889,
+            13,
+            13,
+            1762,
+            1284,
+            714
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "of",
+            "cat",
+            "food",
+            ".",
+            "\\n",
+            "\\n",
+            "To",
+            "find",
+            "out"
+          ]
+        },
+        {
+          "request_id": "gsm_30",
+          "step_id": 16,
+          "prefix_len": 173,
+          "drafted_len": 60,
+          "path_ids": [
+            920,
+            1784,
+            3841,
+            29871,
+            29955,
+            29906,
+            29900,
+            867,
+            2232
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "how",
+            "many",
+            "days",
+            "<29871>",
+            "7",
+            "2",
+            "0",
+            "gr",
+            "ams"
+          ]
+        }
+      ],
+      "wall_s": 1.5426176842302084
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_55",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 15,
+      "base_mean_accepted_len": 6.4,
+      "skip_mean_accepted_len": 5.533333333333333,
+      "delta_mean_accepted_len": -0.8666666666666671,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_55",
+          "step_id": 0,
+          "prefix_len": 117,
+          "drafted_len": 60,
+          "path_ids": [
+            6682,
+            674,
+            817,
+            304,
+            15649,
+            29871,
+            29906,
+            29946,
+            18046
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 4,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Bill",
+            "will",
+            "need",
+            "to",
+            "buy",
+            "<29871>",
+            "2",
+            "4",
+            "bott"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 1,
+          "prefix_len": 122,
+          "drafted_len": 60,
+          "path_ids": [
+            385,
+            5684,
+            29871,
+            29955,
+            29900,
+            18046,
+            793,
+            310,
+            4094
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 5,
+              "token_id": 18046,
+              "token": "bott"
+            },
+            {
+              "pos": 6,
+              "token_id": 793,
+              "token": "les"
+            },
+            {
+              "pos": 7,
+              "token_id": 310,
+              "token": "of"
+            },
+            {
+              "pos": 8,
+              "token_id": 4094,
+              "token": "water"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "an",
+            "additional",
+            "<29871>",
+            "7",
+            "0",
+            "bott",
+            "les",
+            "of",
+            "water"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 2,
+          "prefix_len": 131,
+          "drafted_len": 60,
+          "path_ids": [
+            304,
+            6159,
+            670
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "to",
+            "reach",
+            "his"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 3,
+          "prefix_len": 132,
+          "drafted_len": 60,
+          "path_ids": [
+            505,
+            29871,
+            29906,
+            18046,
+            793,
+            363,
+            1269,
+            17838,
+            29889
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "have",
+            "<29871>",
+            "2",
+            "bott",
+            "les",
+            "for",
+            "each",
+            "guest",
+            "."
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 4,
+          "prefix_len": 139,
+          "drafted_len": 60,
+          "path_ids": [
+            310,
+            670,
+            29871,
+            29955,
+            29900,
+            28865,
+            29889,
+            13,
+            13
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 7,
+              "token_id": 13,
+              "token": "\\n"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "of",
+            "his",
+            "<29871>",
+            "7",
+            "0",
+            "guests",
+            ".",
+            "\\n",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 5,
+          "prefix_len": 147,
+          "drafted_len": 60,
+          "path_ids": [
+            23036,
+            1269
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Since",
+            "each"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 6,
+          "prefix_len": 149,
+          "drafted_len": 60,
+          "path_ids": [
+            1206,
+            756,
+            29871,
+            29906,
+            29946,
+            18046,
+            793,
+            29892,
+            540
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "case",
+            "has",
+            "<29871>",
+            "2",
+            "4",
+            "bott",
+            "les",
+            ",",
+            "he"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 7,
+          "prefix_len": 158,
+          "drafted_len": 60,
+          "path_ids": [
+            674,
+            817,
+            304,
+            15649,
+            29871,
+            29906,
+            29946,
+            18046,
+            793
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 304,
+              "token": "to"
+            },
+            {
+              "pos": 3,
+              "token_id": 15649,
+              "token": "buy"
+            },
+            {
+              "pos": 4,
+              "token_id": 29871,
+              "token": "<29871>"
+            },
+            {
+              "pos": 5,
+              "token_id": 29906,
+              "token": "2"
+            }
+          ],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "will",
+            "need",
+            "to",
+            "buy",
+            "<29871>",
+            "2",
+            "4",
+            "bott",
+            "les"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 8,
+          "prefix_len": 164,
+          "drafted_len": 60,
+          "path_ids": [
+            4251,
+            304,
+            505
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 304,
+              "token": "to"
+            },
+            {
+              "pos": 2,
+              "token_id": 505,
+              "token": "have"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "cases",
+            "to",
+            "have"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 9,
+          "prefix_len": 167,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            3001,
+            310,
+            29871,
+            29946,
+            29947
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "total",
+            "of",
+            "<29871>",
+            "4",
+            "8"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 10,
+          "prefix_len": 173,
+          "drafted_len": 60,
+          "path_ids": [
+            18046,
+            793,
+            29889,
+            13,
+            11760,
+            540,
+            674,
+            817,
+            304
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "bott",
+            "les",
+            ".",
+            "\\n",
+            "Then",
+            "he",
+            "will",
+            "need",
+            "to"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 11,
+          "prefix_len": 182,
+          "drafted_len": 60,
+          "path_ids": [
+            15649,
+            385,
+            5684,
+            29871,
+            29955,
+            29900,
+            18046,
+            793
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 6,
+              "token_id": 18046,
+              "token": "bott"
+            },
+            {
+              "pos": 7,
+              "token_id": 793,
+              "token": "les"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "buy",
+            "an",
+            "additional",
+            "<29871>",
+            "7",
+            "0",
+            "bott",
+            "les"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 12,
+          "prefix_len": 190,
+          "drafted_len": 60,
+          "path_ids": [
+            304,
+            505,
+            263,
+            3001,
+            310
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "to",
+            "have",
+            "a",
+            "total",
+            "of"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 13,
+          "prefix_len": 195,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            29906,
+            18046,
+            793,
+            363,
+            1269,
+            310,
+            670,
+            29871
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "2",
+            "bott",
+            "les",
+            "for",
+            "each",
+            "of",
+            "his",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "gsm_55",
+          "step_id": 14,
+          "prefix_len": 204,
+          "drafted_len": 60,
+          "path_ids": [
+            29955,
+            29900,
+            28865,
+            29889,
+            13,
+            8439,
+            1079,
+            29892,
+            6682
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "7",
+            "0",
+            "guests",
+            ".",
+            "\\n",
+            "There",
+            "fore",
+            ",",
+            "Bill"
+          ]
+        }
+      ],
+      "wall_s": 1.3722086641937494
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_8",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 15,
+      "base_mean_accepted_len": 6.866666666666666,
+      "skip_mean_accepted_len": 6.133333333333334,
+      "delta_mean_accepted_len": -0.7333333333333325,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "gsm_8",
+          "step_id": 0,
+          "prefix_len": 83,
+          "drafted_len": 60,
+          "path_ids": [
+            2803,
+            29915,
+            29879,
+            5251,
+            278,
+            6635,
+            338
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 5251,
+              "token": "assume"
+            },
+            {
+              "pos": 4,
+              "token_id": 278,
+              "token": "the"
+            }
+          ],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Let",
+            "'",
+            "s",
+            "assume",
+            "the",
+            "cat",
+            "is"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 1,
+          "prefix_len": 88,
+          "drafted_len": 60,
+          "path_ids": [
+            6210,
+            310,
+            278,
+            260,
+            4227,
+            280,
+            338,
+            921,
+            29889
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "speed",
+            "of",
+            "the",
+            "t",
+            "urt",
+            "le",
+            "is",
+            "x",
+            "."
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 2,
+          "prefix_len": 96,
+          "drafted_len": 60,
+          "path_ids": [
+            6900,
+            29914,
+            7496,
+            29889,
+            13,
+            13,
+            7504,
+            3278,
+            304
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -8,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 29914,
+              "token": "/"
+            },
+            {
+              "pos": 2,
+              "token_id": 7496,
+              "token": "second"
+            },
+            {
+              "pos": 3,
+              "token_id": 29889,
+              "token": "."
+            },
+            {
+              "pos": 4,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 5,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 6,
+              "token_id": 7504,
+              "token": "Acc"
+            },
+            {
+              "pos": 7,
+              "token_id": 3278,
+              "token": "ording"
+            },
+            {
+              "pos": 8,
+              "token_id": 304,
+              "token": "to"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "feet",
+            "/",
+            "second",
+            ".",
+            "\\n",
+            "\\n",
+            "Acc",
+            "ording",
+            "to"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 3,
+          "prefix_len": 105,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            1108,
+            29892,
+            278,
+            6635,
+            508,
+            1065,
+            29871,
+            29896
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 4,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "problem",
+            ",",
+            "the",
+            "cat",
+            "can",
+            "run",
+            "<29871>",
+            "1"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 4,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            338,
+            29871,
+            29945,
+            3064,
+            8473,
+            1135,
+            278,
+            260,
+            4227
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "is",
+            "<29871>",
+            "5",
+            "times",
+            "faster",
+            "than",
+            "the",
+            "t",
+            "urt"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 5,
+          "prefix_len": 119,
+          "drafted_len": 60,
+          "path_ids": [
+            280,
+            29892,
+            577,
+            278,
+            260,
+            4227,
+            280,
+            508
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "le",
+            ",",
+            "so",
+            "the",
+            "t",
+            "urt",
+            "le",
+            "can"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 6,
+          "prefix_len": 126,
+          "drafted_len": 60,
+          "path_ids": [
+            29915,
+            29879,
+            6210,
+            338,
+            921,
+            29914,
+            29906
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "'",
+            "s",
+            "speed",
+            "is",
+            "x",
+            "/",
+            "2"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 7,
+          "prefix_len": 132,
+          "drafted_len": 60,
+          "path_ids": [
+            29945,
+            313
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "5",
+            "("
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 8,
+          "prefix_len": 133,
+          "drafted_len": 60,
+          "path_ids": [
+            6900,
+            29914,
+            7496,
+            29889,
+            13,
+            13,
+            4806,
+            1073,
+            393
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "feet",
+            "/",
+            "second",
+            ".",
+            "\\n",
+            "\\n",
+            "We",
+            "know",
+            "that"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 9,
+          "prefix_len": 142,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            6635,
+            508,
+            1065,
+            29871,
+            29896,
+            29945,
+            6900,
+            29914
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "cat",
+            "can",
+            "run",
+            "<29871>",
+            "1",
+            "5",
+            "feet",
+            "/"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 10,
+          "prefix_len": 151,
+          "drafted_len": 60,
+          "path_ids": [
+            7496,
+            29892,
+            577,
+            278,
+            260,
+            4227,
+            280,
+            508
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 5,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "second",
+            ",",
+            "so",
+            "the",
+            "t",
+            "urt",
+            "le",
+            "can"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 11,
+          "prefix_len": 154,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            29871,
+            29946,
+            29900,
+            6923,
+            29892,
+            278,
+            6635,
+            508
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "<29871>",
+            "4",
+            "0",
+            "seconds",
+            ",",
+            "the",
+            "cat",
+            "can"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 12,
+          "prefix_len": 163,
+          "drafted_len": 60,
+          "path_ids": [
+            1065,
+            263,
+            5418,
+            310,
+            29871
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "run",
+            "a",
+            "distance",
+            "of",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 13,
+          "prefix_len": 168,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            29945,
+            320,
+            29930,
+            29871,
+            29946,
+            29900,
+            353,
+            29871
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "5",
+            "\\",
+            "*",
+            "<29871>",
+            "4",
+            "0",
+            "=",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "gsm_8",
+          "step_id": 14,
+          "prefix_len": 177,
+          "drafted_len": 60,
+          "path_ids": [
+            29953,
+            29900,
+            29900,
+            6900,
+            29889,
+            13,
+            13,
+            4806,
+            884
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 8,
+              "token_id": 884,
+              "token": "also"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "6",
+            "0",
+            "0",
+            "feet",
+            ".",
+            "\\n",
+            "\\n",
+            "We",
+            "also"
+          ]
+        }
+      ],
+      "wall_s": 1.3679176047444344
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_46",
+      "skip_layer": 4,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 13,
+      "base_mean_accepted_len": 7.461538461538462,
+      "skip_mean_accepted_len": 7.538461538461538,
+      "delta_mean_accepted_len": 0.07692307692307665,
+      "num_steps_accept_up": 1,
+      "num_newly_accepted_tokens": 3,
+      "newly_accepted_tokens": [
+        "her",
+        "age",
+        "is"
+      ],
+      "steps": [
+        {
+          "request_id": "gsm_46",
+          "step_id": 0,
+          "prefix_len": 81,
+          "drafted_len": 60,
+          "path_ids": [
+            1763,
+            1284,
+            278,
+            3001,
+            5046,
+            310,
+            599,
+            2211,
+            3942
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "To",
+            "find",
+            "the",
+            "total",
+            "age",
+            "of",
+            "all",
+            "three",
+            "family"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 1,
+          "prefix_len": 90,
+          "drafted_len": 60,
+          "path_ids": [
+            5144,
+            29892,
+            366,
+            817,
+            304,
+            788,
+            701,
+            278
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "members",
+            ",",
+            "you",
+            "need",
+            "to",
+            "add",
+            "up",
+            "the"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 2,
+          "prefix_len": 96,
+          "drafted_len": 60,
+          "path_ids": [
+            405,
+            3270,
+            29915,
+            29879,
+            5046,
+            29892,
+            350
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "N",
+            "ani",
+            "'",
+            "s",
+            "age",
+            ",",
+            "B"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 3,
+          "prefix_len": 102,
+          "drafted_len": 60,
+          "path_ids": [
+            670,
+            8099,
+            29915,
+            29879,
+            5046,
+            29892,
+            322,
+            670,
+            5046
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "his",
+            "brother",
+            "'",
+            "s",
+            "age",
+            ",",
+            "and",
+            "his",
+            "age"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 4,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            9883,
+            29915,
+            29879,
+            5046,
+            29889,
+            13,
+            13,
+            29940,
+            3270
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sister",
+            "'",
+            "s",
+            "age",
+            ".",
+            "\\n",
+            "\\n",
+            "N",
+            "ani"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 5,
+          "prefix_len": 119,
+          "drafted_len": 60,
+          "path_ids": [
+            29915,
+            29879,
+            5046,
+            338,
+            29871,
+            29947,
+            2440,
+            2030,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 7,
+              "token_id": 2030,
+              "token": "old"
+            },
+            {
+              "pos": 8,
+              "token_id": 29889,
+              "token": "."
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "'",
+            "s",
+            "age",
+            "is",
+            "<29871>",
+            "8",
+            "years",
+            "old",
+            "."
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 6,
+          "prefix_len": 128,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            13,
+            29950,
+            275,
+            8099,
+            338,
+            8951,
+            670,
+            5046
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "\\n",
+            "H",
+            "is",
+            "brother",
+            "is",
+            "twice",
+            "his",
+            "age"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 7,
+          "prefix_len": 137,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            577,
+            670,
+            8099,
+            29915,
+            29879,
+            5046,
+            338,
+            29871
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "so",
+            "his",
+            "brother",
+            "'",
+            "s",
+            "age",
+            "is",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 8,
+          "prefix_len": 146,
+          "drafted_len": 60,
+          "path_ids": [
+            29906,
+            320,
+            29930,
+            29871,
+            29947,
+            353,
+            29871,
+            29946
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "2",
+            "\\",
+            "*",
+            "<29871>",
+            "8",
+            "=",
+            "<29871>",
+            "4"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 9,
+          "prefix_len": 153,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            29953,
+            2440,
+            2030,
+            29889,
+            13,
+            13,
+            29940,
+            3270
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "6",
+            "years",
+            "old",
+            ".",
+            "\\n",
+            "\\n",
+            "N",
+            "ani"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 10,
+          "prefix_len": 162,
+          "drafted_len": 60,
+          "path_ids": [
+            29915,
+            29879,
+            9883,
+            338,
+            29871,
+            29906,
+            29945,
+            29995,
+            20023
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "'",
+            "s",
+            "sister",
+            "is",
+            "<29871>",
+            "2",
+            "5",
+            "%",
+            "younger"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 11,
+          "prefix_len": 171,
+          "drafted_len": 60,
+          "path_ids": [
+            1135,
+            1075,
+            29892,
+            577,
+            902,
+            5046,
+            338,
+            29871,
+            29906
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 3,
+          "newly_accepted": [
+            {
+              "pos": 4,
+              "token_id": 902,
+              "token": "her"
+            },
+            {
+              "pos": 5,
+              "token_id": 5046,
+              "token": "age"
+            },
+            {
+              "pos": 6,
+              "token_id": 338,
+              "token": "is"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "than",
+            "him",
+            ",",
+            "so",
+            "her",
+            "age",
+            "is",
+            "<29871>",
+            "2"
+          ]
+        },
+        {
+          "request_id": "gsm_46",
+          "step_id": 12,
+          "prefix_len": 175,
+          "drafted_len": 60,
+          "path_ids": [
+            1183,
+            338,
+            29871,
+            29896
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "she",
+            "is",
+            "<29871>",
+            "1"
+          ]
+        }
+      ],
+      "wall_s": 1.1915828110650182
+    }
+  ],
+  "token_events": [
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_50",
+      "skip_layer": 4,
+      "step_id": 1,
+      "pos": 5,
+      "token": "x",
+      "token_id": 921,
+      "base_accepted_len": 5,
+      "skip_accepted_len": 6
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_50",
+      "skip_layer": 4,
+      "step_id": 12,
+      "pos": 4,
+      "token": "is",
+      "token_id": 338,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 5
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_46",
+      "skip_layer": 4,
+      "step_id": 11,
+      "pos": 4,
+      "token": "her",
+      "token_id": 902,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 7
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_46",
+      "skip_layer": 4,
+      "step_id": 11,
+      "pos": 5,
+      "token": "age",
+      "token_id": 5046,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 7
+    },
+    {
+      "dataset": "gsm8k",
+      "request_id": "gsm_46",
+      "skip_layer": 4,
+      "step_id": 11,
+      "pos": 6,
+      "token": "is",
+      "token_id": 338,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 7
+    }
+  ]
+}

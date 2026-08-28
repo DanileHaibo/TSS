@@ -1,0 +1,270 @@
+{
+  "schema_version": "eagle7_first_verify_accept_v1",
+  "protocol": {
+    "model": "Vicuna-7B + EAGLE",
+    "first_verification_only": true,
+    "frozen_same_draft_tree": true,
+    "domains": [
+      "translation",
+      "summarization",
+      "qa",
+      "mmlu",
+      "rag"
+    ],
+    "skip_layers": {
+      "translation": [
+        3,
+        25,
+        30
+      ],
+      "summarization": [
+        15,
+        22,
+        23
+      ],
+      "qa": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "mmlu": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "rag": [
+        3,
+        6,
+        14,
+        25,
+        30
+      ]
+    },
+    "num_requests": 64,
+    "seed": 42
+  },
+  "domains": [
+    {
+      "dataset": "translation",
+      "domain": "Translation",
+      "num_requests": 64,
+      "native_mean_accept": 2.953125,
+      "tss_mean_accept": 3.0625,
+      "fixed_path_tss_mean_accept": 2.953125,
+      "delta_mean_accept": 0.109375,
+      "same_first_token_rate": 1.0,
+      "same_branch_rate": 0.875,
+      "recover_request_rate": 0.046875
+    },
+    {
+      "dataset": "summarization",
+      "domain": "Summarization",
+      "num_requests": 64,
+      "native_mean_accept": 4.25,
+      "tss_mean_accept": 4.109375,
+      "fixed_path_tss_mean_accept": 3.84375,
+      "delta_mean_accept": -0.140625,
+      "same_first_token_rate": 1.0,
+      "same_branch_rate": 0.796875,
+      "recover_request_rate": 0.046875
+    },
+    {
+      "dataset": "qa",
+      "domain": "QA",
+      "num_requests": 64,
+      "native_mean_accept": 3.890625,
+      "tss_mean_accept": 3.9375,
+      "fixed_path_tss_mean_accept": 3.625,
+      "delta_mean_accept": 0.046875,
+      "same_first_token_rate": 1.0,
+      "same_branch_rate": 0.828125,
+      "recover_request_rate": 0.015625
+    },
+    {
+      "dataset": "mmlu",
+      "domain": "MMLU",
+      "num_requests": 64,
+      "native_mean_accept": 3.4375,
+      "tss_mean_accept": 4.09375,
+      "fixed_path_tss_mean_accept": 3.28125,
+      "delta_mean_accept": 0.65625,
+      "same_first_token_rate": 1.0,
+      "same_branch_rate": 0.609375,
+      "recover_request_rate": 0.140625
+    },
+    {
+      "dataset": "rag",
+      "domain": "RAG",
+      "num_requests": 64,
+      "native_mean_accept": 4.921875,
+      "tss_mean_accept": 4.953125,
+      "fixed_path_tss_mean_accept": 4.3125,
+      "delta_mean_accept": 0.03125,
+      "same_first_token_rate": 1.0,
+      "same_branch_rate": 0.765625,
+      "recover_request_rate": 0.046875
+    }
+  ],
+  "recovered_first_flip_tokens": [
+    {
+      "token": "</s>",
+      "count": 9,
+      "first_flip_count": 9,
+      "category": "Special/control",
+      "top_domains": [
+        {
+          "dataset": "mmlu",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "token": "<s>",
+      "count": 9,
+      "first_flip_count": 0,
+      "category": "Special/control",
+      "top_domains": [
+        {
+          "dataset": "mmlu",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "token": "in",
+      "count": 2,
+      "first_flip_count": 2,
+      "category": "Function word",
+      "top_domains": [
+        {
+          "dataset": "rag",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "token": "is",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Function word",
+      "top_domains": [
+        {
+          "dataset": "translation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "seems",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "translation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "unusual",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "translation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "that",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Function word",
+      "top_domains": [
+        {
+          "dataset": "summarization",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "ed",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "summarization",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "officer",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "summarization",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "not",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Function word",
+      "top_domains": [
+        {
+          "dataset": "qa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "aware",
+      "count": 1,
+      "first_flip_count": 0,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "qa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "of",
+      "count": 1,
+      "first_flip_count": 0,
+      "category": "Function word",
+      "top_domains": [
+        {
+          "dataset": "qa",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "token": "last",
+      "count": 1,
+      "first_flip_count": 1,
+      "category": "Content word",
+      "top_domains": [
+        {
+          "dataset": "rag",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

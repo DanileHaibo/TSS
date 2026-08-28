@@ -1,0 +1,69 @@
+{
+  "dataset": "mmlu",
+  "display_name": "Metric-only",
+  "domain": "multiple_choice",
+  "method": "metric_only",
+  "search_evaluations": 30,
+  "size": "7b",
+  "skip_layers": [
+    3
+  ],
+  "split": "test",
+  "test_eval": {
+    "baseline": {
+      "accept_rate": 0.03525441329179647,
+      "mean_accepted_per_step": 3.115264797507788,
+      "num_skip_layers": 0,
+      "num_verify_steps": 642,
+      "skip_layers": [],
+      "task_score": 0.28125,
+      "tok_per_s": 70.67786923202378,
+      "total_output_tokens": 2000,
+      "wall_s": 28.29740089410916
+    },
+    "best": {
+      "accept_rate": 0.0333577354807223,
+      "mean_accepted_per_step": 3.001464128843338,
+      "num_skip_layers": 1,
+      "num_verify_steps": 683,
+      "skip_layers": [
+        3
+      ],
+      "task_score": 0.265625,
+      "tok_per_s": 69.31272442823274,
+      "total_output_tokens": 2050,
+      "wall_s": 29.576099005062133
+    },
+    "delta": {
+      "accept": -0.11380066866444993,
+      "task_score": -0.015625,
+      "tok_per_s": -1.3651448037910399
+    }
+  },
+  "test_size": 64,
+  "train_eval": {
+    "baseline": {
+      "accept_rate": 0.03008130081300813,
+      "mean_accepted_per_step": 2.8048780487804876,
+      "num_skip_layers": 0,
+      "num_verify_steps": 41,
+      "skip_layers": [],
+      "task_score": 0.25,
+      "tok_per_s": 69.2114447039292,
+      "total_output_tokens": 115,
+      "wall_s": 1.661574909929186
+    },
+    "best": {
+      "accept_rate": 0.0337037037037037,
+      "layer": 3,
+      "mean_accepted_per_step": 3.022222222222222,
+      "phase": "metric_only",
+      "round": 1,
+      "skip_layers": [
+        3
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 65.98696678209913
+    }
+  }
+}

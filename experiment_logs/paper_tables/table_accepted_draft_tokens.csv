@@ -1,0 +1,5 @@
+Domain,Skip layers,Native acc,TSS acc,Δ acc,Deep tokens,Dominant deep type,Top deep accepted tokens
+Translation,"3,25,30",2.79,4.43,+1.64,289,Number,"0×235, ,×5, .×4, 1×4, the×3, and×2"
+Summarization,"15,22,23",3.57,3.71,+0.14,126,Content word,".×8, 0×8, 1×8, the×5, -×4, to×4"
+QA,"6,8,19,21,27",2.75,4.15,+1.39,223,Formatting/control,"\n×79, #×75, the×7, and×4, in×4, is×3"
+MMLU,"3,7,9,14,20",3.06,4.12,+1.07,53,Number,"0×11, 1×8, 9×7, 2×7, -×6, just×4"

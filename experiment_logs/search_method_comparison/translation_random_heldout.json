@@ -1,0 +1,71 @@
+{
+  "dataset": "translation",
+  "display_name": "Random Search",
+  "domain": "translation",
+  "method": "random",
+  "search_evaluations": 48,
+  "size": "7b",
+  "skip_layers": [
+    7,
+    11
+  ],
+  "split": "test",
+  "test_eval": {
+    "baseline": {
+      "accept_rate": 0.028286724525875925,
+      "mean_accepted_per_step": 2.6972034715525552,
+      "num_skip_layers": 0,
+      "num_verify_steps": 2074,
+      "skip_layers": [],
+      "task_score": 0.1311862346675408,
+      "tok_per_s": 77.82515647695094,
+      "total_output_tokens": 5594,
+      "wall_s": 71.87907166825607
+    },
+    "best": {
+      "accept_rate": 0.0347288046340179,
+      "mean_accepted_per_step": 3.0837282780410744,
+      "num_skip_layers": 2,
+      "num_verify_steps": 1899,
+      "skip_layers": [
+        7,
+        11
+      ],
+      "task_score": 0.09861682047327677,
+      "tok_per_s": 92.9320978092275,
+      "total_output_tokens": 5856,
+      "wall_s": 63.0137502332218
+    },
+    "delta": {
+      "accept": 0.38652480648851917,
+      "task_score": -0.03256941419426404,
+      "tok_per_s": 15.106941332276563
+    }
+  },
+  "test_size": 64,
+  "train_eval": {
+    "baseline": {
+      "accept_rate": 0.029404761904761906,
+      "mean_accepted_per_step": 2.7642857142857142,
+      "num_skip_layers": 0,
+      "num_verify_steps": 140,
+      "skip_layers": [],
+      "task_score": 0.16504792429033313,
+      "tok_per_s": 73.15173833905799,
+      "total_output_tokens": 387,
+      "wall_s": 5.290373254101723
+    },
+    "best": {
+      "accept_rate": 0.03870967741935484,
+      "mean_accepted_per_step": 3.3225806451612905,
+      "phase": "random",
+      "round": 14,
+      "skip_layers": [
+        7,
+        11
+      ],
+      "task_score": 0.3191223273965288,
+      "tok_per_s": 97.42207205703986
+    }
+  }
+}

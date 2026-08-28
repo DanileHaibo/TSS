@@ -1,0 +1,11 @@
+token,count,category,top_domain
+</s>,9,Special/control,mmlu
+in,2,Function word,rag
+is,1,Function word,translation
+seems,1,Content word,translation
+unusual,1,Content word,translation
+that,1,Function word,summarization
+ed,1,Content word,summarization
+officer,1,Content word,summarization
+not,1,Function word,qa
+last,1,Content word,rag

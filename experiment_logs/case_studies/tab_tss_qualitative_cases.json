@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "model": "Vicuna-7B",
+      "method": "EAGLE",
+      "dataset": "translation",
+      "domain": "Translation",
+      "request_id": "sb_translation_192",
+      "problem": "Je dunkler das Fleisch , desto h\u00f6her der ph-Wert .",
+      "reference": "The darker the meat , the higher the pH value .",
+      "native_answer": "The darker the meat, the higher the pH value",
+      "tss_answer": "The darker the meat, the higher the pH",
+      "metric": "BLEU",
+      "native_score": 0.1418799554718983,
+      "tss_score": 0.8007374029168084,
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "contrast": 11.15885744744491,
+      "overall": {
+        "native_accept": 2.6972034715525552,
+        "tss_accept": 4.528391167192429,
+        "native_score": 0.1311862346675408,
+        "tss_score": 0.23699194767486134,
+        "native_toks": 75.38524673157693,
+        "tss_toks": 125.93104798122386
+      }
+    },
+    {
+      "model": "Vicuna-7B",
+      "method": "EAGLE",
+      "dataset": "summarization",
+      "domain": "Summarization",
+      "request_id": "sum_289",
+      "problem": "Arsenal must make a swift decision on Petr Cech this summer or risk losing out on the goalkeeper. The Chelsea shot-stopper looks certain to leave Stamford Bridge at the end of the season after losing the No 1 spot to Thibaut Courtois. Cech will hold talks with manager Jose Mourinho at the end of the season where the keeper will confirm his decision to leave west London. Arsenal must make a swift decision on Petr Cech this summer or risk losing out on the goalkeeper. The Chelsea stopper looks certain to leave Stamford Bridge at the end of the season after losing his No 1 spot. Arsene Wenger must be swift with a move for his top goalkeeping target to beat the competition to him. The Gunners are long-term admirers of Cech and are considering a move for the keeper ahead of next season. However, Arsenal will not be the only club interested in luring Cech when the transfer window reopens. Liverpool, Paris Saint-Germain, Roma and Inter Milan are all showing an interest in the 32-year-old and Cech is understood to be keen on resolving his future as quickly as possible this summer. That means the Gunners could miss out on their primary goalkeeping target if they don't make an early move. However, there are some major obstacles Arsenal must overcome before landing Cech. The first is the goalkeeper's valuation. Despite the fact Cech enters the final year of his contract this summer, Chelsea will demand in excess of \u00a310million for the custodian. Thibaut Courtois has become Chelsea's first choice goalkeeper after three years on loan at Atletico Madrid. Chelsea's stance over their players joining rivals weakened with the sale of Juan Mata to Manchester United. The Blues believe Cech can play for at least another eight seasons and that his next club will be signing a world class goalkeeper in his prime. His price will reflect that view. Likewise, the Gunners may find that Chelsea are reluctant to sell them Cech. In recent years, the Blues have shown a hesitancy in selling players to their Premier League rivals, though that stance weakened last season with Juan Mata's exit to Manchester United. Cech and Courtois have spent a season sharing the gloves at Chelsea, but the veteran will now move on. Signing Cech would significantly strengthen the Gunners next season, and Chelsea could yet refuse to sell the keeper to their London rivals. Cech would consider moving to the Emirates Stadium, despite spending over 10 years with Chelsea, and hopes his long period of service will allow him to make the final decision on his next destination.",
+      "reference": "Arsenal risk missing out of Chelsea's Petr Cech is they hesitate on move. Cech looks set to leave Stamford Bridge after losing his No 1 spot. Liverpool, PSG, Roma and Inter Milan are all also interested in Cech. If the Gunners do not make their move early, they could be beaten to him. Chelsea are looking for a fee in excess of \u00a310million for Czech keeper.",
+      "native_answer": "Arsenal must make a decision on signing Petr Cech from Chelsea this summer or risk losing out on the goalkeeper. Cech is likely to leave Chelsea at the end of the season after losing his No 1 spot to Thibaut Courtois. Arsenal is one of the clubs interested in signing Cech, but they will have to overcome several obstacles, including Cech's valuation and Chels",
+      "tss_answer": "Arsenal must make a decision on Petr Cech this summer or risk losing out to other clubs interested in the Chelsea goalkeeper. Cech is likely to leave Stamford Bridge at the end of the season after losing his No. 1 spot to Thibaut Courtois. Liverpool, Paris Saint-Germain, Roma, and Inter Milan are also interested in Cech, and the Gunners must act quickly to s",
+      "metric": "ROUGE-L",
+      "native_score": 0.28148148148148144,
+      "tss_score": 0.42962962962962964,
+      "skip_layers": [
+        15,
+        22,
+        23
+      ],
+      "contrast": 10.148148148148149,
+      "overall": {
+        "native_accept": 3.92964824120603,
+        "tss_accept": 4.0128287363694675,
+        "native_score": 0.26645474136082153,
+        "tss_score": 0.27015344968793076,
+        "native_toks": 90.35079840199425,
+        "tss_toks": 95.4733904333778
+      }
+    },
+    {
+      "model": "Vicuna-7B",
+      "method": "EAGLE",
+      "dataset": "qa",
+      "domain": "Open-domain QA",
+      "request_id": "nq_57",
+      "problem": "what age do you need to be to buy a bb gun",
+      "reference": "18",
+      "native_answer": "In the United States, the minimum age to purchase a BB gun varies by state. Generally, it is legal to purchase a BB gun at the age of 18, but some states have set the minimum age at 16 or 17. It is important to check the laws in your state and the",
+      "tss_answer": "In the United States, the minimum age to legally purchase a BB gun is 18 years.",
+      "metric": "F1",
+      "native_score": 0.04347826086956522,
+      "tss_score": 0.14285714285714288,
+      "skip_layers": [
+        6,
+        8,
+        19,
+        21,
+        27
+      ],
+      "overall": {
+        "native_accept": 2.925650557620818,
+        "tss_accept": 3.970164609053498,
+        "native_score": 0.042224046966981864,
+        "tss_score": 0.06399317670478696,
+        "native_toks": 78.57004534526871,
+        "tss_toks": 109.058784832325
+      }
+    },
+    {
+      "model": "Vicuna-7B",
+      "method": "EAGLE",
+      "dataset": "rag",
+      "domain": "RAG",
+      "request_id": "sb_rag_513",
+      "problem": "the series is shot in Belgium, several local actors are featured: Veerle Baetens, Jurgen Delnaet, Joren Seldeslachts, Elsa Houben, Ben Forceville and Ben Van den Heuvel all appear in the series. Rebecca Ferguson who portrays Elizabeth Woodville, the White Queen, is from Sweden (her mother is originally from England). The budget was \u00a325 million and took 120 days to shoot, consisting of 250 sets including: dungeons, palaces, castles, 12 state banquets and at least two coronations. Two versions were made, one for the BBC and a more sexually explicit version for the U.S. A companion two-part documentary series, \"The Real\nof ITV's period police drama series, \"Heartbeat\", featuring characters from \"Heartbeat\" during the first three series, before becoming its own entity. The show itself was shot within Whitby, Scarborough, City of Bradford and the North Riding of Yorkshire, and stars of \"The Royal\" included Ian Carmichael, Wendy Craig, Robert Daws, and Amy Robbins. The show itself generated its own spin-off, entitled \"The Royal Today\", which used the same settings but in the present day. The setting of \"The Royal\" was first introduced as part of the story for the 14th episode of the 12th series of \"Heartbeat\" entitled 'Out of\n1. Ratings for these episodes fell below the Top 30 most-viewed programmes; BARB does not publicly release these figures. The Palace The Palace is a British drama television series that aired on ITV in 2008. Produced by Company Pictures for the ITV network, it was created by Tom Grieves and follows a fictional British Royal Family in the aftermath of the death of King James III and the succession of his 24-year-old son, King Richard IV, played by Rupert Evans. It also stars Jane Asher and Zoe Telford. The series was filmed on location in Lithuania in 2007 and broadcast\nThe Palace The Palace is a British drama television series that aired on ITV in 2008. Produced by Company Pictures for the ITV network, it was created by Tom Grieves and follows a fictional British Royal Family in the aftermath of the death of King James III and the succession of his 24-year-old son, King Richard IV, played by Rupert Evans. It also stars Jane Asher and Zoe Telford. The series was filmed on location in Lithuania in 2007 and broadcast from 14 January to 3 March 2008. It was cancelled after one series due to low viewing figures. On\nHelena Bonham Carter and Ben Daniels taking up the main roles. An estimated 25% of the first season was filmed at Elstree Studios in Borehamwood, Hertfordshire, with the remainder filmed on location, altogether taking 152 days. Sets for private quarters, the interior of a private jet, the cabinet room, and the exterior of 10 Downing Street, were built at Elstree Studios, while Lancaster House, Wrotham Park and Wilton House were used to double as Buckingham Palace. Ely Cathedral stood in for Westminster Abbey, while locations in South Africa doubled as Kenya. Additional locations in the UK included Eltham Palace, the\nWhere did they film the royal tv series?",
+      "reference": "the North Riding of Yorkshire; City of Bradford; Scarborough; Whitby",
+      "native_answer": "The Royal was filmed in various locations in Belgium, including Bruges, Ghent, and Brussels. The Palace was filmed in Lithuania. The Crown was filmed in several locations in the UK, including London, Oxfordshire, and Wales",
+      "tss_answer": "The Royal was filmed in various locations in the UK, including Whitby, Scarborough, City of Bradford, and the North Riding of Yorkshire, as well as in Lithuania. The series was also filmed in part at Elstree Studios in Borehamwood, Hertfordshire, with approximately 25% of the fir",
+      "metric": "F1",
+      "native_score": 0.0,
+      "tss_score": 0.3103448275862069,
+      "skip_layers": [
+        3,
+        6,
+        14,
+        25,
+        30
+      ],
+      "contrast": 0.8103448275862069,
+      "overall": {
+        "native_accept": 3.2376654632972324,
+        "tss_accept": 4.026813880126182,
+        "native_score": 0.09638776375313801,
+        "tss_score": 0.10914941401111782,
+        "native_toks": 74.43878541001891,
+        "tss_toks": 95.23342317668553
+      }
+    },
+    {
+      "model": "Vicuna-7B",
+      "method": "EAGLE",
+      "dataset": "mmlu",
+      "domain": "MMLU",
+      "request_id": "mmlu_prehistory_53",
+      "problem": "The key factor in the survival and success of anatomically modern human beings was:\nA. their ability to control fire and produce art.\nB. their ability to interbreed with other hominids.\nC. their ability to hunt large mammals.\nD. their ability to adapt.",
+      "reference": "D",
+      "native_answer": "A. \u2026 [off-task: \u201c2018\u20132023 World Outlook for \u2026\u201d]",
+      "tss_answer": "A. their ability to control fire and produce art.",
+      "metric": "Acc.",
+      "native_score": 0.0,
+      "tss_score": 0.0,
+      "skip_layers": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "contrast": 10.5,
+      "overall": {
+        "native_accept": 3.115264797507788,
+        "tss_accept": 3.955426356589147,
+        "native_score": 0.28125,
+        "tss_score": 0.328125,
+        "native_toks": 69.12478663318986,
+        "tss_toks": 88.87566092145882
+      }
+    },
+    {
+      "model": "Llama-2-13B",
+      "method": "SAMD",
+      "dataset": "translation",
+      "domain": "Translation",
+      "request_id": "sb_translation_240",
+      "problem": "Ein Schuldspruch erfolgte au\u00dferdem in einer Reihe terrorismusbezogener Anklagepunkte , wozu eine Welle von Sprengstoffanschl\u00e4gen auf Kirchen in Indonesien an Heiligabend im Jahr 2000 z\u00e4hlten .",
+      "reference": "He was also found guilty of a number of other terrorism-related charges , including a wave of bombings of churches across Indonesia on Christmas Eve in 2000 .",
+      "native_answer": "In addition to the sentence, a series of terrorism-related charges were brought, including a wave of bombings on churches in Indonesia on Christmas in the year 2000.",
+      "tss_answer": "A judgment was also handed down in a series of terrorism-related charges, including a wave of bombings on churches in Indonesia on Christmas Eve in the year 2000.",
+      "metric": "BLEU",
+      "native_score": 0.09954487510473113,
+      "tss_score": 0.32808594346681724,
+      "skip_layers": [
+        7,
+        11,
+        20,
+        31,
+        35,
+        38
+      ],
+      "contrast": 0.2285410683620861,
+      "overall": {
+        "native_accept": 2.6947053800170795,
+        "tss_accept": 2.8869346733668344,
+        "native_score": 0.20823647472152787,
+        "tss_score": 0.2116220603078536,
+        "native_toks": 39.370865818213474,
+        "tss_toks": 49.91470407973587
+      }
+    },
+    {
+      "model": "Llama-2-13B",
+      "method": "SAMD",
+      "dataset": "summarization",
+      "domain": "Summarization",
+      "request_id": "sum_246",
+      "problem": "Campaign:\u00a0Amanda Burleigh has won her battle. A midwife has won a decade-long battle to give mothers more time attached to their newborns before the umbilical cord is cut. Amanda Burleigh was convinced that clamping the cord within seconds of delivery \u2013 shutting off the blood supply from the placenta \u2013 was wrong. Since the 1950s, when doctors and midwives started giving women a hormonal injection to reduce the risk of haemorrhage, they have clamped the cord within seconds of birth. They feared the drug \u2013 since replaced with a safer substitute \u2013 could harm the baby. But Ms Burleigh, a midwife at Leeds Teaching Hospitals NHS Trust, believed it was unnatural to clamp the cord when it was still visibly pulsating with blood. She said: \u2018One day I had a brainwave and thought, \u201cWe all clamp the cord within seconds of the baby being born, but we are doing it without any evidence about whether it\u2019s good or bad for the baby.\u201d' She contacted other medics, including obstetrician Dr David Hutchon, and together the group amassed evidence that stopping the blood flow so early could be harmful. One study showed immediate cord-clamping could deprive a baby of a third of its blood stock \u2013 enough to fill a medium-size wine glass. In particular, they found the practice raised the risk of iron deficiency anaemia. A tenth of all toddlers are anaemic, which is linked to delays in learning, speaking and understanding. There is also growing evidence that immediate cord-clamping can be particularly harmful for premature babies. They have finally succeeded in getting the National Institute for Health and Care Excellence (NICE) to change its guidelines. NICE now states that doctors and midwives should not routinely clamp the cord \u2018earlier than one minute from the birth of the baby\u2019. The cord should be clamped within five minutes, but left longer if the mother requests. Besides the medical benefits, the change means mothers get the chance to hold their babies for a moment while still connected to them. Ms Burleigh, a midwife for 26 years, said she had to overcome persistent doubts from colleagues, who asked who she was to query medical protocol. \u2018There was quite a lot of resistance from both doctors and midwives,\u2019 she said. \u2018At times I felt like a whistleblower.\u2019 There is also growing evidence that immediate cord-clamping can be particularly harmful for premature babies. However, she said she felt a \u2018moral duty\u2019 to challenge a practice that was not grounded in evidence. Dr Hutchon, now retired, said hospitals had blindly clamped and cut within seconds of birth for decades. He said: \u2018We didn\u2019t notice we were doing any harm because we were doing it to every baby.\u2019 He became interested in 2003 after hearing that more premature babies survived when the cord was not cut early. But he said there was \u2018continual resistance to change\u2019 \u2013 with some doctors refusing delayed cord-clamping even today. Some still believed the theory that immediate clamping reduced the risk of mothers haemorrhaging, Dr Hutchon said, even though a 2013 study found it made no difference. Ms Burleigh, recently named Midwife of the Year by the British Journal Of Midwifery, added: \u2018In 20 or 30 years I think we will look back on immediate cord-clamping and think, \u201cWhat were we doing? We dropped an absolute clanger.\"' A spokesman for NICE said that its advice on care during childbirth was reviewed \u2018at regular intervals\u2019.",
+      "reference": "Amanda Burleigh was convinced clamping cord immediately was wrong. Contacted other medics and they amassed evidence it could be harmful. National Institute for Health and Care Excellence guidelines have changed. Cord shouldn't be routinely clamped \u2018earlier than one minute from the birth'",
+      "native_answer": "Midwife Amanda Burleigh has successfully campaigned for a change in medical guidelines regarding the timing of umbilical cord clamping after birth. For decades, the practice has been to clamp the cord within seconds of delivery, based on the belief that it reduces the risk of hemorrhage in mothers. However, Burleigh and her colleagues have argued that this p",
+      "tss_answer": "Midwife Amanda Burleigh has successfully campaigned for a change in medical practice by convincing the National Institute for Health and Care Excellence (NICE) to change its guidelines on cord clamping. The practice of clamping the umbilical cord within seconds of birth has been common practice since the 1950s, but Burleigh believed it was unnatural and harm",
+      "metric": "ROUGE-L",
+      "native_score": 0.14285714285714285,
+      "tss_score": 0.28037383177570097,
+      "skip_layers": [
+        12,
+        20,
+        27,
+        33,
+        34,
+        38
+      ],
+      "contrast": 0.13751668891855812,
+      "overall": {
+        "native_accept": 3.1036585365853657,
+        "tss_accept": 3.17859649122807,
+        "native_score": 0.24901298677638822,
+        "tss_score": 0.24694757311509882,
+        "native_toks": 45.290019200372825,
+        "tss_toks": 52.673477759615544
+      }
+    },
+    {
+      "model": "Llama-2-13B",
+      "method": "SAMD",
+      "dataset": "qa",
+      "domain": "Open-domain QA",
+      "request_id": "nq_30",
+      "problem": "a request to the supreme court that it review a case that was already decided is made via a(n)",
+      "reference": "a writ of certiorari",
+      "native_answer": "Petition for Certiorari.",
+      "tss_answer": "Petition for a Writ of Certiorari.",
+      "metric": "F1",
+      "native_score": 0.3333333333333333,
+      "tss_score": 0.7499999999999999,
+      "skip_layers": [
+        9,
+        10,
+        11,
+        19,
+        28,
+        38
+      ],
+      "contrast": 0.4166666666666666,
+      "overall": {
+        "native_accept": 2.640769230769231,
+        "tss_accept": 2.727196652719665,
+        "native_score": 0.11700249599831264,
+        "tss_score": 0.11899746283465915,
+        "native_toks": 36.24526960055657,
+        "tss_toks": 44.093330989751095
+      }
+    },
+    {
+      "model": "Llama-2-13B",
+      "method": "SAMD",
+      "dataset": "rag",
+      "domain": "RAG",
+      "request_id": "sb_rag_513",
+      "problem": "the series is shot in Belgium, several local actors are featured: Veerle Baetens, Jurgen Delnaet, Joren Seldeslachts, Elsa Houben, Ben Forceville and Ben Van den Heuvel all appear in the series. Rebecca Ferguson who portrays Elizabeth Woodville, the White Queen, is from Sweden (her mother is originally from England). The budget was \u00a325 million and took 120 days to shoot, consisting of 250 sets including: dungeons, palaces, castles, 12 state banquets and at least two coronations. Two versions were made, one for the BBC and a more sexually explicit version for the U.S. A companion two-part documentary series, \"The Real\nof ITV's period police drama series, \"Heartbeat\", featuring characters from \"Heartbeat\" during the first three series, before becoming its own entity. The show itself was shot within Whitby, Scarborough, City of Bradford and the North Riding of Yorkshire, and stars of \"The Royal\" included Ian Carmichael, Wendy Craig, Robert Daws, and Amy Robbins. The show itself generated its own spin-off, entitled \"The Royal Today\", which used the same settings but in the present day. The setting of \"The Royal\" was first introduced as part of the story for the 14th episode of the 12th series of \"Heartbeat\" entitled 'Out of\n1. Ratings for these episodes fell below the Top 30 most-viewed programmes; BARB does not publicly release these figures. The Palace The Palace is a British drama television series that aired on ITV in 2008. Produced by Company Pictures for the ITV network, it was created by Tom Grieves and follows a fictional British Royal Family in the aftermath of the death of King James III and the succession of his 24-year-old son, King Richard IV, played by Rupert Evans. It also stars Jane Asher and Zoe Telford. The series was filmed on location in Lithuania in 2007 and broadcast\nThe Palace The Palace is a British drama television series that aired on ITV in 2008. Produced by Company Pictures for the ITV network, it was created by Tom Grieves and follows a fictional British Royal Family in the aftermath of the death of King James III and the succession of his 24-year-old son, King Richard IV, played by Rupert Evans. It also stars Jane Asher and Zoe Telford. The series was filmed on location in Lithuania in 2007 and broadcast from 14 January to 3 March 2008. It was cancelled after one series due to low viewing figures. On\nHelena Bonham Carter and Ben Daniels taking up the main roles. An estimated 25% of the first season was filmed at Elstree Studios in Borehamwood, Hertfordshire, with the remainder filmed on location, altogether taking 152 days. Sets for private quarters, the interior of a private jet, the cabinet room, and the exterior of 10 Downing Street, were built at Elstree Studios, while Lancaster House, Wrotham Park and Wilton House were used to double as Buckingham Palace. Ely Cathedral stood in for Westminster Abbey, while locations in South Africa doubled as Kenya. Additional locations in the UK included Eltham Palace, the\nWhere did they film the royal tv series?",
+      "reference": "the North Riding of Yorkshire; City of Bradford; Scarborough; Whitby",
+      "native_answer": "The royal TV series was filmed in various locations in the United Kingdom and Lithuania. Here are some of the specific locations where the series was shot:",
+      "tss_answer": "The Royal TV series was filmed in Lithuania and in the UK, specifically in Whitby, Scarborough, City of Bradford, and the North Riding of Yorkshire. The series was also filmed at Elstree Studios in Borehamwood, Hertfordshire. Locations in South Africa stood in for Kenya, and Ely ",
+      "metric": "F1",
+      "native_score": 0.06060606060606061,
+      "tss_score": 0.3157894736842105,
+      "skip_layers": [
+        8,
+        17,
+        20,
+        27,
+        33,
+        34
+      ],
+      "contrast": 0.2551834130781499,
+      "overall": {
+        "native_accept": 3.2376681614349776,
+        "tss_accept": 3.2735608762098827,
+        "native_score": 0.12299658980841059,
+        "tss_score": 0.10962159026909017,
+        "native_toks": 42.873542298162235,
+        "tss_toks": 50.15787455550327
+      }
+    },
+    {
+      "model": "Llama-2-13B",
+      "method": "SAMD",
+      "dataset": "mmlu",
+      "domain": "MMLU",
+      "request_id": "mmlu_professional_law_19",
+      "problem": "An officer stopped a car for having a burned out headlight and license plate light. When the driver could not produce a driver's license, the officer asked him if he minded if they searched the vehicle. The officer did not advise the driver that he had a right to refuse consent or that if he refused his decision would be honored, but there was nothing duplicitous or coercive in the officer's conduct. The driver smiled and said \"of course, no problem.\" The officer found stolen bank checks under the rear seat. In a later suppression motion, the driver claimed that his consent was not voluntary. What will the court most likely decide on that issue?\nA. The consent was voluntarily given and was not the result of coercion or duress.\nB. The consent was involuntary because it was the product of implied duress.\nC. The consent was involuntary because the officer did not advise the driver of his right to refuse.\nD. The consent became voluntary as a matter of law when the driver failed to produce a driver's license.",
+      "reference": "A",
+      "native_answer": "C. Based on the information provided, the most likely decision of the court would be:",
+      "tss_answer": "A. Based on the information provided, the correct answer is:",
+      "metric": "Acc.",
+      "native_score": 0.0,
+      "tss_score": 1.0,
+      "skip_layers": [
+        7,
+        23,
+        24,
+        26,
+        28,
+        32,
+        33
+      ],
+      "contrast": 2.5,
+      "overall": {
+        "native_accept": 3.9602076124567476,
+        "tss_accept": 4.084095063985375,
+        "native_score": 0.359375,
+        "tss_score": 0.421875,
+        "native_toks": 60.23366188993516,
+        "tss_toks": 72.30459733194358
+      }
+    }
+  ]
+}

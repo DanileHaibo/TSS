@@ -1,0 +1,99 @@
+% Experimental Setup — models, hardware, and hyperparameters
+% Requires: \usepackage{booktabs,multirow,siunitx}
+% Suggested placement: before main results (or appendix).
+
+\section{Experimental Setup}
+\label{sec:setup}
+
+\subsection{Models}
+\label{sec:setup-models}
+
+We evaluate target-layer skipping (TSS) on two speculative-decoding stacks that cover both mid-size and larger chat models.
+
+\paragraph{Vicuna-7B + EAGLE.}
+The target model is \texttt{lmsys/vicuna-7b-v1.3}, a LLaMA-based chat model with $L{=}32$ Transformer layers, hidden size $4096$, $32$ attention heads, intermediate size $11008$, vocabulary size $32{,}000$, and context length $2048$.
+Weights are loaded in \texttt{float16}.
+The draft model is the official EAGLE checkpoint \texttt{EAGLE-Vicuna-7B-v1.3} (a one-layer autoregressive draft head aligned to the Vicuna-7B representation), used in the original EAGLE (non-EAGLE-3) configuration.
+Prompts follow the Vicuna conversation template.
+
+\paragraph{Llama-2-13B + SAMD.}
+The target model is \texttt{meta-llama/Llama-2-13b-chat-hf} with $L{=}40$ layers, hidden size $5120$, $40$ attention heads, intermediate size $13824$, vocabulary size $32{,}000$, and context length $4096$ (\texttt{float16}).
+Speculative decoding uses SAMD with \emph{Token Recycle} drafting~\cite{samd} and tree configuration \texttt{token\_recycle\_4\_15} (draft tree depth/width setting used by Spec-Bench).
+Prompts use the Llama-2 chat template (\texttt{[INST]}~\ldots~\texttt{[/INST]}).
+
+\paragraph{Additional stacks (when reported).}
+For completeness, some tables also include Vicuna-13B with Hydra drafting (\texttt{hydra-vicuna-13b-v1.3} on \texttt{lmsys/vicuna-13b-v1.3}, $L{=}40$).
+Unless otherwise stated, qualitative cases and triple-win TSS results refer to Vicuna-7B+EAGLE and Llama-2-13B+SAMD above.
+
+\subsection{Hardware and Software}
+\label{sec:setup-hardware}
+
+All measurements are obtained on a single NVIDIA GeForce RTX~4090 GPU with $48$\,GB GDDR6X memory (driver $595.71$, compute capability $8.9$).
+The host has dual-socket Intel Xeon Platinum~8470Q CPUs ($2{\times}52$ cores / $208$ threads) and $754$\,GB system RAM, running Ubuntu~$22.04$ LTS.
+We use PyTorch~$2.11$ with CUDA~$12.8$/$13.0$ and Hugging Face Transformers ($4.46$ for the EAGLE stack; $4.57$ for the SAMD stack).
+Unless noted, each experiment occupies one GPU with no multi-GPU tensor parallelism; models are loaded in \texttt{float16} on device.
+
+\subsection{Evaluation Protocol}
+\label{sec:setup-eval}
+
+\begin{itemize}
+  \item \textbf{Datasets.} Spec-Bench-style domains: translation (BLEU), summarization (ROUGE-L), open-domain QA (token F1), RAG (token F1), and MMLU (accuracy). Gold references are used for scoring when available.
+  \item \textbf{Data split.} For each domain we draw $80$ prompts with seed $42$, reserve the first $16$ for TSS selection (\emph{train}), and evaluate on the remaining $64$ held-out prompts (\emph{test}). Exception: Llama-2-13B QA selection uses $32$ train prompts.
+  \item \textbf{Generation.} Maximum new tokens per request $T{=}96$; decoding temperature $\tau{=}0$ (greedy); EAGLE draft budget \texttt{total\_token}${=}60$.
+  \item \textbf{Metrics.} We report mean accepted length per verify step (Accept Len.), task metric, end-to-end throughput (tok/s), and selected skip set $\mathcal{S}$ with sparsity $|\mathcal{S}|/L$.
+  \item \textbf{Native vs.\ TSS.} \emph{Native} denotes speculative decoding with an empty skip set $\mathcal{S}{=}\emptyset$. \emph{+TSS} applies the selected target-layer skip set during verification.
+\end{itemize}
+
+\subsection{TSS Search Hyperparameters}
+\label{sec:setup-hparams}
+
+Skip sets are selected on the train split with \texttt{max\_skip\_latter} beam search over latter-to-early layers (preferring deeper blocks), then frozen for held-out evaluation.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Default hyperparameters for TSS selection and decoding.}
+\label{tab:hparams}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llc}
+\toprule
+Category & Setting & Value \\
+\midrule
+\multirow{4}{*}{Decoding}
+  & Precision & \texttt{float16} \\
+  & Temperature $\tau$ & $0$ (greedy) \\
+  & Max new tokens $T$ & $96$ \\
+  & EAGLE \texttt{total\_token} & $60$ \\
+\midrule
+\multirow{4}{*}{Data}
+  & Random seed & $42$ \\
+  & Selection train size & $16$ (QA-13B: $32$) \\
+  & Held-out test size & $64$ \\
+  & Prompt pool & $80$ / domain \\
+\midrule
+\multirow{8}{*}{TSS search}
+  & Algorithm & \texttt{max\_skip\_latter} \\
+  & Max skip depth $|\mathcal{S}|_{\max}$ & $5$ (7B) / $6$--$7$ (13B) \\
+  & Beam width & $3$ \\
+  & Early barrier & $2$ \\
+  & Latter barrier & $0$ \\
+  & Accept constraint (explore) & accept $\ge$ native (hard) \\
+  & Score tolerance (relative) & drop $\le 5\%$ (published; $-5\%$) \\
+  & Min skips (final prefer) & $\min(3,|\mathcal{S}|_{\max})$ \\
+\midrule
+\multirow{3}{*}{Selection rule}
+  & Triple-win (main) & score, accept, tok/s $\ge$ native \\
+  & Final ranking & accept $\uparrow$, then $|\mathcal{S}|$ $\uparrow$, then tok/s $\uparrow$ \\
+  & Layers preferred & latter $\rightarrow$ early \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Constraints.}
+During beam expansion we keep candidates whose mean accepted length is at least that of the native baseline.
+Task score is constrained relatively to the train-set native score; the published main configuration allows up to a $5\%$ relative drop (\emph{score drop tolerance} $0.05$).
+Ablations additionally study $0\%/10\%/20\%$ allowed drops and a $+5\%$ improvement requirement.
+The published ``triple-win'' configurations further require that held-out score, accept length, and throughput are each no worse than native.
+
+\paragraph{SAMD draft tree.}
+For Llama-2-13B, Token Recycle uses the Spec-Bench tree file \texttt{token\_recycle\_4\_15.json} with static KV cache (\texttt{max\_cache\_len}${=}2048$).

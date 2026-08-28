@@ -1,0 +1,61 @@
+{
+  "method": "SAMD",
+  "model": "Vicuna-7B",
+  "protocol": {
+    "output_len": 96,
+    "seed": 42,
+    "test_size": 64,
+    "train_size": 16
+  },
+  "results": {
+    "mmlu": {
+      "accept_rate": 0.09392446633825945,
+      "mean_accepted_per_step": 5.8474576271186445,
+      "num_skip_layers": 0,
+      "num_verify_steps": 177,
+      "skip_layers": [],
+      "task_score": 0.296875,
+      "task_score_metric": "accuracy",
+      "tok_per_s": 64.62363359846574,
+      "total_output_tokens": 777,
+      "wall_s": 12.023465050384402
+    },
+    "qa": {
+      "accept_rate": 0.0546293921518338,
+      "mean_accepted_per_step": 4.380952380952381,
+      "num_skip_layers": 0,
+      "num_verify_steps": 567,
+      "skip_layers": [],
+      "task_score": 0.09806898250566014,
+      "task_score_metric": "f1",
+      "tok_per_s": 67.14592434454414,
+      "total_output_tokens": 1850,
+      "wall_s": 27.55193286947906
+    },
+    "summarization": {
+      "accept_rate": 0.08069567087348628,
+      "mean_accepted_per_step": 5.258156028368794,
+      "num_skip_layers": 0,
+      "num_verify_steps": 1410,
+      "skip_layers": [],
+      "task_score": 0.25430165412636,
+      "task_score_metric": "rougeL",
+      "tok_per_s": 85.28994563369855,
+      "total_output_tokens": 5762,
+      "wall_s": 67.55778723023832
+    },
+    "translation": {
+      "accept_rate": 0.052882638374866356,
+      "mean_accepted_per_step": 4.303082191780822,
+      "num_skip_layers": 0,
+      "num_verify_steps": 584,
+      "skip_layers": [],
+      "task_score": 0.31819545424643647,
+      "task_score_metric": "bleu",
+      "tok_per_s": 68.22359464144867,
+      "total_output_tokens": 1871,
+      "wall_s": 27.424529736861587
+    }
+  },
+  "schema_version": "samd7_native_four_domains_v1"
+}

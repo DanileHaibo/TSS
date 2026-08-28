@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Accepted draft-token analysis under the released Vicuna-7B EAGLE+TSS configurations. Deep tokens are TSS-accepted tokens beyond $\lceil$Native mean accept$\rceil$; Native and TSS trajectories are evaluated separately.}
+\label{tab:accepted_draft_tokens}
+\begin{tabular}{lrrrrll}
+\toprule
+Domain & Native acc & TSS acc & $\Delta$acc & Deep tokens & Dominant type & Top deep accepted tokens \\
+\midrule
+Translation & 2.79 & 4.43 & +1.64 & 289 & Number & 0$\times$235, ,$\times$5, .$\times$4, 1$\times$4, the$\times$3, and$\times$2 \\
+Summarization & 3.57 & 3.71 & +0.14 & 126 & Content word & .$\times$8, 0$\times$8, 1$\times$8, the$\times$5, -$\times$4, to$\times$4 \\
+QA & 2.75 & 4.15 & +1.39 & 223 & Formatting/control & \textbackslash{}n$\times$79, \#$\times$75, the$\times$7, and$\times$4, in$\times$4, is$\times$3 \\
+MMLU & 3.06 & 4.12 & +1.07 & 53 & Number & 0$\times$11, 1$\times$8, 9$\times$7, 2$\times$7, -$\times$6, just$\times$4 \\
+\bottomrule
+\end{tabular}
+\end{table*}

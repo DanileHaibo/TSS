@@ -1,0 +1,38 @@
+[
+  {
+    "domain": "translation",
+    "skip_layer": 6,
+    "num_requests": 8,
+    "steps_accept_up": 2,
+    "newly_accepted_tokens": 3,
+    "mean_delta_accepted_len": -0.18003798737494386,
+    "top_tokens": "'\\\\n'×3"
+  },
+  {
+    "domain": "summarization",
+    "skip_layer": 2,
+    "num_requests": 8,
+    "steps_accept_up": 1,
+    "newly_accepted_tokens": 1,
+    "mean_delta_accepted_len": -0.34521599723805596,
+    "top_tokens": "'a'×1"
+  },
+  {
+    "domain": "gsm8k",
+    "skip_layer": 4,
+    "num_requests": 8,
+    "steps_accept_up": 3,
+    "newly_accepted_tokens": 5,
+    "mean_delta_accepted_len": -0.5997800402212168,
+    "top_tokens": "'is'×2, 'x'×1, 'her'×1, 'age'×1"
+  },
+  {
+    "domain": "rag",
+    "skip_layer": 6,
+    "num_requests": 8,
+    "steps_accept_up": 6,
+    "newly_accepted_tokens": 12,
+    "mean_delta_accepted_len": -0.26565048134003666,
+    "top_tokens": "'0'×1, 'Raj'×1, 'ya'×1, 'Sab'×1, 'ha'×1, '\\\\n'×1, 'University'×1, ','×1"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "baseline": {
+    "accept_rate": 0.029404761904761906,
+    "mean_accepted_per_step": 2.7642857142857142,
+    "num_skip_layers": 0,
+    "num_verify_steps": 140,
+    "skip_layers": [],
+    "task_score": 0.16504792429033313,
+    "tok_per_s": 73.40059837228054,
+    "total_output_tokens": 387,
+    "wall_s": 5.27243658201769
+  },
+  "best": {
+    "accept_rate": 0.04835390946502058,
+    "alive_count": 28,
+    "delta_accept": 1.1369488536155203,
+    "delta_score": 0.11653423323846676,
+    "harm": 0.0,
+    "layer": 4,
+    "mean_accepted_per_step": 3.9012345679012346,
+    "round": 4,
+    "skip_layers": [
+      2,
+      3,
+      4,
+      9
+    ],
+    "task_score": 0.2815821575287999,
+    "tok_per_s": 116.26974145027117
+  },
+  "dataset": "translation",
+  "display_name": "SLEB",
+  "domain": "translation",
+  "history": [
+    {
+      "accept_rate": 0.029404761904761906,
+      "alive_count": 32,
+      "layer": null,
+      "mean_accepted_per_step": 2.7642857142857142,
+      "round": 0,
+      "skip_layers": [],
+      "task_score": 0.16504792429033313,
+      "tok_per_s": 73.40059837228054
+    },
+    {
+      "accept_rate": 0.0386039886039886,
+      "alive_count": 31,
+      "delta_accept": 0.5519536019536022,
+      "delta_score": 0.020923810377894786,
+      "harm": 0.0,
+      "layer": 9,
+      "mean_accepted_per_step": 3.3162393162393164,
+      "round": 1,
+      "skip_layers": [
+        9
+      ],
+      "task_score": 0.18597173466822792,
+      "tok_per_s": 95.87987589230842
+    },
+    {
+      "accept_rate": 0.029559748427672956,
+      "alive_count": 30,
+      "delta_accept": 0.009299191374663174,
+      "delta_score": 0.06849950763973531,
+      "harm": 0.0,
+      "layer": 2,
+      "mean_accepted_per_step": 2.7735849056603774,
+      "round": 2,
+      "skip_layers": [
+        2,
+        9
+      ],
+      "task_score": 0.23354743193006844,
+      "tok_per_s": 80.90677504937818
+    },
+    {
+      "accept_rate": 0.04246031746031746,
+      "alive_count": 29,
+      "delta_accept": 0.7833333333333332,
+      "delta_score": 0.14328981640774466,
+      "harm": 0.0,
+      "layer": 3,
+      "mean_accepted_per_step": 3.5476190476190474,
+      "round": 3,
+      "skip_layers": [
+        2,
+        3,
+        9
+      ],
+      "task_score": 0.3083377406980778,
+      "tok_per_s": 104.00951791421355
+    },
+    {
+      "accept_rate": 0.04835390946502058,
+      "alive_count": 28,
+      "delta_accept": 1.1369488536155203,
+      "delta_score": 0.11653423323846676,
+      "harm": 0.0,
+      "layer": 4,
+      "mean_accepted_per_step": 3.9012345679012346,
+      "round": 4,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "task_score": 0.2815821575287999,
+      "tok_per_s": 116.26974145027117
+    }
+  ],
+  "method_backend": "eagle",
+  "mode": "sleb",
+  "preset": "vicuna7",
+  "protocol_note": "fast search on first 4 of official train-16; heldout uses test-64",
+  "search_config": {
+    "early_barrier": 2,
+    "latter_barrier": 0,
+    "layer_step": 1,
+    "max_skip_layers": 4,
+    "random_budget": null
+  },
+  "search_evaluations": 114,
+  "selection_criterion": "SLEB min combined accept/score harm within tolerances",
+  "size": "7b",
+  "skip_layers": [
+    2,
+    3,
+    4,
+    9
+  ],
+  "split": "train",
+  "train_size": 4,
+  "wall_s": 436.02256512641907
+}

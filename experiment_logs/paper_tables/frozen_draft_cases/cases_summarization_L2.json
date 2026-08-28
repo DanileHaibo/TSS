@@ -1,0 +1,4338 @@
+{
+  "dataset": "summarization",
+  "skip_layer": 2,
+  "metric": "rougeL",
+  "domain": "summarization",
+  "requests": [
+    {
+      "dataset": "summarization",
+      "request_id": "sum_290",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 12,
+      "base_mean_accepted_len": 8.333333333333334,
+      "skip_mean_accepted_len": 7.5,
+      "delta_mean_accepted_len": -0.8333333333333339,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_290",
+          "step_id": 0,
+          "prefix_len": 836,
+          "drafted_len": 60,
+          "path_ids": [
+            2296,
+            638,
+            3650,
+            29874,
+            273,
+            838,
+            498,
+            3270,
+            756
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "She",
+            "ik",
+            "Jo",
+            "a",
+            "an",
+            "Al",
+            "Th",
+            "ani",
+            "has"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 1,
+          "prefix_len": 845,
+          "drafted_len": 60,
+          "path_ids": [
+            8794,
+            701,
+            29094,
+            4111,
+            29877,
+            391,
+            304,
+            22203,
+            670
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "signed",
+            "up",
+            "Gregory",
+            "Ben",
+            "o",
+            "ist",
+            "to",
+            "ride",
+            "his"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 2,
+          "prefix_len": 854,
+          "drafted_len": 60,
+          "path_ids": [
+            15100,
+            297,
+            3444,
+            445,
+            11801
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 445,
+              "token": "this"
+            },
+            {
+              "pos": 4,
+              "token_id": 11801,
+              "token": "summer"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "horses",
+            "in",
+            "France",
+            "this",
+            "summer"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 3,
+          "prefix_len": 859,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            10124,
+            4976,
+            347,
+            360,
+            1803,
+            4170,
+            304,
+            8569
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -8,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 10124,
+              "token": "leaving"
+            },
+            {
+              "pos": 2,
+              "token_id": 4976,
+              "token": "Frank"
+            },
+            {
+              "pos": 3,
+              "token_id": 347,
+              "token": "ie"
+            },
+            {
+              "pos": 4,
+              "token_id": 360,
+              "token": "D"
+            },
+            {
+              "pos": 5,
+              "token_id": 1803,
+              "token": "ett"
+            },
+            {
+              "pos": 6,
+              "token_id": 4170,
+              "token": "ori"
+            },
+            {
+              "pos": 7,
+              "token_id": 304,
+              "token": "to"
+            },
+            {
+              "pos": 8,
+              "token_id": 8569,
+              "token": "focus"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "leaving",
+            "Frank",
+            "ie",
+            "D",
+            "ett",
+            "ori",
+            "to",
+            "focus"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 4,
+          "prefix_len": 868,
+          "drafted_len": 60,
+          "path_ids": [
+            373,
+            278,
+            4908,
+            2379,
+            271,
+            4259,
+            29889,
+            4111,
+            29877
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "on",
+            "the",
+            "British",
+            "Fl",
+            "at",
+            "season",
+            ".",
+            "Ben",
+            "o"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 5,
+          "prefix_len": 877,
+          "drafted_len": 60,
+          "path_ids": [
+            391,
+            338,
+            278,
+            871,
+            432,
+            10119,
+            304,
+            505,
+            364
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ist",
+            "is",
+            "the",
+            "only",
+            "j",
+            "ockey",
+            "to",
+            "have",
+            "r"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 6,
+          "prefix_len": 886,
+          "drafted_len": 60,
+          "path_ids": [
+            4215,
+            1260,
+            347,
+            365,
+            514,
+            283,
+            1173,
+            29899,
+            3018
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "idden",
+            "El",
+            "ie",
+            "L",
+            "ell",
+            "ou",
+            "che",
+            "-",
+            "tra"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 7,
+          "prefix_len": 895,
+          "drafted_len": 60,
+          "path_ids": [
+            1312,
+            382,
+            312,
+            327,
+            29892,
+            1058,
+            471,
+            443,
+            13974
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ined",
+            "E",
+            "ct",
+            "ot",
+            ",",
+            "who",
+            "was",
+            "un",
+            "pla"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 8,
+          "prefix_len": 904,
+          "drafted_len": 60,
+          "path_ids": [
+            1133,
+            363,
+            838,
+            1383,
+            29874,
+            29939,
+            370,
+            297,
+            1833
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ced",
+            "for",
+            "Al",
+            "Sh",
+            "a",
+            "q",
+            "ab",
+            "in",
+            "last"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 9,
+          "prefix_len": 913,
+          "drafted_len": 60,
+          "path_ids": [
+            1629,
+            29915,
+            29879,
+            22711,
+            29889,
+            360,
+            1803,
+            4170,
+            29892
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "year",
+            "'",
+            "s",
+            "Arc",
+            ".",
+            "D",
+            "ett",
+            "ori",
+            ","
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 10,
+          "prefix_len": 921,
+          "drafted_len": 60,
+          "path_ids": [
+            674,
+            1603,
+            22203,
+            4908,
+            15100,
+            607,
+            674
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "will",
+            "still",
+            "ride",
+            "British",
+            "horses",
+            "which",
+            "will"
+          ]
+        },
+        {
+          "request_id": "sum_290",
+          "step_id": 11,
+          "prefix_len": 927,
+          "drafted_len": 60,
+          "path_ids": [
+            526,
+            2665,
+            304,
+            1065,
+            297,
+            3444,
+            29889,
+            2296,
+            638
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "are",
+            "sent",
+            "to",
+            "run",
+            "in",
+            "France",
+            ".",
+            "She",
+            "ik"
+          ]
+        }
+      ],
+      "wall_s": 1.3318773536011577
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_304",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 24,
+      "base_mean_accepted_len": 3.9583333333333335,
+      "skip_mean_accepted_len": 3.8333333333333335,
+      "delta_mean_accepted_len": -0.125,
+      "num_steps_accept_up": 1,
+      "num_newly_accepted_tokens": 1,
+      "newly_accepted_tokens": [
+        "a"
+      ],
+      "steps": [
+        {
+          "request_id": "sum_304",
+          "step_id": 0,
+          "prefix_len": 513,
+          "drafted_len": 60,
+          "path_ids": [
+            7803,
+            521,
+            420,
+            280,
+            787,
+            892
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Two",
+            "ch",
+            "ame",
+            "le",
+            "ons",
+            "were"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 1,
+          "prefix_len": 519,
+          "drafted_len": 60,
+          "path_ids": [
+            977,
+            2168,
+            491,
+            263
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "fil",
+            "med",
+            "by",
+            "a"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 2,
+          "prefix_len": 521,
+          "drafted_len": 60,
+          "path_ids": [
+            17770,
+            363,
+            263,
+            12944,
+            15358,
+            297,
+            263,
+            21334,
+            346
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 1,
+          "newly_accepted": [
+            {
+              "pos": 6,
+              "token_id": 263,
+              "token": "a"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "fighting",
+            "for",
+            "a",
+            "female",
+            "mate",
+            "in",
+            "a",
+            "fier",
+            "ce"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 3,
+          "prefix_len": 527,
+          "drafted_len": 60,
+          "path_ids": [
+            4104,
+            26712,
+            4287,
+            29889,
+            450,
+            901,
+            946,
+            3663,
+            573
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Mad",
+            "agas",
+            "car",
+            ".",
+            "The",
+            "more",
+            "ag",
+            "gress",
+            "ive"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 4,
+          "prefix_len": 536,
+          "drafted_len": 60,
+          "path_ids": [
+            521,
+            420,
+            280,
+            265,
+            521,
+            1463,
+            670,
+            17055,
+            322
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ch",
+            "ame",
+            "le",
+            "on",
+            "ch",
+            "ased",
+            "his",
+            "rival",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 5,
+          "prefix_len": 542,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            916,
+            29892
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "other",
+            ","
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 6,
+          "prefix_len": 544,
+          "drafted_len": 60,
+          "path_ids": [
+            714,
+            310,
+            278,
+            5447,
+            322,
+            12624
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "out",
+            "of",
+            "the",
+            "tree",
+            "and",
+            "caught"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 7,
+          "prefix_len": 549,
+          "drafted_len": 60,
+          "path_ids": [
+            3412,
+            263,
+            18387,
+            10090,
+            29892,
+            10201
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "along",
+            "a",
+            "concrete",
+            "wall",
+            ",",
+            "eventually"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 8,
+          "prefix_len": 554,
+          "drafted_len": 60,
+          "path_ids": [
+            2586,
+            292,
+            1075
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "bit",
+            "ing",
+            "him"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 9,
+          "prefix_len": 557,
+          "drafted_len": 60,
+          "path_ids": [
+            2645,
+            278,
+            8589,
+            29889,
+            450,
+            4863,
+            2136,
+            261
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "during",
+            "the",
+            "fight",
+            ".",
+            "The",
+            "video",
+            "mak",
+            "er"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 10,
+          "prefix_len": 562,
+          "drafted_len": 60,
+          "path_ids": [
+            16235,
+            521,
+            420,
+            280,
+            265,
+            10201
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "defeated",
+            "ch",
+            "ame",
+            "le",
+            "on",
+            "eventually"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 11,
+          "prefix_len": 567,
+          "drafted_len": 60,
+          "path_ids": [
+            29349,
+            839
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "craw",
+            "led"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 12,
+          "prefix_len": 569,
+          "drafted_len": 60,
+          "path_ids": [
+            3448,
+            29892,
+            541,
+            278
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "away",
+            ",",
+            "but",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 13,
+          "prefix_len": 571,
+          "drafted_len": 60,
+          "path_ids": [
+            3966,
+            21430,
+            515,
+            278,
+            946,
+            3663
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 946,
+              "token": "ag"
+            },
+            {
+              "pos": 5,
+              "token_id": 3663,
+              "token": "gress"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "esc",
+            "aping",
+            "from",
+            "the",
+            "ag",
+            "gress"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 14,
+          "prefix_len": 577,
+          "drafted_len": 60,
+          "path_ids": [
+            272,
+            29889,
+            2,
+            697
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 2,
+              "token": "</s>"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "or",
+            ".",
+            "</s>",
+            "one"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 15,
+          "prefix_len": 580,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            412
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "pe"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 16,
+          "prefix_len": 581,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            4863
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "video"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 17,
+          "prefix_len": 583,
+          "drafted_len": 60,
+          "path_ids": [
+            10614,
+            411,
+            278,
+            521,
+            420,
+            280,
+            787,
+            297
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ends",
+            "with",
+            "the",
+            "ch",
+            "ame",
+            "le",
+            "ons",
+            "in"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 18,
+          "prefix_len": 590,
+          "drafted_len": 60,
+          "path_ids": [
+            373,
+            263,
+            5447,
+            5443,
+            29889,
+            2,
+            521,
+            420,
+            280
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "on",
+            "a",
+            "tree",
+            "branch",
+            ".",
+            "</s>",
+            "ch",
+            "ame",
+            "le"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 19,
+          "prefix_len": 596,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 20,
+          "prefix_len": 597,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            4863,
+            3697
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "video",
+            "shows"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 21,
+          "prefix_len": 599,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            10478,
+            373,
+            263
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "recorded",
+            "on",
+            "a"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 22,
+          "prefix_len": 601,
+          "drafted_len": 60,
+          "path_ids": [
+            491,
+            263,
+            2022
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "by",
+            "a",
+            "person"
+          ]
+        },
+        {
+          "request_id": "sum_304",
+          "step_id": 23,
+          "prefix_len": 604,
+          "drafted_len": 60,
+          "path_ids": [
+            1058,
+            12707,
+            5176,
+            29889,
+            450
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 29889,
+              "token": "."
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "who",
+            "spoke",
+            "French",
+            ".",
+            "The"
+          ]
+        }
+      ],
+      "wall_s": 2.3204507110640407
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_264",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 13,
+      "base_mean_accepted_len": 7.615384615384615,
+      "skip_mean_accepted_len": 7.384615384615385,
+      "delta_mean_accepted_len": -0.23076923076922995,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_264",
+          "step_id": 0,
+          "prefix_len": 1111,
+          "drafted_len": 60,
+          "path_ids": [
+            530,
+            29871,
+            29896,
+            29947,
+            29899,
+            6360,
+            29899,
+            1025,
+            5637
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "An",
+            "<29871>",
+            "1",
+            "8",
+            "-",
+            "year",
+            "-",
+            "old",
+            "mother"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 1,
+          "prefix_len": 1120,
+          "drafted_len": 60,
+          "path_ids": [
+            29899,
+            974,
+            29899,
+            650,
+            515,
+            4522
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 4,
+              "token_id": 515,
+              "token": "from"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "-",
+            "of",
+            "-",
+            "one",
+            "from",
+            "Log"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 2,
+          "prefix_len": 1125,
+          "drafted_len": 60,
+          "path_ids": [
+            15194,
+            3872,
+            4885,
+            29892,
+            29520,
+            11750,
+            29892,
+            6423,
+            1156
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Castle",
+            "Don",
+            "ington",
+            ",",
+            "Derby",
+            "shire",
+            ",",
+            "died",
+            "after"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 3,
+          "prefix_len": 1134,
+          "drafted_len": 60,
+          "path_ids": [
+            5622,
+            341,
+            29899,
+            9694,
+            472,
+            263,
+            3699,
+            6263,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "taking",
+            "M",
+            "-",
+            "Cat",
+            "at",
+            "a",
+            "house",
+            "party",
+            "."
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 4,
+          "prefix_len": 1143,
+          "drafted_len": 60,
+          "path_ids": [
+            13896,
+            29891,
+            3925,
+            262,
+            2671,
+            471,
+            364
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Abb",
+            "y",
+            "Sw",
+            "in",
+            "field",
+            "was",
+            "r"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 5,
+          "prefix_len": 1150,
+          "drafted_len": 60,
+          "path_ids": [
+            15392,
+            304,
+            278,
+            13457,
+            297,
+            278,
+            4688,
+            6199,
+            310
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ushed",
+            "to",
+            "the",
+            "hospital",
+            "in",
+            "the",
+            "early",
+            "hours",
+            "of"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 6,
+          "prefix_len": 1159,
+          "drafted_len": 60,
+          "path_ids": [
+            4779,
+            29871,
+            29941,
+            29900,
+            322,
+            2678
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "March",
+            "<29871>",
+            "3",
+            "0",
+            "and",
+            "later"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 7,
+          "prefix_len": 1164,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            7180,
+            297,
+            263,
+            419,
+            29874,
+            29892,
+            541,
+            6423
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "placed",
+            "in",
+            "a",
+            "com",
+            "a",
+            ",",
+            "but",
+            "died"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 8,
+          "prefix_len": 1173,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            4723,
+            2678,
+            29889,
+            2439,
+            3942,
+            29892
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "week",
+            "later",
+            ".",
+            "Her",
+            "family",
+            ","
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 9,
+          "prefix_len": 1179,
+          "drafted_len": 60,
+          "path_ids": [
+            16726,
+            393,
+            902,
+            13748,
+            471,
+            805,
+            638,
+            287,
+            322
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "claims",
+            "that",
+            "her",
+            "drink",
+            "was",
+            "sp",
+            "ik",
+            "ed",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 10,
+          "prefix_len": 1188,
+          "drafted_len": 60,
+          "path_ids": [
+            1183,
+            3282,
+            29915,
+            29873,
+            2125,
+            278,
+            15721,
+            27081,
+            6275
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "she",
+            "didn",
+            "'",
+            "t",
+            "take",
+            "the",
+            "drug",
+            "volunt",
+            "arily"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 11,
+          "prefix_len": 1197,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            18923,
+            505,
+            24383,
+            263,
+            29871,
+            29906,
+            29900,
+            29899
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 5,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "Police",
+            "have",
+            "arrested",
+            "a",
+            "<29871>",
+            "2",
+            "0",
+            "-"
+          ]
+        },
+        {
+          "request_id": "sum_264",
+          "step_id": 12,
+          "prefix_len": 1201,
+          "drafted_len": 60,
+          "path_ids": [
+            697,
+            7826,
+            363,
+            1462,
+            5890,
+            5883,
+            3174,
+            29892,
+            541
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 7,
+              "token_id": 29892,
+              "token": ","
+            },
+            {
+              "pos": 8,
+              "token_id": 541,
+              "token": "but"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "one",
+            "girl",
+            "for",
+            "supp",
+            "lying",
+            "dru",
+            "gs",
+            ",",
+            "but"
+          ]
+        }
+      ],
+      "wall_s": 1.5305731315165758
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_291",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 11,
+      "base_mean_accepted_len": 8.818181818181818,
+      "skip_mean_accepted_len": 8.272727272727273,
+      "delta_mean_accepted_len": -0.545454545454545,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_291",
+          "step_id": 0,
+          "prefix_len": 484,
+          "drafted_len": 60,
+          "path_ids": [
+            4309,
+            275,
+            28624,
+            819,
+            5465,
+            29892,
+            263,
+            1302,
+            29899
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Lo",
+            "is",
+            "Lil",
+            "ien",
+            "stein",
+            ",",
+            "a",
+            "co",
+            "-"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 1,
+          "prefix_len": 493,
+          "drafted_len": 60,
+          "path_ids": [
+            8508,
+            310,
+            278,
+            11443,
+            544,
+            1968,
+            1507,
+            1510,
+            376
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "star",
+            "of",
+            "the",
+            "Canadian",
+            "pr",
+            "esch",
+            "ool",
+            "show",
+            "\""
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 2,
+          "prefix_len": 502,
+          "drafted_len": 60,
+          "path_ids": [
+            2713,
+            5022,
+            29892,
+            4309,
+            275,
+            669,
+            1771,
+            314,
+            29915
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Sh",
+            "aron",
+            ",",
+            "Lo",
+            "is",
+            "&",
+            "Br",
+            "am",
+            "'"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 3,
+          "prefix_len": 511,
+          "drafted_len": 60,
+          "path_ids": [
+            29879,
+            8317,
+            561,
+            424,
+            7704,
+            29908,
+            393,
+            263
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "s",
+            "Ele",
+            "ph",
+            "ant",
+            "Show",
+            "\"",
+            "that",
+            "a"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 4,
+          "prefix_len": 519,
+          "drafted_len": 60,
+          "path_ids": [
+            2859,
+            373,
+            13853,
+            295,
+            356,
+            265,
+            297,
+            278,
+            4688
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ired",
+            "on",
+            "Nick",
+            "el",
+            "ode",
+            "on",
+            "in",
+            "the",
+            "early"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 5,
+          "prefix_len": 528,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            29896,
+            29929,
+            29929,
+            29900,
+            29879,
+            29892,
+            756,
+            6423
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "1",
+            "9",
+            "9",
+            "0",
+            "s",
+            ",",
+            "has",
+            "died"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 6,
+          "prefix_len": 537,
+          "drafted_len": 60,
+          "path_ids": [
+            472,
+            278,
+            5046,
+            310,
+            29871,
+            29955,
+            29947,
+            29889,
+            2296
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "at",
+            "the",
+            "age",
+            "of",
+            "<29871>",
+            "7",
+            "8",
+            ".",
+            "She"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 7,
+          "prefix_len": 546,
+          "drafted_len": 60,
+          "path_ids": [
+            4502,
+            3448,
+            297,
+            17612,
+            373,
+            15050,
+            4515,
+            3250
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -6,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 297,
+              "token": "in"
+            },
+            {
+              "pos": 3,
+              "token_id": 17612,
+              "token": "Toronto"
+            },
+            {
+              "pos": 4,
+              "token_id": 373,
+              "token": "on"
+            },
+            {
+              "pos": 5,
+              "token_id": 15050,
+              "token": "Wed"
+            },
+            {
+              "pos": 6,
+              "token_id": 4515,
+              "token": "nes"
+            },
+            {
+              "pos": 7,
+              "token_id": 3250,
+              "token": "day"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "passed",
+            "away",
+            "in",
+            "Toronto",
+            "on",
+            "Wed",
+            "nes",
+            "day"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 8,
+          "prefix_len": 554,
+          "drafted_len": 60,
+          "path_ids": [
+            4646,
+            515,
+            263,
+            10812,
+            883,
+            310,
+            23900,
+            393,
+            471
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "night",
+            "from",
+            "a",
+            "rare",
+            "form",
+            "of",
+            "cancer",
+            "that",
+            "was"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 9,
+          "prefix_len": 563,
+          "drafted_len": 60,
+          "path_ids": [
+            24876,
+            2662,
+            1833,
+            5533,
+            29889,
+            2439,
+            1487,
+            29892,
+            4699
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "diagn",
+            "osed",
+            "last",
+            "October",
+            ".",
+            "Her",
+            "son",
+            ",",
+            "David"
+          ]
+        },
+        {
+          "request_id": "sum_291",
+          "step_id": 10,
+          "prefix_len": 572,
+          "drafted_len": 60,
+          "path_ids": [
+            28624,
+            819,
+            5465,
+            29892,
+            1497,
+            393,
+            670,
+            5637,
+            471
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Lil",
+            "ien",
+            "stein",
+            ",",
+            "said",
+            "that",
+            "his",
+            "mother",
+            "was"
+          ]
+        }
+      ],
+      "wall_s": 1.1198837598785758
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_271",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 15,
+      "base_mean_accepted_len": 6.6,
+      "skip_mean_accepted_len": 6.0,
+      "delta_mean_accepted_len": -0.5999999999999996,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_271",
+          "step_id": 0,
+          "prefix_len": 707,
+          "drafted_len": 60,
+          "path_ids": [
+            530,
+            10545,
+            18781,
+            756,
+            1063,
+            269,
+            547,
+            287,
+            515
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "An",
+            "Italian",
+            "priest",
+            "has",
+            "been",
+            "s",
+            "ack",
+            "ed",
+            "from"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 1,
+          "prefix_len": 716,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            12962,
+            1797,
+            297,
+            11740,
+            5361,
+            1156,
+            16831,
+            800
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "religious",
+            "order",
+            "in",
+            "Tar",
+            "anto",
+            "after",
+            "alleg",
+            "ations"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 2,
+          "prefix_len": 725,
+          "drafted_len": 60,
+          "path_ids": [
+            1190,
+            17470,
+            287,
+            393,
+            540,
+            3614,
+            760,
+            297,
+            23852
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sur",
+            "fac",
+            "ed",
+            "that",
+            "he",
+            "took",
+            "part",
+            "in",
+            "gay"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 3,
+          "prefix_len": 734,
+          "drafted_len": 60,
+          "path_ids": [
+            1638,
+            583,
+            411,
+            263,
+            26182,
+            13211,
+            29889,
+            450,
+            18781
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "org",
+            "ies",
+            "with",
+            "a",
+            "Swiss",
+            "Guard",
+            ".",
+            "The",
+            "priest"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 4,
+          "prefix_len": 743,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            8967,
+            368,
+            18918,
+            287
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "reported",
+            "ly",
+            "dismiss",
+            "ed"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 5,
+          "prefix_len": 746,
+          "drafted_len": 60,
+          "path_ids": [
+            9701,
+            297,
+            18287,
+            6297,
+            29899,
+            1456,
+            21846,
+            297,
+            607
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 7,
+              "token_id": 297,
+              "token": "in"
+            },
+            {
+              "pos": 8,
+              "token_id": 607,
+              "token": "which"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "involved",
+            "in",
+            "sexual",
+            "role",
+            "-",
+            "play",
+            "scenarios",
+            "in",
+            "which"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 6,
+          "prefix_len": 755,
+          "drafted_len": 60,
+          "path_ids": [
+            670,
+            658,
+            369,
+            5318,
+            8660,
+            294,
+            12783
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "his",
+            "lo",
+            "ver",
+            "played",
+            "Jud",
+            "as",
+            "Esc"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 7,
+          "prefix_len": 762,
+          "drafted_len": 60,
+          "path_ids": [
+            1306,
+            327,
+            322,
+            750,
+            304,
+            472,
+            650,
+            363,
+            670
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -7,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 322,
+              "token": "and"
+            },
+            {
+              "pos": 3,
+              "token_id": 750,
+              "token": "had"
+            },
+            {
+              "pos": 4,
+              "token_id": 304,
+              "token": "to"
+            },
+            {
+              "pos": 5,
+              "token_id": 472,
+              "token": "at"
+            },
+            {
+              "pos": 6,
+              "token_id": 650,
+              "token": "one"
+            },
+            {
+              "pos": 7,
+              "token_id": 363,
+              "token": "for"
+            },
+            {
+              "pos": 8,
+              "token_id": 670,
+              "token": "his"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ari",
+            "ot",
+            "and",
+            "had",
+            "to",
+            "at",
+            "one",
+            "for",
+            "his"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 8,
+          "prefix_len": 771,
+          "drafted_len": 60,
+          "path_ids": [
+            1010,
+            764,
+            284,
+            310,
+            13825,
+            491,
+            14171,
+            670,
+            19532
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "bet",
+            "ray",
+            "al",
+            "of",
+            "Jesus",
+            "by",
+            "becoming",
+            "his",
+            "slave"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 9,
+          "prefix_len": 780,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            450,
+            18781,
+            16831,
+            23244,
+            5025,
+            4395,
+            18287,
+            6297
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 6,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "The",
+            "priest",
+            "alleg",
+            "edly",
+            "fav",
+            "ored",
+            "sexual",
+            "role"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 10,
+          "prefix_len": 783,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            1476,
+            304
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "found",
+            "to"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 11,
+          "prefix_len": 784,
+          "drafted_len": 60,
+          "path_ids": [
+            16831,
+            23244,
+            2665
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "alleg",
+            "edly",
+            "sent"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 12,
+          "prefix_len": 786,
+          "drafted_len": 60,
+          "path_ids": [
+            302,
+            12535,
+            2645,
+            7395,
+            521,
+            1446,
+            322,
+            750
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 5,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "n",
+            "aked",
+            "during",
+            "online",
+            "ch",
+            "ats",
+            "and",
+            "had"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 13,
+          "prefix_len": 789,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            4863,
+            14983,
+            3025,
+            4971,
+            668,
+            29889,
+            450,
+            6586
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "video",
+            "conversation",
+            "via",
+            "Sk",
+            "ype",
+            ".",
+            "The",
+            "church"
+          ]
+        },
+        {
+          "request_id": "sum_271",
+          "step_id": 14,
+          "prefix_len": 797,
+          "drafted_len": 60,
+          "path_ids": [
+            22386,
+            968,
+            16725,
+            393,
+            278,
+            18781,
+            750,
+            1063,
+            18918
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "dioc",
+            "ese",
+            "confirmed",
+            "that",
+            "the",
+            "priest",
+            "had",
+            "been",
+            "dismiss"
+          ]
+        }
+      ],
+      "wall_s": 1.5672987950965762
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_296",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 14,
+      "base_mean_accepted_len": 7.0,
+      "skip_mean_accepted_len": 6.857142857142857,
+      "delta_mean_accepted_len": -0.14285714285714324,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_296",
+          "step_id": 0,
+          "prefix_len": 1004,
+          "drafted_len": 60,
+          "path_ids": [
+            10924,
+            10914,
+            26998,
+            315,
+            1633,
+            756,
+            8872,
+            2760,
+            6931
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Blue",
+            "Bell",
+            "Ice",
+            "C",
+            "ream",
+            "has",
+            "susp",
+            "ended",
+            "operations"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 1,
+          "prefix_len": 1013,
+          "drafted_len": 60,
+          "path_ids": [
+            472,
+            385,
+            27879,
+            5802,
+            24454,
+            393,
+            756
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 5,
+              "token_id": 393,
+              "token": "that"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "at",
+            "an",
+            "Oklahoma",
+            "production",
+            "facility",
+            "that",
+            "has"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 2,
+          "prefix_len": 1019,
+          "drafted_len": 60,
+          "path_ids": [
+            471,
+            9024,
+            304,
+            263,
+            9687,
+            4089,
+            484,
+            4486,
+            2264
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "was",
+            "linked",
+            "to",
+            "a",
+            "food",
+            "bor",
+            "ne",
+            "ill",
+            "ness"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 3,
+          "prefix_len": 1028,
+          "drafted_len": 60,
+          "path_ids": [
+            393,
+            8581,
+            278,
+            4892,
+            29879,
+            310,
+            2211,
+            2305,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "that",
+            "caused",
+            "the",
+            "death",
+            "s",
+            "of",
+            "three",
+            "people",
+            "."
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 4,
+          "prefix_len": 1037,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            5001,
+            337
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "company",
+            "re"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 5,
+          "prefix_len": 1039,
+          "drafted_len": 60,
+          "path_ids": [
+            3614,
+            445,
+            4331,
+            408
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "took",
+            "this",
+            "step",
+            "as"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 6,
+          "prefix_len": 1043,
+          "drafted_len": 60,
+          "path_ids": [
+            385,
+            18666,
+            749,
+            310,
+            5777,
+            918,
+            304,
+            9801,
+            278
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 8,
+              "token_id": 278,
+              "token": "the"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "an",
+            "abund",
+            "ance",
+            "of",
+            "ca",
+            "ution",
+            "to",
+            "ensure",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 7,
+          "prefix_len": 1052,
+          "drafted_len": 60,
+          "path_ids": [
+            15332,
+            310,
+            1009,
+            20330
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "safety",
+            "of",
+            "their",
+            "customers"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 8,
+          "prefix_len": 1055,
+          "drafted_len": 60,
+          "path_ids": [
+            9316,
+            322,
+            304,
+            19905,
+            278,
+            9311,
+            896,
+            505,
+            4240
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "products",
+            "and",
+            "to",
+            "preserve",
+            "the",
+            "trust",
+            "they",
+            "have",
+            "built"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 9,
+          "prefix_len": 1064,
+          "drafted_len": 60,
+          "path_ids": [
+            411,
+            1009,
+            11233,
+            414,
+            363,
+            901,
+            1135,
+            263,
+            6462
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "with",
+            "their",
+            "consum",
+            "ers",
+            "for",
+            "more",
+            "than",
+            "a",
+            "century"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 10,
+          "prefix_len": 1073,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            450,
+            3148
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "The",
+            "US"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 11,
+          "prefix_len": 1075,
+          "drafted_len": 60,
+          "path_ids": [
+            3006,
+            9316,
+            393,
+            892,
+            337,
+            13998,
+            8859,
+            297,
+            4779
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ten",
+            "products",
+            "that",
+            "were",
+            "re",
+            "called",
+            "earlier",
+            "in",
+            "March"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 12,
+          "prefix_len": 1084,
+          "drafted_len": 60,
+          "path_ids": [
+            892,
+            515,
+            263,
+            5802,
+            1196,
+            472,
+            278,
+            5001,
+            29915
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "were",
+            "from",
+            "a",
+            "production",
+            "line",
+            "at",
+            "the",
+            "company",
+            "'"
+          ]
+        },
+        {
+          "request_id": "sum_296",
+          "step_id": 13,
+          "prefix_len": 1093,
+          "drafted_len": 60,
+          "path_ids": [
+            29879,
+            26463,
+            297,
+            350,
+            1267,
+            3391,
+            29892,
+            10319,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "s",
+            "headquarters",
+            "in",
+            "B",
+            "ren",
+            "ham",
+            ",",
+            "Texas",
+            "."
+          ]
+        }
+      ],
+      "wall_s": 1.5737069435417652
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_249",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 17,
+      "base_mean_accepted_len": 5.764705882352941,
+      "skip_mean_accepted_len": 5.647058823529412,
+      "delta_mean_accepted_len": -0.117647058823529,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_249",
+          "step_id": 0,
+          "prefix_len": 726,
+          "drafted_len": 60,
+          "path_ids": [
+            2259,
+            379,
+            22817,
+            1144,
+            322,
+            4989,
+            2004,
+            360,
+            1501
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "John",
+            "H",
+            "igg",
+            "ins",
+            "and",
+            "Gra",
+            "eme",
+            "D",
+            "ott"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 1,
+          "prefix_len": 735,
+          "drafted_len": 60,
+          "path_ids": [
+            5331,
+            278,
+            17780,
+            8323,
+            472,
+            278,
+            6313,
+            18447,
+            2787
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "led",
+            "the",
+            "Scottish",
+            "charge",
+            "at",
+            "the",
+            "Bet",
+            "fred",
+            "World"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 2,
+          "prefix_len": 744,
+          "drafted_len": 60,
+          "path_ids": [
+            8972,
+            29889,
+            383
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 29889,
+              "token": "."
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Championship",
+            ".",
+            "F"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 3,
+          "prefix_len": 746,
+          "drafted_len": 60,
+          "path_ids": [
+            379,
+            22817,
+            1144,
+            2113,
+            29871
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "H",
+            "igg",
+            "ins",
+            "won",
+            "<29871>"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 4,
+          "prefix_len": 751,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            29900,
+            29899,
+            29945,
+            2750,
+            4755,
+            3833,
+            11335,
+            322
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "0",
+            "-",
+            "5",
+            "against",
+            "Robert",
+            "Mil",
+            "kins",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 5,
+          "prefix_len": 760,
+          "drafted_len": 60,
+          "path_ids": [
+            360,
+            1501,
+            2113,
+            29871,
+            29896,
+            29900,
+            29899,
+            29947,
+            2750
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "D",
+            "ott",
+            "won",
+            "<29871>",
+            "1",
+            "0",
+            "-",
+            "8",
+            "against"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 6,
+          "prefix_len": 769,
+          "drafted_len": 60,
+          "path_ids": [
+            390,
+            18219,
+            5260,
+            1145,
+            29889,
+            379,
+            22817,
+            1144,
+            338
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "R",
+            "icky",
+            "Wal",
+            "den",
+            ".",
+            "H",
+            "igg",
+            "ins",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 7,
+          "prefix_len": 778,
+          "drafted_len": 60,
+          "path_ids": [
+            11223,
+            18892,
+            322,
+            24967,
+            746
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "feeling",
+            "relief",
+            "and",
+            "pride",
+            "when"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 8,
+          "prefix_len": 782,
+          "drafted_len": 60,
+          "path_ids": [
+            1156,
+            367,
+            1218,
+            4755
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "after",
+            "be",
+            "ating",
+            "Robert"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 9,
+          "prefix_len": 785,
+          "drafted_len": 60,
+          "path_ids": [
+            3833,
+            11335,
+            322,
+            338,
+            1286
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Mil",
+            "kins",
+            "and",
+            "is",
+            "now"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 10,
+          "prefix_len": 789,
+          "drafted_len": 60,
+          "path_ids": [
+            270,
+            4362,
+            304,
+            12561,
+            310,
+            263,
+            18615,
+            3186,
+            3611
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "d",
+            "aring",
+            "to",
+            "dream",
+            "of",
+            "a",
+            "fifth",
+            "world",
+            "title"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 11,
+          "prefix_len": 798,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            360,
+            1501,
+            338,
+            8743
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "D",
+            "ott",
+            "is",
+            "playing"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 12,
+          "prefix_len": 802,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            16413,
+            11263,
+            15520,
+            770,
+            1044,
+            322,
+            8064,
+            297
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "proven",
+            "Cru",
+            "cible",
+            "class",
+            "act",
+            "and",
+            "champion",
+            "in"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 13,
+          "prefix_len": 811,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            29906,
+            29900,
+            29900,
+            29953,
+            29889,
+            2,
+            884
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "2",
+            "0",
+            "0",
+            "6",
+            ".",
+            "</s>",
+            "also"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 14,
+          "prefix_len": 818,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            16003,
+            16003
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "sends",
+            "sends"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 15,
+          "prefix_len": 819,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            916,
+            17780
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "other",
+            "Scottish"
+          ]
+        },
+        {
+          "request_id": "sum_249",
+          "step_id": 16,
+          "prefix_len": 820,
+          "drafted_len": 60,
+          "path_ids": [
+            4274,
+            884,
+            26649,
+            393,
+            1716,
+            10769
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 393,
+              "token": "that"
+            }
+          ],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "article",
+            "also",
+            "mentions",
+            "that",
+            "both",
+            "players"
+          ]
+        }
+      ],
+      "wall_s": 1.7527533052489161
+    },
+    {
+      "dataset": "summarization",
+      "request_id": "sum_287",
+      "skip_layer": 2,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 18,
+      "base_mean_accepted_len": 5.444444444444445,
+      "skip_mean_accepted_len": 5.277777777777778,
+      "delta_mean_accepted_len": -0.16666666666666696,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sum_287",
+          "step_id": 0,
+          "prefix_len": 406,
+          "drafted_len": 60,
+          "path_ids": [
+            4485,
+            4052,
+            5594,
+            29892,
+            278,
+            8881,
+            310,
+            20747,
+            363
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Mark",
+            "Mc",
+            "Call",
+            ",",
+            "the",
+            "director",
+            "of",
+            "rugby",
+            "for"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 1,
+          "prefix_len": 415,
+          "drafted_len": 60,
+          "path_ids": [
+            7745,
+            562,
+            575,
+            29892,
+            7213,
+            3368,
+            670,
+            4123,
+            10769
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Sar",
+            "ac",
+            "ens",
+            ",",
+            "pra",
+            "ised",
+            "his",
+            "young",
+            "players"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 2,
+          "prefix_len": 424,
+          "drafted_len": 60,
+          "path_ids": [
+            1156,
+            263,
+            260,
+            1947
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "after",
+            "a",
+            "t",
+            "ense"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 3,
+          "prefix_len": 426,
+          "drafted_len": 60,
+          "path_ids": [
+            3802,
+            6410,
+            297,
+            278
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "close",
+            "loss",
+            "in",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 4,
+          "prefix_len": 430,
+          "drafted_len": 60,
+          "path_ids": [
+            7824,
+            13888,
+            29889,
+            940,
+            884
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": -1,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 3,
+              "token_id": 940,
+              "token": "He"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "European",
+            "competition",
+            ".",
+            "He",
+            "also"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 5,
+          "prefix_len": 434,
+          "drafted_len": 60,
+          "path_ids": [
+            8703,
+            393,
+            278,
+            3815
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 3,
+              "token_id": 3815,
+              "token": "team"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "stated",
+            "that",
+            "the",
+            "team"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 6,
+          "prefix_len": 438,
+          "drafted_len": 60,
+          "path_ids": [
+            338,
+            13240,
+            304,
+            4480,
+            363,
+            278,
+            1492,
+            4847,
+            304
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "is",
+            "prepared",
+            "to",
+            "wait",
+            "for",
+            "the",
+            "right",
+            "player",
+            "to"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 7,
+          "prefix_len": 447,
+          "drafted_len": 60,
+          "path_ids": [
+            11157,
+            278,
+            2625,
+            322
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "improve",
+            "the",
+            "side",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 8,
+          "prefix_len": 451,
+          "drafted_len": 60,
+          "path_ids": [
+            451,
+            288,
+            874,
+            29886,
+            2548,
+            297,
+            263,
+            5100,
+            3321
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "not",
+            "o",
+            "vers",
+            "p",
+            "ending",
+            "in",
+            "a",
+            "compet",
+            "itive"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 9,
+          "prefix_len": 457,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            5100,
+            3321,
+            1400,
+            29899,
+            14058,
+            6536,
+            6782,
+            9999
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "compet",
+            "itive",
+            "post",
+            "-",
+            "World",
+            "Cup",
+            "transfer",
+            "market"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 10,
+          "prefix_len": 466,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            450,
+            3815,
+            338
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "The",
+            "team",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 11,
+          "prefix_len": 468,
+          "drafted_len": 60,
+          "path_ids": [
+            2114,
+            393,
+            278,
+            4870,
+            338,
+            4123
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "fact",
+            "that",
+            "the",
+            "pack",
+            "is",
+            "young"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 12,
+          "prefix_len": 474,
+          "drafted_len": 60,
+          "path_ids": [
+            338,
+            5566,
+            11407,
+            363,
+            278,
+            4402
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "is",
+            "exc",
+            "iting",
+            "for",
+            "the",
+            "club"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 13,
+          "prefix_len": 480,
+          "drafted_len": 60,
+          "path_ids": [
+            363,
+            278,
+            2446,
+            3023,
+            304,
+            5320,
+            20084,
+            29889,
+            2
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "for",
+            "the",
+            "next",
+            "four",
+            "to",
+            "five",
+            "seasons",
+            ".",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 14,
+          "prefix_len": 489,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            412
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "pe"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 15,
+          "prefix_len": 490,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            3815,
+            338
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "team",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 16,
+          "prefix_len": 492,
+          "drafted_len": 60,
+          "path_ids": [
+            5714,
+            29871,
+            29896,
+            29941,
+            29899,
+            29929,
+            304,
+            2233,
+            837
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "lost",
+            "<29871>",
+            "1",
+            "3",
+            "-",
+            "9",
+            "to",
+            "Cl",
+            "erm"
+          ]
+        },
+        {
+          "request_id": "sum_287",
+          "step_id": 17,
+          "prefix_len": 501,
+          "drafted_len": 60,
+          "path_ids": [
+            609,
+            29889,
+            2,
+            10769
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ont",
+            ".",
+            "</s>",
+            "players"
+          ]
+        }
+      ],
+      "wall_s": 1.729233213700354
+    }
+  ],
+  "token_events": [
+    {
+      "dataset": "summarization",
+      "request_id": "sum_304",
+      "skip_layer": 2,
+      "step_id": 2,
+      "pos": 6,
+      "token": "a",
+      "token_id": 263,
+      "base_accepted_len": 6,
+      "skip_accepted_len": 7
+    }
+  ]
+}

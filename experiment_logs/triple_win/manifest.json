@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "bytes": 1085,
+      "path": "results/tss_tri_objective_13b_non_eg3_20260714/samd_score_first_final_validation/mmlu_heldout.json",
+      "sha256": "4ca8a4a1bf908e58302e4e4fd64fc504b1aa40cdb792a95978846a64ff7a938e"
+    },
+    {
+      "bytes": 1086,
+      "path": "results/tss_tri_objective_13b_non_eg3_20260714/samd_score_first_final_validation/qa_heldout.json",
+      "sha256": "300a33cec11cab6952f34dcd0ef33067e0d413eba85bb703b02a69b6674641dd"
+    },
+    {
+      "bytes": 1105,
+      "path": "results/tss_tri_objective_13b_non_eg3_20260714/samd_score_first_final_validation/summarization_heldout.json",
+      "sha256": "28de97b1712ff8de97e00adc9792c42b307ace90ffd91a1fcc91b7845a45fd4f"
+    },
+    {
+      "bytes": 1103,
+      "path": "results/tss_tri_objective_13b_non_eg3_20260714/samd_score_first_final_validation/translation_heldout.json",
+      "sha256": "13f62fa1bfa2a0d13fa4244750800c26b43c437a9979bddd849bd23e53a18b83"
+    },
+    {
+      "bytes": 1489,
+      "path": "results/tss_tri_objective_v3_train16_20260714/final_validation/mmlu_7b_eagle_heldout.json",
+      "sha256": "0b55cf8d0cdf35b2baff44d5d36c0211c610aa2a293a2f05ef79ed41d08313e8"
+    },
+    {
+      "bytes": 1508,
+      "path": "results/tss_tri_objective_v3_train16_20260714/final_validation/qa_7b_eagle_heldout.json",
+      "sha256": "222b069d707a96386cb71b036aba186cc4828d638f272bc9431e447ccf3f304d"
+    },
+    {
+      "bytes": 1509,
+      "path": "results/tss_tri_objective_v3_train16_20260714/final_validation/rag_7b_eagle_heldout.json",
+      "sha256": "5b3acf458aa85b590476015ad7c34d1d2ebb002daf25d80121ad8366837358fd"
+    },
+    {
+      "bytes": 1514,
+      "path": "results/tss_tri_objective_v3_train16_20260714/final_validation/summarization_7b_eagle_heldout.json",
+      "sha256": "89b2c36b394a1ca6035d2fb8fe65f002b2e79c17f9fecb83efbb1e8e71099cc1"
+    },
+    {
+      "bytes": 1506,
+      "path": "results/tss_tri_objective_v3_train16_20260714/final_validation/translation_7b_eagle_heldout.json",
+      "sha256": "9871aaf69f800f68b5963e32ae6457450d84fd4520cccd7340922b33d611cd29"
+    },
+    {
+      "bytes": 495,
+      "path": "results/tss_triple_win_final_20260716/README.md",
+      "sha256": "43569bfb660ded2c675cd05a39df4e27a052484c68b639fe3265a769afb472b4"
+    },
+    {
+      "bytes": 2967,
+      "path": "results/tss_triple_win_final_20260716/main_table.tex",
+      "sha256": "a423aa28463ba0a7b4b5f3c3b21bb9a5c874b573e1d864ae649451882568c66a"
+    },
+    {
+      "bytes": 2917,
+      "path": "results/tss_triple_win_final_20260716/triple_win_summary.csv",
+      "sha256": "b61f3899655d97097e05a4e6bbb404e1e8c22ec2d85360eac87acf4d6e8447c7"
+    },
+    {
+      "bytes": 9654,
+      "path": "results/tss_triple_win_final_20260716/triple_win_summary.json",
+      "sha256": "32b4cd34ccde302b8d70e6153081c9f83eeefa504716644760d955a163cfed56"
+    }
+  ],
+  "schema_version": "tss_triple_win_manifest_v1"
+}

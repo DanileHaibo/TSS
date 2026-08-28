@@ -1,0 +1,6 @@
+domain,token,count,num_prompts,num_recover_requests
+Translation,is,1,64,3
+Summarization,that,1,64,3
+QA,not,1,64,1
+MMLU,<eos>,9,64,9
+RAG,in,2,64,3

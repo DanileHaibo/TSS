@@ -1,0 +1,54 @@
+% Auto-generated main table: Native vs TSS (target-layer skip).
+% Target Latency = vanilla AR ms/token; E2E = speculative ms/token;
+% Speedup = E2E tok/s / vanilla tok/s (Spec-Bench style).
+% Held-out: 72 prompts/domain; vanilla measured on 8 prompts (same seed/output_len).
+% Spec-Bench Leaderboard (A100) for reference:
+%   Vicuna-7B SAMD[EAGLE2] overall 2.73x / accept 4.58;
+%   Vicuna-13B EAGLE3 overall 3.02x / accept 5.71;
+%   Vicuna-33B Hydra overall 2.22x / accept 3.24.
+% https://github.com/hemingkx/Spec-Bench/blob/main/Leaderboard.md
+\begin{table*}[t]
+\centering
+\small
+\caption{Main results on four Spec-Bench domains. \textbf{Native}: speculative decoding without layer skip; \textbf{+TSS}: SLEB-style multi-layer target skip maximizing accept length subject to preserving the task metric on the train split, evaluated on held-out test. Target Latency is vanilla AR latency (ms/token); E2E Latency is end-to-end speculative latency; Speedup is vs.\ vanilla AR (same device). Task metrics: BLEU (Translation), ROUGE-L (Summarization), Accuracy (GSM8K), F1 (RAG).}
+\label{tab:main_tss}
+\begin{tabular}{llcccccc}
+\toprule
+Domain & Method & Accept Len. & Task Metric & Target Lat. & E2E Lat. & Speedup \\
+ &  &  &  & (ms/tok) & (ms/tok) &  \\
+\midrule
+\multicolumn{7}{l}{\textbf{Vicuna-7B} / SAMD \textit{(Spec-Bench A100 SAMD[EAGLE2]: 2.73$\times$, accept 4.58)}} \\
+\midrule
+Translation & SAMD & 4.28 & 0.320 & 19.4 & 13.7 & 1.42$\times$ \\
+ & \quad +TSS & 4.25 & 0.331 & 19.4 & 13.7 & 1.42$\times$ \\
+Summarization & SAMD & 5.32 & 0.262 & 18.7 & 9.1 & 2.06$\times$ \\
+ & \quad +TSS & 5.32 & 0.262 & 18.7 & 9.1 & 2.06$\times$ \\
+GSM8K & SAMD & 5.49 & 11.1\% & 17.4 & 8.4 & 2.08$\times$ \\
+ & \quad +TSS & 5.53 & 1.4\% & 17.4 & 8.4 & 2.07$\times$ \\
+RAG & SAMD & 5.11 & 0.150 & 19.2 & 11.6 & 1.65$\times$ \\
+ & \quad +TSS & 6.72 & 0.125 & 19.2 & 8.8 & 2.18$\times$ \\
+\midrule
+\multicolumn{7}{l}{\textbf{Vicuna-13B} / EAGLE3 \textit{(Spec-Bench A100 EAGLE3: 3.02$\times$, accept 5.71)}} \\
+\midrule
+Translation & EAGLE3 & 4.21 & 0.141 & 32.9 & 10.7 & 3.08$\times$ \\
+ & \quad +TSS & 4.15 & 0.141 & 32.9 & 10.4 & 3.18$\times$ \\
+Summarization & EAGLE3 & 6.54 & 0.265 & 37.2 & 8.5 & 4.35$\times$ \\
+ & \quad +TSS & 6.61 & 0.260 & 37.2 & 8.2 & 4.54$\times$ \\
+GSM8K & EAGLE3 & 6.29 & 6.9\% & 31.2 & 7.6 & 4.11$\times$ \\
+ & \quad +TSS & 6.07 & 8.3\% & 31.2 & 7.6 & 4.10$\times$ \\
+RAG & EAGLE3 & 4.66 & 0.074 & 34.4 & 10.8 & 3.20$\times$ \\
+ & \quad +TSS & 5.46 & 0.087 & 34.4 & 9.4 & 3.65$\times$ \\
+\midrule
+\multicolumn{7}{l}{\textbf{Vicuna-33B} / Hydra \textit{(Spec-Bench A100 Hydra: 2.22$\times$, accept 3.24)}} \\
+\midrule
+Translation & Hydra & 2.77 & 0.348 & 50.3 & 25.0 & 2.01$\times$ \\
+ & \quad +TSS & 2.80 & 0.337 & 50.3 & 23.0 & 2.18$\times$ \\
+Summarization & Hydra & 2.73 & 0.267 & 52.9 & 27.0 & 1.96$\times$ \\
+ & \quad +TSS & 2.73 & 0.267 & 52.9 & 27.0 & 1.96$\times$ \\
+GSM8K & Hydra & 3.53 & 11.1\% & 50.2 & 18.7 & 2.68$\times$ \\
+ & \quad +TSS & 3.53 & 11.1\% & 50.2 & 18.6 & 2.70$\times$ \\
+RAG & Hydra & 2.94 & 0.103 & 50.5 & 25.5 & 1.98$\times$ \\
+ & \quad +TSS & 2.97 & 0.101 & 50.5 & 24.9 & 2.03$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

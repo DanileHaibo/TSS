@@ -1,0 +1,6053 @@
+{
+  "dataset": "translation",
+  "skip_layer": 6,
+  "metric": "bleu",
+  "domain": "translation",
+  "requests": [
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_210",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 24,
+      "base_mean_accepted_len": 4.333333333333333,
+      "skip_mean_accepted_len": 4.333333333333333,
+      "delta_mean_accepted_len": 0.0,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 0,
+          "prefix_len": 65,
+          "drafted_len": 60,
+          "path_ids": [
+            306,
+            471,
+            28859,
+            14862,
+            29892,
+            541,
+            306,
+            471
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "I",
+            "was",
+            "unh",
+            "appy",
+            ",",
+            "but",
+            "I",
+            "was"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 1,
+          "prefix_len": 71,
+          "drafted_len": 60,
+          "path_ids": [
+            372,
+            471,
+            2289,
+            5189,
+            304,
+            2244,
+            5155,
+            29889,
+            2
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "it",
+            "was",
+            "really",
+            "difficult",
+            "to",
+            "ask",
+            "questions",
+            ".",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 2,
+          "prefix_len": 80,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 3,
+          "prefix_len": 81,
+          "drafted_len": 60,
+          "path_ids": [
+            396,
+            2,
+            344
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "#",
+            "</s>",
+            "se"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 4,
+          "prefix_len": 82,
+          "drafted_len": 60,
+          "path_ids": [
+            29954,
+            3504,
+            29892
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "G",
+            "erman",
+            ","
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 5,
+          "prefix_len": 84,
+          "drafted_len": 60,
+          "path_ids": [
+            1762,
+            24636,
+            396
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "To",
+            "English",
+            "#"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 6,
+          "prefix_len": 87,
+          "drafted_len": 60,
+          "path_ids": [
+            4300,
+            18411,
+            396,
+            29954,
+            3504,
+            1762
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Trans",
+            "lation",
+            "#",
+            "G",
+            "erman",
+            "To"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 7,
+          "prefix_len": 90,
+          "drafted_len": 60,
+          "path_ids": [
+            21233,
+            396,
+            2525
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Language",
+            "#",
+            "Un"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 8,
+          "prefix_len": 92,
+          "drafted_len": 60,
+          "path_ids": [
+            29931,
+            799,
+            1076,
+            2,
+            2
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "L",
+            "ear",
+            "ning",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 9,
+          "prefix_len": 95,
+          "drafted_len": 60,
+          "path_ids": [
+            396,
+            2525
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "#",
+            "Un"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 10,
+          "prefix_len": 96,
+          "drafted_len": 60,
+          "path_ids": [
+            29923,
+            29392,
+            2,
+            2
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "E",
+            "ducation",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 11,
+          "prefix_len": 99,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 12,
+          "prefix_len": 100,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            13,
+            4746
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "\\n",
+            "using"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 13,
+          "prefix_len": 102,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            1378,
+            5634
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "--------",
+            "---"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 14,
+          "prefix_len": 103,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            489
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "--"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 15,
+          "prefix_len": 105,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            5634
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "---"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 16,
+          "prefix_len": 107,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            1378
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "--------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 17,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            1378
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "--------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 18,
+          "prefix_len": 115,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 19,
+          "prefix_len": 124,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 20,
+          "prefix_len": 133,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 21,
+          "prefix_len": 142,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 22,
+          "prefix_len": 151,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        },
+        {
+          "request_id": "sb_translation_210",
+          "step_id": 23,
+          "prefix_len": 160,
+          "drafted_len": 60,
+          "path_ids": [
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683,
+            2683
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------",
+            "----------------"
+          ]
+        }
+      ],
+      "wall_s": 2.5763994893059134
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_224",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 23,
+      "base_mean_accepted_len": 4.478260869565218,
+      "skip_mean_accepted_len": 4.173913043478261,
+      "delta_mean_accepted_len": -0.304347826086957,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 0,
+          "prefix_len": 79,
+          "drafted_len": 60,
+          "path_ids": [
+            5332,
+            5578
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "German",
+            "transl"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 1,
+          "prefix_len": 80,
+          "drafted_len": 60,
+          "path_ids": [
+            23481,
+            674,
+            505,
+            278
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "IDs",
+            "will",
+            "have",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 2,
+          "prefix_len": 83,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            4654,
+            29892
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "third",
+            ","
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 3,
+          "prefix_len": 85,
+          "drafted_len": 60,
+          "path_ids": [
+            12827,
+            297,
+            278,
+            5434,
+            29889
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "assignment",
+            "in",
+            "the",
+            "future",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 4,
+          "prefix_len": 87,
+          "drafted_len": 60,
+          "path_ids": [
+            6124,
+            304,
+            341,
+            322
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "addition",
+            "to",
+            "M",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 5,
+          "prefix_len": 91,
+          "drafted_len": 60,
+          "path_ids": [
+            399,
+            297,
+            278,
+            5434
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "W",
+            "in",
+            "the",
+            "future"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 6,
+          "prefix_len": 95,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            1060,
+            363,
+            1006,
+            14167,
+            2
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "X",
+            "for",
+            "inter",
+            "sex",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 7,
+          "prefix_len": 100,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            5034,
+            304,
+            278,
+            4124
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "according",
+            "to",
+            "the",
+            "Inter"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 8,
+          "prefix_len": 104,
+          "drafted_len": 60,
+          "path_ids": [
+            20886,
+            310,
+            4124,
+            8697
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Ministry",
+            "of",
+            "Inter",
+            "house"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 9,
+          "prefix_len": 106,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            4124,
+            1611,
+            29889,
+            2,
+            4700
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "Inter",
+            "ior",
+            ".",
+            "</s>",
+            "website"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 10,
+          "prefix_len": 111,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            412
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "pe"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 11,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            3577,
+            297
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "package",
+            "in"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 12,
+          "prefix_len": 113,
+          "drafted_len": 60,
+          "path_ids": [
+            1667,
+            13
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "main",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 13,
+          "prefix_len": 115,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            797
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "In"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 14,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            5215,
+            313,
+            13,
+            12
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "import",
+            "(",
+            "\\n",
+            "\\t"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 15,
+          "prefix_len": 120,
+          "drafted_len": 60,
+          "path_ids": [
+            29908,
+            4703,
+            29908,
+            13,
+            12,
+            29908,
+            23479,
+            29908,
+            13
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\"",
+            "context",
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "fmt",
+            "\"",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 16,
+          "prefix_len": 126,
+          "drafted_len": 60,
+          "path_ids": [
+            29883,
+            17929,
+            29914
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "c",
+            "rypto",
+            "/"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 17,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            17051,
+            29906,
+            29945,
+            29953,
+            29908,
+            13,
+            12,
+            29908,
+            29883
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sha",
+            "2",
+            "5",
+            "6",
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "c"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 18,
+          "prefix_len": 137,
+          "drafted_len": 60,
+          "path_ids": [
+            22331,
+            29914,
+            3188,
+            29953,
+            29946,
+            29908,
+            13,
+            12,
+            29908
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -7,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 3188,
+              "token": "base"
+            },
+            {
+              "pos": 3,
+              "token_id": 29953,
+              "token": "6"
+            },
+            {
+              "pos": 4,
+              "token_id": 29946,
+              "token": "4"
+            },
+            {
+              "pos": 5,
+              "token_id": 29908,
+              "token": "\""
+            },
+            {
+              "pos": 6,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 7,
+              "token_id": 12,
+              "token": "\\t"
+            },
+            {
+              "pos": 8,
+              "token_id": 29908,
+              "token": "\""
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "encoding",
+            "/",
+            "base",
+            "6",
+            "4",
+            "\"",
+            "\\n",
+            "\\t",
+            "\""
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 19,
+          "prefix_len": 146,
+          "drafted_len": 60,
+          "path_ids": [
+            22331,
+            29914,
+            3126,
+            29908,
+            13,
+            12,
+            29908,
+            12523,
+            29908
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "encoding",
+            "/",
+            "json",
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "errors",
+            "\""
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 20,
+          "prefix_len": 155,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            12,
+            29908,
+            23479,
+            29908,
+            13,
+            12,
+            29908,
+            601
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "\\t",
+            "\"",
+            "fmt",
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "io"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 21,
+          "prefix_len": 164,
+          "drafted_len": 60,
+          "path_ids": [
+            29914,
+            29875,
+            449,
+            309,
+            29908,
+            13,
+            12,
+            29908,
+            359
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "/",
+            "i",
+            "out",
+            "il",
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "os"
+          ]
+        },
+        {
+          "request_id": "sb_translation_224",
+          "step_id": 22,
+          "prefix_len": 173,
+          "drafted_len": 60,
+          "path_ids": [
+            29908,
+            13,
+            12,
+            29908,
+            2084,
+            29914,
+            1445,
+            2084,
+            29908
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\"",
+            "\\n",
+            "\\t",
+            "\"",
+            "path",
+            "/",
+            "file",
+            "path",
+            "\""
+          ]
+        }
+      ],
+      "wall_s": 2.0736621040850878
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_184",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 21,
+      "base_mean_accepted_len": 4.761904761904762,
+      "skip_mean_accepted_len": 4.761904761904762,
+      "delta_mean_accepted_len": 0.0,
+      "num_steps_accept_up": 1,
+      "num_newly_accepted_tokens": 2,
+      "newly_accepted_tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "steps": [
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 0,
+          "prefix_len": 122,
+          "drafted_len": 60,
+          "path_ids": [
+            2398,
+            29892,
+            4942,
+            29889,
+            826,
+            29880,
+            1600,
+            2261,
+            4101
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "However",
+            ",",
+            "Dr",
+            ".",
+            "Ar",
+            "l",
+            "ene",
+            "Bar",
+            "atz"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 1,
+          "prefix_len": 131,
+          "drafted_len": 60,
+          "path_ids": [
+            29892,
+            263,
+            24207,
+            17937,
+            19915,
+            515,
+            27150,
+            3074,
+            29892
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ",",
+            "a",
+            "breast",
+            "radi",
+            "ologist",
+            "from",
+            "Pitts",
+            "burg",
+            ","
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 2,
+          "prefix_len": 138,
+          "drafted_len": 60,
+          "path_ids": [
+            13903,
+            1058,
+            756
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "burgh",
+            "who",
+            "has"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 3,
+          "prefix_len": 141,
+          "drafted_len": 60,
+          "path_ids": [
+            263,
+            8750,
+            411,
+            263,
+            7916,
+            29899
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "a",
+            "daughter",
+            "with",
+            "a",
+            "sex",
+            "-"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 4,
+          "prefix_len": 145,
+          "drafted_len": 60,
+          "path_ids": [
+            18287,
+            1422,
+            10110
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sexual",
+            "different",
+            "identity"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 5,
+          "prefix_len": 147,
+          "drafted_len": 60,
+          "path_ids": [
+            11685,
+            766,
+            2098,
+            322,
+            756,
+            750
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "iation",
+            "dis",
+            "order",
+            "and",
+            "has",
+            "had"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 6,
+          "prefix_len": 151,
+          "drafted_len": 60,
+          "path_ids": [
+            11286,
+            21006,
+            310,
+            916
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "supports",
+            "hundreds",
+            "of",
+            "other"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 7,
+          "prefix_len": 154,
+          "drafted_len": 60,
+          "path_ids": [
+            4045,
+            297,
+            263,
+            1583,
+            29899,
+            29882,
+            309,
+            29888,
+            387
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 4,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "others",
+            "in",
+            "a",
+            "self",
+            "-",
+            "h",
+            "il",
+            "f",
+            "eg"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 8,
+          "prefix_len": 159,
+          "drafted_len": 60,
+          "path_ids": [
+            8477,
+            2318,
+            29892,
+            4083
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "help",
+            "group",
+            ",",
+            "says"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 9,
+          "prefix_len": 163,
+          "drafted_len": 60,
+          "path_ids": [
+            393,
+            278,
+            5332,
+            4307,
+            376,
+            3629
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "that",
+            "the",
+            "German",
+            "law",
+            "\"",
+            "Be"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 10,
+          "prefix_len": 168,
+          "drafted_len": 60,
+          "path_ids": [
+            3451,
+            340,
+            414,
+            29908,
+            1716,
+            11825
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "emp",
+            "ow",
+            "ers",
+            "\"",
+            "both",
+            "parents"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 11,
+          "prefix_len": 174,
+          "drafted_len": 60,
+          "path_ids": [
+            322,
+            4344,
+            29889,
+            2,
+            13,
+            13
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 2,
+          "newly_accepted": [
+            {
+              "pos": 4,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 5,
+              "token_id": 13,
+              "token": "\\n"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "and",
+            "children",
+            ".",
+            "</s>",
+            "\\n",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 12,
+          "prefix_len": 178,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            412
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "pe"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 13,
+          "prefix_len": 179,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            5332,
+            4307,
+            6511
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 5332,
+              "token": "German"
+            },
+            {
+              "pos": 2,
+              "token_id": 4307,
+              "token": "law"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "German",
+            "law",
+            "allows"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 14,
+          "prefix_len": 182,
+          "drafted_len": 60,
+          "path_ids": [
+            376,
+            3451,
+            340,
+            414,
+            29908,
+            1716,
+            11825,
+            322,
+            4344
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\"",
+            "emp",
+            "ow",
+            "ers",
+            "\"",
+            "both",
+            "parents",
+            "and",
+            "children"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 15,
+          "prefix_len": 191,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            2,
+            2
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 16,
+          "prefix_len": 193,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 17,
+          "prefix_len": 194,
+          "drafted_len": 60,
+          "path_ids": [
+            396,
+            529
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "#",
+            "<"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 18,
+          "prefix_len": 195,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 19,
+          "prefix_len": 204,
+          "drafted_len": 60,
+          "path_ids": [
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "request_id": "sb_translation_184",
+          "step_id": 20,
+          "prefix_len": 213,
+          "drafted_len": 60,
+          "path_ids": [
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "wall_s": 1.9091789592057467
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_211",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 23,
+      "base_mean_accepted_len": 4.173913043478261,
+      "skip_mean_accepted_len": 3.9565217391304346,
+      "delta_mean_accepted_len": -0.21739130434782616,
+      "num_steps_accept_up": 1,
+      "num_newly_accepted_tokens": 1,
+      "newly_accepted_tokens": [
+        "\\n"
+      ],
+      "steps": [
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 0,
+          "prefix_len": 97,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            6907,
+            800,
+            363,
+            263,
+            13589,
+            362
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "recommend",
+            "ations",
+            "for",
+            "a",
+            "medic",
+            "ation"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 1,
+          "prefix_len": 103,
+          "drafted_len": 60,
+          "path_ids": [
+            979,
+            470,
+            298,
+            555,
+            7177,
+            29220,
+            27580,
+            8839,
+            373
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "inal",
+            "or",
+            "h",
+            "orm",
+            "onal",
+            "ther",
+            "apy",
+            "depend",
+            "on"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 2,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            5046,
+            310,
+            278,
+            2278,
+            29892,
+            278,
+            7408
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -6,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 5046,
+              "token": "age"
+            },
+            {
+              "pos": 2,
+              "token_id": 310,
+              "token": "of"
+            },
+            {
+              "pos": 3,
+              "token_id": 278,
+              "token": "the"
+            },
+            {
+              "pos": 4,
+              "token_id": 2278,
+              "token": "child"
+            },
+            {
+              "pos": 5,
+              "token_id": 29892,
+              "token": ","
+            },
+            {
+              "pos": 6,
+              "token_id": 278,
+              "token": "the"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "age",
+            "of",
+            "the",
+            "child",
+            ",",
+            "the",
+            "stage"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 3,
+          "prefix_len": 119,
+          "drafted_len": 60,
+          "path_ids": [
+            6554,
+            310,
+            5849,
+            29892,
+            278,
+            14321,
+            6554,
+            29892,
+            322
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "rate",
+            "of",
+            "development",
+            ",",
+            "the",
+            "growth",
+            "rate",
+            ",",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 4,
+          "prefix_len": 128,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            23023,
+            1848,
+            286,
+            1337,
+            537,
+            29889,
+            2,
+            13
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 1,
+          "newly_accepted": [
+            {
+              "pos": 8,
+              "token_id": 13,
+              "token": "\\n"
+            }
+          ],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "emot",
+            "ional",
+            "m",
+            "atur",
+            "ity",
+            ".",
+            "</s>",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 5,
+          "prefix_len": 136,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 6,
+          "prefix_len": 137,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            13622,
+            2
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "recommended",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 7,
+          "prefix_len": 138,
+          "drafted_len": 60,
+          "path_ids": [
+            13962,
+            338
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "translation",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 8,
+          "prefix_len": 140,
+          "drafted_len": 60,
+          "path_ids": [
+            1959,
+            29889,
+            2,
+            4223
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "correct",
+            ".",
+            "</s>",
+            "English"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 9,
+          "prefix_len": 143,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 10,
+          "prefix_len": 144,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            13622,
+            2
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "recommended",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 11,
+          "prefix_len": 145,
+          "drafted_len": 60,
+          "path_ids": [
+            10541,
+            338,
+            26233
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "sentence",
+            "is",
+            "suggesting"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 12,
+          "prefix_len": 147,
+          "drafted_len": 60,
+          "path_ids": [
+            297,
+            5332,
+            322,
+            14637,
+            304,
+            278
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "in",
+            "German",
+            "and",
+            "refers",
+            "to",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 13,
+          "prefix_len": 150,
+          "drafted_len": 60,
+          "path_ids": [
+            372,
+            4083,
+            376,
+            1576,
+            6907,
+            800,
+            363,
+            263,
+            13589
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 7,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "it",
+            "says",
+            "\"",
+            "The",
+            "recommend",
+            "ations",
+            "for",
+            "a",
+            "medic"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 14,
+          "prefix_len": 152,
+          "drafted_len": 60,
+          "path_ids": [
+            393,
+            278,
+            6907,
+            800,
+            363,
+            13589,
+            362,
+            470,
+            298
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "that",
+            "the",
+            "recommend",
+            "ations",
+            "for",
+            "medic",
+            "ation",
+            "or",
+            "h"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 15,
+          "prefix_len": 161,
+          "drafted_len": 60,
+          "path_ids": [
+            555,
+            650,
+            29220,
+            27580,
+            363,
+            4344,
+            8839,
+            373
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "orm",
+            "one",
+            "ther",
+            "apy",
+            "for",
+            "children",
+            "depend",
+            "on"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 16,
+          "prefix_len": 169,
+          "drafted_len": 60,
+          "path_ids": [
+            1009,
+            5046,
+            29892,
+            1009
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "their",
+            "age",
+            ",",
+            "their"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 17,
+          "prefix_len": 172,
+          "drafted_len": 60,
+          "path_ids": [
+            6554,
+            310,
+            5849,
+            29892,
+            14321,
+            6554,
+            29892,
+            322,
+            23023
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "rate",
+            "of",
+            "development",
+            ",",
+            "growth",
+            "rate",
+            ",",
+            "and",
+            "emot"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 18,
+          "prefix_len": 181,
+          "drafted_len": 60,
+          "path_ids": [
+            1848,
+            286,
+            1337,
+            537,
+            29889,
+            2,
+            4223
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ional",
+            "m",
+            "atur",
+            "ity",
+            ".",
+            "</s>",
+            "English"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 19,
+          "prefix_len": 187,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 20,
+          "prefix_len": 188,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            29880
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "l"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 21,
+          "prefix_len": 189,
+          "drafted_len": 60,
+          "path_ids": [
+            1576,
+            4344
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "children"
+          ]
+        },
+        {
+          "request_id": "sb_translation_211",
+          "step_id": 22,
+          "prefix_len": 190,
+          "drafted_len": 60,
+          "path_ids": [
+            13962,
+            338,
+            14961
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "translation",
+            "is",
+            "gram"
+          ]
+        }
+      ],
+      "wall_s": 2.1032636426389217
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_191",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 20,
+      "base_mean_accepted_len": 5.1,
+      "skip_mean_accepted_len": 4.95,
+      "delta_mean_accepted_len": -0.14999999999999947,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 0,
+          "prefix_len": 60,
+          "drafted_len": 60,
+          "path_ids": [
+            1094,
+            263,
+            16277,
+            29892,
+            278
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "As",
+            "a",
+            "witness",
+            ",",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 1,
+          "prefix_len": 65,
+          "drafted_len": 60,
+          "path_ids": [
+            7405,
+            1218,
+            10974
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "investig",
+            "ating",
+            "police"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 2,
+          "prefix_len": 67,
+          "drafted_len": 60,
+          "path_ids": [
+            844,
+            1308,
+            1641
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "comm",
+            "eter",
+            "being"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 3,
+          "prefix_len": 68,
+          "drafted_len": 60,
+          "path_ids": [
+            790,
+            279,
+            472,
+            278,
+            931,
+            471,
+            2665
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "iss",
+            "ar",
+            "at",
+            "the",
+            "time",
+            "was",
+            "sent"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 4,
+          "prefix_len": 74,
+          "drafted_len": 60,
+          "path_ids": [
+            23610,
+            29889,
+            2,
+            450
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "invited",
+            ".",
+            "</s>",
+            "The"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 5,
+          "prefix_len": 77,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 6,
+          "prefix_len": 78,
+          "drafted_len": 60,
+          "path_ids": [
+            396,
+            2750,
+            278
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "#",
+            "against",
+            "the"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 7,
+          "prefix_len": 79,
+          "drafted_len": 60,
+          "path_ids": [
+            29896,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900,
+            29900
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 4,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 8,
+          "prefix_len": 83,
+          "drafted_len": 60,
+          "path_ids": [
+            10649,
+            557,
+            448
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Spe",
+            "ak",
+            "-"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 9,
+          "prefix_len": 85,
+          "drafted_len": 60,
+          "path_ids": [
+            29901,
+            450,
+            853
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ":",
+            "The",
+            "Un"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 10,
+          "prefix_len": 86,
+          "drafted_len": 60,
+          "path_ids": [
+            7361,
+            493,
+            29891,
+            29892
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Emp",
+            "ath",
+            "y",
+            ","
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 11,
+          "prefix_len": 89,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            13,
+            10495,
+            493,
+            29891,
+            338,
+            278,
+            11509,
+            304
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "\\n",
+            "Emp",
+            "ath",
+            "y",
+            "is",
+            "the",
+            "ability",
+            "to"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 12,
+          "prefix_len": 98,
+          "drafted_len": 60,
+          "path_ids": [
+            2274,
+            322,
+            6232,
+            278,
+            21737,
+            310,
+            1790,
+            2022,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": -3,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 6,
+              "token_id": 1790,
+              "token": "another"
+            },
+            {
+              "pos": 7,
+              "token_id": 2022,
+              "token": "person"
+            },
+            {
+              "pos": 8,
+              "token_id": 29889,
+              "token": "."
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "understand",
+            "and",
+            "share",
+            "the",
+            "feelings",
+            "of",
+            "another",
+            "person",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 13,
+          "prefix_len": 107,
+          "drafted_len": 60,
+          "path_ids": [
+            739,
+            338,
+            385,
+            18853,
+            4163,
+            310
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "It",
+            "is",
+            "an",
+            "essential",
+            "component",
+            "of"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 14,
+          "prefix_len": 113,
+          "drafted_len": 60,
+          "path_ids": [
+            23023,
+            1848,
+            21082,
+            322,
+            338,
+            7618,
+            1455,
+            363,
+            5214
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "emot",
+            "ional",
+            "intelligence",
+            "and",
+            "is",
+            "cru",
+            "cial",
+            "for",
+            "building"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 15,
+          "prefix_len": 122,
+          "drafted_len": 60,
+          "path_ids": [
+            4549,
+            21702,
+            411,
+            4045,
+            29889,
+            7361,
+            493,
+            29891
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "strong",
+            "relationships",
+            "with",
+            "others",
+            ".",
+            "Emp",
+            "ath",
+            "y"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 16,
+          "prefix_len": 130,
+          "drafted_len": 60,
+          "path_ids": [
+            6511,
+            502,
+            304,
+            4511,
+            411,
+            4045,
+            373,
+            263,
+            25871
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "allows",
+            "us",
+            "to",
+            "connect",
+            "with",
+            "others",
+            "on",
+            "a",
+            "deeper"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 17,
+          "prefix_len": 139,
+          "drafted_len": 60,
+          "path_ids": [
+            3233,
+            29892,
+            304,
+            2274,
+            1009,
+            3736,
+            1103,
+            3145,
+            322
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "level",
+            ",",
+            "to",
+            "understand",
+            "their",
+            "pers",
+            "pect",
+            "ives",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 18,
+          "prefix_len": 148,
+          "drafted_len": 60,
+          "path_ids": [
+            304,
+            10049,
+            304,
+            1009,
+            4225,
+            322
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "to",
+            "respond",
+            "to",
+            "their",
+            "needs",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sb_translation_191",
+          "step_id": 19,
+          "prefix_len": 153,
+          "drafted_len": 60,
+          "path_ids": [
+            411,
+            752,
+            465,
+            291,
+            322,
+            2924,
+            2264,
+            29889,
+            13
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "with",
+            "comp",
+            "ass",
+            "ion",
+            "and",
+            "kind",
+            "ness",
+            ".",
+            "\\n"
+          ]
+        }
+      ],
+      "wall_s": 1.8296080799773335
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_216",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 21,
+      "base_mean_accepted_len": 4.761904761904762,
+      "skip_mean_accepted_len": 4.238095238095238,
+      "delta_mean_accepted_len": -0.5238095238095237,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 0,
+          "prefix_len": 83,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            25808,
+            262,
+            13956,
+            10824,
+            393,
+            278,
+            325
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "veter",
+            "in",
+            "arian",
+            "explained",
+            "that",
+            "the",
+            "v"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 1,
+          "prefix_len": 89,
+          "drafted_len": 60,
+          "path_ids": [
+            565,
+            278,
+            325
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "if",
+            "the",
+            "v"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 2,
+          "prefix_len": 91,
+          "drafted_len": 60,
+          "path_ids": [
+            27096,
+            291,
+            750,
+            4953,
+            2086,
+            2107
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "exhaust",
+            "ion",
+            "had",
+            "become",
+            "too",
+            "great"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 3,
+          "prefix_len": 97,
+          "drafted_len": 60,
+          "path_ids": [
+            322,
+            1183,
+            750,
+            784,
+            23384,
+            29892,
+            1183
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "and",
+            "she",
+            "had",
+            "col",
+            "lapsed",
+            ",",
+            "she"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 4,
+          "prefix_len": 104,
+          "drafted_len": 60,
+          "path_ids": [
+            723,
+            505,
+            6423
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "would",
+            "have",
+            "died"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 5,
+          "prefix_len": 105,
+          "drafted_len": 60,
+          "path_ids": [
+            3117,
+            505,
+            19225,
+            29889,
+            2,
+            450
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "probably",
+            "have",
+            "fallen",
+            ".",
+            "</s>",
+            "The"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 6,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 7,
+          "prefix_len": 111,
+          "drafted_len": 60,
+          "path_ids": [
+            3577,
+            297
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "package",
+            "in"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 8,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            419,
+            29889,
+            4773,
+            29889,
+            29887
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "com",
+            ".",
+            "example",
+            ".",
+            "g"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 9,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            17482,
+            29889,
+            1338
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "demo",
+            ".",
+            "als"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 10,
+          "prefix_len": 118,
+          "drafted_len": 60,
+          "path_ids": [
+            5509,
+            29936,
+            13,
+            13,
+            5215,
+            419,
+            29889,
+            4773,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "service",
+            ";",
+            "\\n",
+            "\\n",
+            "import",
+            "com",
+            ".",
+            "example",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 11,
+          "prefix_len": 127,
+          "drafted_len": 60,
+          "path_ids": [
+            17482,
+            29889,
+            5509,
+            29889
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "demo",
+            ".",
+            "service",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 12,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            29881,
+            517,
+            29889,
+            4299,
+            29889
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "d",
+            "to",
+            ".",
+            "model",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 13,
+          "prefix_len": 132,
+          "drafted_len": 60,
+          "path_ids": [
+            2659,
+            29928,
+            517,
+            29936,
+            13,
+            5215,
+            419,
+            29889,
+            4773
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": -7,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 2,
+              "token_id": 517,
+              "token": "to"
+            },
+            {
+              "pos": 3,
+              "token_id": 29936,
+              "token": ";"
+            },
+            {
+              "pos": 4,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 5,
+              "token_id": 5215,
+              "token": "import"
+            },
+            {
+              "pos": 6,
+              "token_id": 419,
+              "token": "com"
+            },
+            {
+              "pos": 7,
+              "token_id": 29889,
+              "token": "."
+            },
+            {
+              "pos": 8,
+              "token_id": 4773,
+              "token": "example"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "User",
+            "D",
+            "to",
+            ";",
+            "\\n",
+            "import",
+            "com",
+            ".",
+            "example"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 14,
+          "prefix_len": 141,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            17482,
+            29889,
+            7247,
+            29889
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "demo",
+            ".",
+            "domain",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 15,
+          "prefix_len": 144,
+          "drafted_len": 60,
+          "path_ids": [
+            655,
+            2496,
+            29889
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ma",
+            "pper",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 16,
+          "prefix_len": 147,
+          "drafted_len": 60,
+          "path_ids": [
+            2659,
+            19968,
+            29936
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "User",
+            "Mapper",
+            ";"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 17,
+          "prefix_len": 150,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            5215,
+            419,
+            29889,
+            4773,
+            29889,
+            17482,
+            29889,
+            4299
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "import",
+            "com",
+            ".",
+            "example",
+            ".",
+            "demo",
+            ".",
+            "model"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 18,
+          "prefix_len": 159,
+          "drafted_len": 60,
+          "path_ids": [
+            29889,
+            2659,
+            29936,
+            13,
+            5215,
+            1638,
+            29889,
+            6688,
+            29889
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 5,
+              "token_id": 1638,
+              "token": "org"
+            },
+            {
+              "pos": 6,
+              "token_id": 29889,
+              "token": "."
+            },
+            {
+              "pos": 7,
+              "token_id": 6688,
+              "token": "springframework"
+            },
+            {
+              "pos": 8,
+              "token_id": 29889,
+              "token": "."
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            ".",
+            "User",
+            ";",
+            "\\n",
+            "import",
+            "org",
+            ".",
+            "springframework",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 19,
+          "prefix_len": 168,
+          "drafted_len": 60,
+          "path_ids": [
+            11700,
+            29889,
+            14399,
+            29889,
+            18317,
+            29889,
+            23527,
+            2859,
+            29936
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "beans",
+            ".",
+            "factory",
+            ".",
+            "annotation",
+            ".",
+            "Autow",
+            "ired",
+            ";"
+          ]
+        },
+        {
+          "request_id": "sb_translation_216",
+          "step_id": 20,
+          "prefix_len": 177,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            5215,
+            1638,
+            29889,
+            6688,
+            29889,
+            3221,
+            29889
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "import",
+            "org",
+            ".",
+            "springframework",
+            ".",
+            "core",
+            "."
+          ]
+        }
+      ],
+      "wall_s": 1.9024170152842999
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_169",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 26,
+      "base_mean_accepted_len": 4.0,
+      "skip_mean_accepted_len": 3.8461538461538463,
+      "delta_mean_accepted_len": -0.15384615384615374,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 0,
+          "prefix_len": 84,
+          "drafted_len": 60,
+          "path_ids": [
+            376,
+            29924,
+            520
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\"",
+            "M",
+            "ost"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 1,
+          "prefix_len": 87,
+          "drafted_len": 60,
+          "path_ids": [
+            18363,
+            1033,
+            19998
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "citizens",
+            "could",
+            "potentially"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 2,
+          "prefix_len": 89,
+          "drafted_len": 60,
+          "path_ids": [
+            7150,
+            263,
+            2253,
+            29892,
+            901,
+            15171,
+            6270,
+            9045
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "receive",
+            "a",
+            "better",
+            ",",
+            "more",
+            "compreh",
+            "ensive",
+            "health"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 3,
+          "prefix_len": 97,
+          "drafted_len": 60,
+          "path_ids": [
+            1663,
+            18541,
+            363,
+            29879
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ins",
+            "urance",
+            "for",
+            "s"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 4,
+          "prefix_len": 100,
+          "drafted_len": 60,
+          "path_ids": [
+            278,
+            1021,
+            8666,
+            470,
+            363,
+            901
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "the",
+            "same",
+            "price",
+            "or",
+            "for",
+            "more"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 5,
+          "prefix_len": 104,
+          "drafted_len": 60,
+          "path_ids": [
+            923,
+            7202,
+            1135,
+            9251
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "che",
+            "aper",
+            "than",
+            "previously"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 6,
+          "prefix_len": 107,
+          "drafted_len": 60,
+          "path_ids": [
+            25383,
+            1213,
+            2,
+            13962
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "predicted",
+            ".\"",
+            "</s>",
+            "translation"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 7,
+          "prefix_len": 110,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            412
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "pe"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 8,
+          "prefix_len": 111,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            6041,
+            2
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "sometimes",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 9,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            13962,
+            338,
+            297,
+            4223,
+            29889
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 3,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "translation",
+            "is",
+            "in",
+            "English",
+            "."
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 10,
+          "prefix_len": 114,
+          "drafted_len": 60,
+          "path_ids": [
+            408,
+            4477,
+            29901,
+            13,
+            13,
+            1576
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "as",
+            "follows",
+            ":",
+            "\\n",
+            "\\n",
+            "The"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 11,
+          "prefix_len": 119,
+          "drafted_len": 60,
+          "path_ids": [
+            16334,
+            592,
+            8244,
+            414
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Die",
+            "me",
+            "isten",
+            "ers"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 12,
+          "prefix_len": 122,
+          "drafted_len": 60,
+          "path_ids": [
+            29128,
+            643
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Bürger",
+            "ser"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 13,
+          "prefix_len": 123,
+          "drafted_len": 60,
+          "path_ids": [
+            9487,
+            13712,
+            577,
+            2128,
+            289,
+            404
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "kön",
+            "nten",
+            "so",
+            "eine",
+            "b",
+            "ess"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 14,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            406,
+            29892,
+            1922,
+            29874
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ere",
+            ",",
+            "um",
+            "a"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 15,
+          "prefix_len": 132,
+          "drafted_len": 60,
+          "path_ids": [
+            19874,
+            355,
+            406,
+            476,
+            661,
+            1717,
+            874,
+            12805,
+            686
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "fass",
+            "end",
+            "ere",
+            "K",
+            "ran",
+            "ken",
+            "vers",
+            "icher",
+            "ung"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 16,
+          "prefix_len": 141,
+          "drafted_len": 60,
+          "path_ids": [
+            1865,
+            6245,
+            295,
+            1785
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "für",
+            "dens",
+            "el",
+            "ben"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 17,
+          "prefix_len": 145,
+          "drafted_len": 60,
+          "path_ids": [
+            29318,
+            4461,
+            330
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Preis",
+            "oder",
+            "g"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 18,
+          "prefix_len": 148,
+          "drafted_len": 60,
+          "path_ids": [
+            12820,
+            4087,
+            1620,
+            410,
+            5138,
+            520,
+            466
+          ],
+          "base_accepted_len": 7,
+          "skip_accepted_len": 7,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ünst",
+            "iger",
+            "als",
+            "pro",
+            "gn",
+            "ost",
+            "iz"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 19,
+          "prefix_len": 155,
+          "drafted_len": 60,
+          "path_ids": [
+            3722,
+            2128
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "iert",
+            "eine"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 20,
+          "prefix_len": 156,
+          "drafted_len": 60,
+          "path_ids": [
+            20732,
+            29889,
+            2,
+            448
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "erhalten",
+            ".",
+            "</s>",
+            "-"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 21,
+          "prefix_len": 159,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            20447
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "leaf"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 22,
+          "prefix_len": 160,
+          "drafted_len": 60,
+          "path_ids": [
+            450,
+            23797,
+            306
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "The",
+            "versus",
+            "I"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 23,
+          "prefix_len": 161,
+          "drafted_len": 60,
+          "path_ids": [
+            13962,
+            338,
+            408,
+            4477,
+            29901,
+            13,
+            13,
+            29924,
+            520
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": -4,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 5,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 6,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 7,
+              "token_id": 29924,
+              "token": "M"
+            },
+            {
+              "pos": 8,
+              "token_id": 520,
+              "token": "ost"
+            }
+          ],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "translation",
+            "is",
+            "as",
+            "follows",
+            ":",
+            "\\n",
+            "\\n",
+            "M",
+            "ost"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 24,
+          "prefix_len": 170,
+          "drafted_len": 60,
+          "path_ids": [
+            18363,
+            1033,
+            7150,
+            263,
+            2253,
+            29892,
+            901,
+            15171,
+            6270
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "citizens",
+            "could",
+            "receive",
+            "a",
+            "better",
+            ",",
+            "more",
+            "compreh",
+            "ensive"
+          ]
+        },
+        {
+          "request_id": "sb_translation_169",
+          "step_id": 25,
+          "prefix_len": 179,
+          "drafted_len": 60,
+          "path_ids": [
+            9045,
+            1663,
+            18541,
+            363,
+            278,
+            1021,
+            8666,
+            470,
+            923
+          ],
+          "base_accepted_len": 9,
+          "skip_accepted_len": 9,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "health",
+            "ins",
+            "urance",
+            "for",
+            "the",
+            "same",
+            "price",
+            "or",
+            "che"
+          ]
+        }
+      ],
+      "wall_s": 2.3252745950594544
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_207",
+      "skip_layer": 6,
+      "prompt_preview": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER:…",
+      "num_steps": 44,
+      "base_mean_accepted_len": 2.1818181818181817,
+      "skip_mean_accepted_len": 2.090909090909091,
+      "delta_mean_accepted_len": -0.09090909090909083,
+      "num_steps_accept_up": 0,
+      "num_newly_accepted_tokens": 0,
+      "newly_accepted_tokens": [],
+      "steps": [
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 0,
+          "prefix_len": 66,
+          "drafted_len": 60,
+          "path_ids": [
+            2296,
+            756,
+            263,
+            325,
+            351,
+            1099,
+            29892,
+            541,
+            1183
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "She",
+            "has",
+            "a",
+            "v",
+            "ag",
+            "ina",
+            ",",
+            "but",
+            "she"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 1,
+          "prefix_len": 74,
+          "drafted_len": 60,
+          "path_ids": [
+            694,
+            318,
+            357,
+            375,
+            322
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "no",
+            "u",
+            "ter",
+            "us",
+            "and"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 2,
+          "prefix_len": 79,
+          "drafted_len": 60,
+          "path_ids": [
+            288,
+            1707,
+            583,
+            29889,
+            2,
+            313
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "o",
+            "var",
+            "ies",
+            ".",
+            "</s>",
+            "("
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 3,
+          "prefix_len": 84,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            275
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "is"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 4,
+          "prefix_len": 85,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            13,
+            13,
+            29909
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 13,
+              "token": "\\n"
+            },
+            {
+              "pos": 2,
+              "token_id": 13,
+              "token": "\\n"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "\\n",
+            "\\n",
+            "A"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 5,
+          "prefix_len": 88,
+          "drafted_len": 60,
+          "path_ids": [
+            12148,
+            4443,
+            393,
+            445,
+            13962,
+            338,
+            297,
+            4223
+          ],
+          "base_accepted_len": 6,
+          "skip_accepted_len": 6,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Please",
+            "note",
+            "that",
+            "this",
+            "translation",
+            "is",
+            "in",
+            "English"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 6,
+          "prefix_len": 94,
+          "drafted_len": 60,
+          "path_ids": [
+            2729,
+            373,
+            278,
+            4944,
+            1426
+          ],
+          "base_accepted_len": 5,
+          "skip_accepted_len": 5,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "based",
+            "on",
+            "the",
+            "provided",
+            "text"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 7,
+          "prefix_len": 99,
+          "drafted_len": 60,
+          "path_ids": [
+            322,
+            1122,
+            451,
+            367,
+            4922
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "and",
+            "may",
+            "not",
+            "be",
+            "perfect"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 8,
+          "prefix_len": 103,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            29896,
+            29900,
+            29900,
+            29995,
+            16232,
+            29889,
+            2,
+            739
+          ],
+          "base_accepted_len": 8,
+          "skip_accepted_len": 8,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "1",
+            "0",
+            "0",
+            "%",
+            "accurate",
+            ".",
+            "</s>",
+            "It"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 9,
+          "prefix_len": 111,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            20447
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "leaf"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 10,
+          "prefix_len": 112,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            2,
+            13
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "</s>",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 11,
+          "prefix_len": 113,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            28956,
+            2,
+            13
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": -2,
+          "newly_accepted": [],
+          "lost_accepted": [
+            {
+              "pos": 1,
+              "token_id": 28956,
+              "token": "```"
+            },
+            {
+              "pos": 2,
+              "token_id": 2,
+              "token": "</s>"
+            }
+          ],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "```",
+            "</s>",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 12,
+          "prefix_len": 116,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            20447
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "leaf"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 13,
+          "prefix_len": 117,
+          "drafted_len": 60,
+          "path_ids": [
+            29871,
+            2,
+            13
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<29871>",
+            "</s>",
+            "\\n"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 14,
+          "prefix_len": 118,
+          "drafted_len": 60,
+          "path_ids": [
+            13,
+            28956,
+            2,
+            2
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "\\n",
+            "```",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 15,
+          "prefix_len": 121,
+          "drafted_len": 60,
+          "path_ids": [
+            1,
+            412,
+            20447
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "<s>",
+            "pe",
+            "leaf"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 16,
+          "prefix_len": 122,
+          "drafted_len": 60,
+          "path_ids": [
+            396,
+            30010,
+            29873
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "#",
+            "’",
+            "t"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 17,
+          "prefix_len": 123,
+          "drafted_len": 60,
+          "path_ids": [
+            365,
+            375
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "L",
+            "us"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 18,
+          "prefix_len": 124,
+          "drafted_len": 60,
+          "path_ids": [
+            28793,
+            316
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ijst",
+            "de"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 19,
+          "prefix_len": 125,
+          "drafted_len": 60,
+          "path_ids": [
+            1109,
+            868
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "van",
+            "du"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 20,
+          "prefix_len": 126,
+          "drafted_len": 60,
+          "path_ids": [
+            20613,
+            808
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "voet",
+            "sk"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 21,
+          "prefix_len": 127,
+          "drafted_len": 60,
+          "path_ids": [
+            5521,
+            2879,
+            290
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "bal",
+            "ists",
+            "om"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 22,
+          "prefix_len": 128,
+          "drafted_len": 60,
+          "path_ids": [
+            1639,
+            29886,
+            433
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "inter",
+            "p",
+            "la"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 23,
+          "prefix_len": 129,
+          "drafted_len": 60,
+          "path_ids": [
+            5252,
+            13,
+            29966
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "lands",
+            "\\n",
+            "<"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 24,
+          "prefix_len": 130,
+          "drafted_len": 60,
+          "path_ids": [
+            17513,
+            29750,
+            427
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Costa",
+            "Rica",
+            "en"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 25,
+          "prefix_len": 132,
+          "drafted_len": 60,
+          "path_ids": [
+            448,
+            264
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "-",
+            "en"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 26,
+          "prefix_len": 133,
+          "drafted_len": 60,
+          "path_ids": [
+            1798,
+            2783
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "Ver",
+            "des"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 27,
+          "prefix_len": 134,
+          "drafted_len": 60,
+          "path_ids": [
+            19197,
+            2168
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "enig",
+            "med"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 28,
+          "prefix_len": 135,
+          "drafted_len": 60,
+          "path_ids": [
+            311,
+            313
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "de",
+            "("
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 29,
+          "prefix_len": 136,
+          "drafted_len": 60,
+          "path_ids": [
+            624,
+            332,
+            29881
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "St",
+            "ur",
+            "d"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 30,
+          "prefix_len": 137,
+          "drafted_len": 60,
+          "path_ids": [
+            2579,
+            13,
+            13,
+            29909
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "aten",
+            "\\n",
+            "\\n",
+            "A"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 31,
+          "prefix_len": 140,
+          "drafted_len": 60,
+          "path_ids": [
+            2772,
+            451
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "De",
+            "not"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 32,
+          "prefix_len": 141,
+          "drafted_len": 60,
+          "path_ids": [
+            911,
+            427
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ze",
+            "en"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 33,
+          "prefix_len": 142,
+          "drafted_len": 60,
+          "path_ids": [
+            24690,
+            303,
+            1109
+          ],
+          "base_accepted_len": 3,
+          "skip_accepted_len": 3,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 0,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "lij",
+            "st",
+            "van"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 34,
+          "prefix_len": 145,
+          "drafted_len": 60,
+          "path_ids": [
+            20613,
+            5521,
+            1639,
+            5252,
+            316
+          ],
+          "base_accepted_len": 4,
+          "skip_accepted_len": 4,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "voet",
+            "bal",
+            "inter",
+            "lands",
+            "de"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 35,
+          "prefix_len": 149,
+          "drafted_len": 60,
+          "path_ids": [
+            338,
+            975
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "is",
+            "over"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 36,
+          "prefix_len": 150,
+          "drafted_len": 60,
+          "path_ids": [
+            1739,
+            975,
+            536
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "een",
+            "over",
+            "ord"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 37,
+          "prefix_len": 152,
+          "drafted_len": 60,
+          "path_ids": [
+            29920,
+            1109
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "z",
+            "van"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 38,
+          "prefix_len": 153,
+          "drafted_len": 60,
+          "path_ids": [
+            1428,
+            1109,
+            339
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "icht",
+            "van",
+            "qu"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 39,
+          "prefix_len": 155,
+          "drafted_len": 60,
+          "path_ids": [
+            4788,
+            29871,
+            29953
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "alle",
+            "<29871>",
+            "6"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 40,
+          "prefix_len": 156,
+          "drafted_len": 60,
+          "path_ids": [
+            29158,
+            550,
+            427
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "offici",
+            "ans",
+            "en"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 41,
+          "prefix_len": 157,
+          "drafted_len": 60,
+          "path_ids": [
+            30083,
+            280,
+            2982
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "ë",
+            "le",
+            "land"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 42,
+          "prefix_len": 159,
+          "drafted_len": 60,
+          "path_ids": [
+            20613,
+            5521,
+            1580
+          ],
+          "base_accepted_len": 2,
+          "skip_accepted_len": 2,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 1,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "voet",
+            "bal",
+            "spec"
+          ]
+        },
+        {
+          "request_id": "sb_translation_207",
+          "step_id": 43,
+          "prefix_len": 161,
+          "drafted_len": 60,
+          "path_ids": [
+            8734,
+            292,
+            427
+          ],
+          "base_accepted_len": 1,
+          "skip_accepted_len": 1,
+          "delta_accepted_len": 0,
+          "newly_accepted": [],
+          "lost_accepted": [],
+          "still_rejected_count": 2,
+          "fixed_path": true,
+          "same_branch": true,
+          "path_tokens": [
+            "wed",
+            "ing",
+            "en"
+          ]
+        }
+      ],
+      "wall_s": 3.8938523437827826
+    }
+  ],
+  "token_events": [
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_184",
+      "skip_layer": 6,
+      "step_id": 11,
+      "pos": 4,
+      "token": "\\n",
+      "token_id": 13,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 6
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_184",
+      "skip_layer": 6,
+      "step_id": 11,
+      "pos": 5,
+      "token": "\\n",
+      "token_id": 13,
+      "base_accepted_len": 4,
+      "skip_accepted_len": 6
+    },
+    {
+      "dataset": "translation",
+      "request_id": "sb_translation_211",
+      "skip_layer": 6,
+      "step_id": 4,
+      "pos": 8,
+      "token": "\\n",
+      "token_id": 13,
+      "base_accepted_len": 8,
+      "skip_accepted_len": 9
+    }
+  ]
+}

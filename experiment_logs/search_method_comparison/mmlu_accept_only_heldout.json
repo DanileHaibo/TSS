@@ -1,0 +1,75 @@
+{
+  "dataset": "mmlu",
+  "display_name": "Accept-only",
+  "domain": "multiple_choice",
+  "method": "accept_only",
+  "search_evaluations": 114,
+  "size": "7b",
+  "skip_layers": [
+    4,
+    6,
+    16
+  ],
+  "split": "test",
+  "test_eval": {
+    "baseline": {
+      "accept_rate": 0.03525441329179647,
+      "mean_accepted_per_step": 3.115264797507788,
+      "num_skip_layers": 0,
+      "num_verify_steps": 642,
+      "skip_layers": [],
+      "task_score": 0.28125,
+      "tok_per_s": 70.67786923202378,
+      "total_output_tokens": 2000,
+      "wall_s": 28.29740089410916
+    },
+    "best": {
+      "accept_rate": 0.05038986354775828,
+      "mean_accepted_per_step": 4.023391812865498,
+      "num_skip_layers": 3,
+      "num_verify_steps": 513,
+      "skip_layers": [
+        4,
+        6,
+        16
+      ],
+      "task_score": 0.21875,
+      "tok_per_s": 87.95258328160466,
+      "total_output_tokens": 2064,
+      "wall_s": 23.467190194875002
+    },
+    "delta": {
+      "accept": 0.9081270153577097,
+      "task_score": -0.0625,
+      "tok_per_s": 17.27471404958088
+    }
+  },
+  "test_size": 64,
+  "train_eval": {
+    "baseline": {
+      "accept_rate": 0.03008130081300813,
+      "mean_accepted_per_step": 2.8048780487804876,
+      "num_skip_layers": 0,
+      "num_verify_steps": 41,
+      "skip_layers": [],
+      "task_score": 0.25,
+      "tok_per_s": 69.2114447039292,
+      "total_output_tokens": 115,
+      "wall_s": 1.661574909929186
+    },
+    "best": {
+      "accept_rate": 0.058333333333333334,
+      "layer": 6,
+      "mean_accepted_per_step": 4.5,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        4,
+        6,
+        16
+      ],
+      "task_score": 0.25,
+      "tok_per_s": 103.46221412960062
+    }
+  }
+}

@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Frozen-draft acceptance analysis on Spec-Bench held-out (64 prompts). Draft tree is identical for Native and TSS; only target verification changes. First-flip recovery is the fraction of Native rejection steps where TSS accepts the rejected draft token and continues farther.}
+\label{tab:tss_accept_survival_firstflip}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Domain & Steps & Root same & $P(\mathrm{acc}\!\ge\!2)$ N/T & First-flip recover & Same-br. & Switch & $\Delta$ Accept \\
+\midrule
+Translation & 1970 & 100.0\% & 78.2/78.3 & 12.0\% & 42 & 159 & -0.03 \\
+Summarization & 1571 & 100.0\% & 92.8/92.0 & 12.7\% & 23 & 141 & -0.04 \\
+QA & 1104 & 100.0\% & 81.2/81.1 & 18.8\% & 35 & 142 & -0.05 \\
+MMLU & 604 & 100.0\% & 84.6/82.6 & 17.9\% & 26 & 77 & +0.13 \\
+\bottomrule
+\end{tabular}
+\end{table*}

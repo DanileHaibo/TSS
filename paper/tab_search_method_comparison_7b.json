@@ -1,0 +1,179 @@
+{
+  "rows": [
+    {
+      "accept_len": 3.4876441515650742,
+      "dataset": "mmlu",
+      "display_name": "SLEB",
+      "method": "sleb",
+      "metric": 0.296875,
+      "search_evaluations": 114,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "throughput": 84.01635756990846
+    },
+    {
+      "accept_len": 2.9481065918653577,
+      "dataset": "mmlu",
+      "display_name": "Random Search",
+      "method": "random",
+      "metric": 0.296875,
+      "search_evaluations": 48,
+      "skip_layers": [
+        6,
+        10,
+        13,
+        18
+      ],
+      "throughput": 76.01074401200408
+    },
+    {
+      "accept_len": 2.8890429958391124,
+      "dataset": "mmlu",
+      "display_name": "Greedy Search",
+      "method": "greedy",
+      "metric": 0.328125,
+      "search_evaluations": 114,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "throughput": 70.40755402678953
+    },
+    {
+      "accept_len": 4.023391812865498,
+      "dataset": "mmlu",
+      "display_name": "Accept-only",
+      "method": "accept_only",
+      "metric": 0.21875,
+      "search_evaluations": 114,
+      "skip_layers": [
+        4,
+        6,
+        16
+      ],
+      "throughput": 87.95258328160466
+    },
+    {
+      "accept_len": 3.001464128843338,
+      "dataset": "mmlu",
+      "display_name": "Metric-only",
+      "method": "metric_only",
+      "metric": 0.265625,
+      "search_evaluations": 30,
+      "skip_layers": [
+        3
+      ],
+      "throughput": 69.31272442823274
+    },
+    {
+      "accept_len": 3.955426356589147,
+      "dataset": "mmlu",
+      "display_name": "TSS Breadth Search",
+      "heldout_source": "/root/autodl-tmp/specdecode-system-exp/results/tss_tri_objective_v3_train16_20260714/final_validation/mmlu_7b_eagle_heldout.json",
+      "method": "tss_breadth",
+      "metric": 0.328125,
+      "search_evaluations": 548,
+      "search_source": "results/tss_pareto_bridge_v2_train16_20260713/7b_eagle/search/mmlu_7b_eagle_pareto_bridge_v2.json",
+      "skip_layers": [
+        3,
+        7,
+        9,
+        14,
+        20
+      ],
+      "throughput": 90.82210605738618
+    },
+    {
+      "accept_len": 3.477175463623395,
+      "dataset": "translation",
+      "display_name": "SLEB",
+      "method": "sleb",
+      "metric": 0.12976116096604692,
+      "search_evaluations": 114,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        9
+      ],
+      "throughput": 101.53214641752324
+    },
+    {
+      "accept_len": 3.0837282780410744,
+      "dataset": "translation",
+      "display_name": "Random Search",
+      "method": "random",
+      "metric": 0.09861682047327677,
+      "search_evaluations": 48,
+      "skip_layers": [
+        7,
+        11
+      ],
+      "throughput": 92.9320978092275
+    },
+    {
+      "accept_len": 2.994981179422836,
+      "dataset": "translation",
+      "display_name": "Greedy Search",
+      "method": "greedy",
+      "metric": 0.10886672695631747,
+      "search_evaluations": 114,
+      "skip_layers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "throughput": 91.05090080075912
+    },
+    {
+      "accept_len": 3.7692828146143436,
+      "dataset": "translation",
+      "display_name": "Accept-only",
+      "method": "accept_only",
+      "metric": 0.12635144258674139,
+      "search_evaluations": 87,
+      "skip_layers": [
+        3,
+        15
+      ],
+      "throughput": 107.94642052390955
+    },
+    {
+      "accept_len": 3.0287390029325514,
+      "dataset": "translation",
+      "display_name": "Metric-only",
+      "method": "metric_only",
+      "metric": 0.13980262383014183,
+      "search_evaluations": 114,
+      "skip_layers": [
+        12,
+        18,
+        28
+      ],
+      "throughput": 88.18049206428408
+    },
+    {
+      "accept_len": 4.528391167192429,
+      "dataset": "translation",
+      "display_name": "TSS Breadth Search",
+      "heldout_source": "/root/autodl-tmp/specdecode-system-exp/results/tss_tri_objective_v3_train16_20260714/final_validation/translation_7b_eagle_heldout.json",
+      "method": "tss_breadth",
+      "metric": 0.23699194767486134,
+      "search_evaluations": 334,
+      "search_source": "results/tss_eagle7_explore_depth_train16_20260711/search/translation_7b_eagle_max_skip_latter.json",
+      "skip_layers": [
+        3,
+        25,
+        30
+      ],
+      "throughput": 127.25845134706083
+    }
+  ]
+}

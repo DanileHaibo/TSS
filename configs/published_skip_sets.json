@@ -1,0 +1,210 @@
+[
+  {
+    "size": "7B",
+    "model": "Vicuna-7B",
+    "architecture": "EAGLE",
+    "dataset": "translation",
+    "skip_layers": [
+      3,
+      25,
+      30
+    ],
+    "tss": {
+      "accept_len": 4.528391167192429,
+      "score": 0.23699194767486134,
+      "tok_per_s": 127.25845134706083
+    },
+    "native": {
+      "accept_len": 2.6972034715525552,
+      "score": 0.1311862346675408,
+      "tok_per_s": 75.57046459388553
+    }
+  },
+  {
+    "size": "7B",
+    "model": "Vicuna-7B",
+    "architecture": "EAGLE",
+    "dataset": "summarization",
+    "skip_layers": [
+      15,
+      22,
+      23
+    ],
+    "tss": {
+      "accept_len": 4.0128287363694675,
+      "score": 0.27015344968793076,
+      "tok_per_s": 95.54822034143696
+    },
+    "native": {
+      "accept_len": 3.92964824120603,
+      "score": 0.26645474136082153,
+      "tok_per_s": 89.3532224419371
+    }
+  },
+  {
+    "size": "7B",
+    "model": "Vicuna-7B",
+    "architecture": "EAGLE",
+    "dataset": "rag",
+    "skip_layers": [
+      3,
+      6,
+      14,
+      25,
+      30
+    ],
+    "tss": {
+      "accept_len": 4.026813880126182,
+      "score": 0.10914941401111782,
+      "tok_per_s": 97.1422318862414
+    },
+    "native": {
+      "accept_len": 3.2376654632972324,
+      "score": 0.09638776375313801,
+      "tok_per_s": 75.99814713170953
+    }
+  },
+  {
+    "size": "7B",
+    "model": "Vicuna-7B",
+    "architecture": "EAGLE",
+    "dataset": "qa",
+    "skip_layers": [
+      6,
+      8,
+      19,
+      21,
+      27
+    ],
+    "tss": {
+      "accept_len": 3.970164609053498,
+      "score": 0.06399317670478696,
+      "tok_per_s": 113.65367214847207
+    },
+    "native": {
+      "accept_len": 2.925650557620818,
+      "score": 0.042224046966981864,
+      "tok_per_s": 79.95412205691683
+    }
+  },
+  {
+    "size": "7B",
+    "model": "Vicuna-7B",
+    "architecture": "EAGLE",
+    "dataset": "mmlu",
+    "skip_layers": [
+      3,
+      7,
+      9,
+      14,
+      20
+    ],
+    "tss": {
+      "accept_len": 3.955426356589147,
+      "score": 0.328125,
+      "tok_per_s": 90.82210605738618
+    },
+    "native": {
+      "accept_len": 3.115264797507788,
+      "score": 0.28125,
+      "tok_per_s": 67.48581509282525
+    }
+  },
+  {
+    "size": "13B",
+    "model": "Llama-2-13B",
+    "architecture": "SAMD Token-Recycle",
+    "dataset": "translation",
+    "skip_layers": [
+      7,
+      11,
+      20,
+      31,
+      35,
+      38
+    ],
+    "tss": {
+      "accept_len": 2.8869346733668344,
+      "score": 0.2116220603078536,
+      "tok_per_s": 49.571415557577104
+    },
+    "native": {
+      "accept_len": 2.6947053800170795,
+      "score": 0.20823647472152787,
+      "tok_per_s": 38.30468793123817
+    }
+  },
+  {
+    "size": "13B",
+    "model": "Llama-2-13B",
+    "architecture": "SAMD Token-Recycle",
+    "dataset": "summarization",
+    "skip_layers": [
+      12,
+      20,
+      27,
+      33,
+      34,
+      38
+    ],
+    "tss": {
+      "accept_len": 3.1878083157152926,
+      "score": 0.2506958321898266,
+      "tok_per_s": 53.1970841372915
+    },
+    "native": {
+      "accept_len": 3.1073369565217392,
+      "score": 0.2490860568442662,
+      "tok_per_s": 45.8086675327369
+    }
+  },
+  {
+    "size": "13B",
+    "model": "Llama-2-13B",
+    "architecture": "SAMD Token-Recycle",
+    "dataset": "qa",
+    "skip_layers": [
+      9,
+      10,
+      11,
+      19,
+      28,
+      38
+    ],
+    "tss": {
+      "accept_len": 2.7375328083989503,
+      "score": 0.12878999913682024,
+      "tok_per_s": 43.31924779651183
+    },
+    "native": {
+      "accept_len": 2.5256045519203414,
+      "score": 0.11996523726052723,
+      "tok_per_s": 33.22097024423588
+    }
+  },
+  {
+    "size": "13B",
+    "model": "Llama-2-13B",
+    "architecture": "SAMD Token-Recycle",
+    "dataset": "mmlu",
+    "skip_layers": [
+      7,
+      23,
+      24,
+      26,
+      28,
+      32,
+      33
+    ],
+    "tss": {
+      "accept_len": 4.084095063985375,
+      "score": 0.421875,
+      "tok_per_s": 70.84430250210238
+    },
+    "native": {
+      "accept_len": 3.9602076124567476,
+      "score": 0.359375,
+      "tok_per_s": 58.63596661238785
+    }
+  }
+]

@@ -1,0 +1,1190 @@
+{
+  "baseline": {
+    "accept_rate": 0.029404761904761906,
+    "mean_accepted_per_step": 2.7642857142857142,
+    "num_skip_layers": 0,
+    "num_verify_steps": 140,
+    "skip_layers": [],
+    "task_score": 0.16504792429033313,
+    "tok_per_s": 75.20098141218328,
+    "total_output_tokens": 387,
+    "wall_s": 5.146209434140474
+  },
+  "best": {
+    "accept_rate": 0.05949612403100775,
+    "layer": 3,
+    "mean_accepted_per_step": 4.569767441860465,
+    "phase": "accept_only",
+    "round": 2,
+    "skip_layers": [
+      3,
+      15
+    ],
+    "task_score": 0.20117393420186264,
+    "tok_per_s": 134.0587138131593
+  },
+  "dataset": "translation",
+  "display_name": "Accept-only",
+  "domain": "translation",
+  "history": [
+    {
+      "accept_rate": 0.029404761904761906,
+      "mean_accepted_per_step": 2.7642857142857142,
+      "phase": "baseline",
+      "round": 0,
+      "skip_layers": [],
+      "task_score": 0.16504792429033313,
+      "tok_per_s": 75.20098141218328
+    },
+    {
+      "accept_rate": 0.03791666666666667,
+      "layer": 2,
+      "mean_accepted_per_step": 3.275,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        2
+      ],
+      "task_score": 0.1569549010435691,
+      "tok_per_s": 97.57742238871269
+    },
+    {
+      "accept_rate": 0.04196969696969697,
+      "layer": 3,
+      "mean_accepted_per_step": 3.518181818181818,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        3
+      ],
+      "task_score": 0.1644985183784267,
+      "tok_per_s": 105.86765175310126
+    },
+    {
+      "accept_rate": 0.03739837398373984,
+      "layer": 4,
+      "mean_accepted_per_step": 3.2439024390243905,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        4
+      ],
+      "task_score": 0.14577673925135243,
+      "tok_per_s": 98.58056705722478
+    },
+    {
+      "accept_rate": 0.03556430446194226,
+      "layer": 5,
+      "mean_accepted_per_step": 3.1338582677165356,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        5
+      ],
+      "task_score": 0.1511298320048795,
+      "tok_per_s": 95.11869701620968
+    },
+    {
+      "accept_rate": 0.03439153439153439,
+      "layer": 6,
+      "mean_accepted_per_step": 3.0634920634920637,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        6
+      ],
+      "task_score": 0.15985133386134753,
+      "tok_per_s": 93.88534957960229
+    },
+    {
+      "accept_rate": 0.03171641791044776,
+      "layer": 7,
+      "mean_accepted_per_step": 2.9029850746268657,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        7
+      ],
+      "task_score": 0.15500065606012636,
+      "tok_per_s": 85.34358081666645
+    },
+    {
+      "accept_rate": 0.03515625,
+      "layer": 8,
+      "mean_accepted_per_step": 3.109375,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        8
+      ],
+      "task_score": 0.14347273075058287,
+      "tok_per_s": 91.24260329637008
+    },
+    {
+      "accept_rate": 0.0386039886039886,
+      "layer": 9,
+      "mean_accepted_per_step": 3.3162393162393164,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        9
+      ],
+      "task_score": 0.18597173466822792,
+      "tok_per_s": 85.76689133505958
+    },
+    {
+      "accept_rate": 0.033854166666666664,
+      "layer": 10,
+      "mean_accepted_per_step": 3.03125,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        10
+      ],
+      "task_score": 0.152075175449827,
+      "tok_per_s": 90.62457028499728
+    },
+    {
+      "accept_rate": 0.03308080808080808,
+      "layer": 11,
+      "mean_accepted_per_step": 2.984848484848485,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        11
+      ],
+      "task_score": 0.18221380001699836,
+      "tok_per_s": 88.26167427350887
+    },
+    {
+      "accept_rate": 0.04287878787878788,
+      "layer": 12,
+      "mean_accepted_per_step": 3.5727272727272728,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        12
+      ],
+      "task_score": 0.15632911919635387,
+      "tok_per_s": 94.797923795881
+    },
+    {
+      "accept_rate": 0.029704301075268818,
+      "layer": 13,
+      "mean_accepted_per_step": 2.782258064516129,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        13
+      ],
+      "task_score": 0.19548193686254495,
+      "tok_per_s": 83.47092913053108
+    },
+    {
+      "accept_rate": 0.03879310344827586,
+      "layer": 14,
+      "mean_accepted_per_step": 3.3275862068965516,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        14
+      ],
+      "task_score": 0.18760958800914426,
+      "tok_per_s": 101.6199148004355
+    },
+    {
+      "accept_rate": 0.04465408805031446,
+      "layer": 15,
+      "mean_accepted_per_step": 3.6792452830188678,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        15
+      ],
+      "task_score": 0.16389822807260657,
+      "tok_per_s": 103.63660856340006
+    },
+    {
+      "accept_rate": 0.03197530864197531,
+      "layer": 16,
+      "mean_accepted_per_step": 2.9185185185185185,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        16
+      ],
+      "task_score": 0.13812201192805626,
+      "tok_per_s": 80.72398314787833
+    },
+    {
+      "accept_rate": 0.04070796460176991,
+      "layer": 17,
+      "mean_accepted_per_step": 3.4424778761061945,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        17
+      ],
+      "task_score": 0.15366023696102563,
+      "tok_per_s": 102.89896347788495
+    },
+    {
+      "accept_rate": 0.03705234159779614,
+      "layer": 18,
+      "mean_accepted_per_step": 3.2231404958677685,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        18
+      ],
+      "task_score": 0.17799584234652208,
+      "tok_per_s": 85.96620819720584
+    },
+    {
+      "accept_rate": 0.03705234159779614,
+      "layer": 19,
+      "mean_accepted_per_step": 3.2231404958677685,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        19
+      ],
+      "task_score": 0.1505492359729065,
+      "tok_per_s": 95.72681388466515
+    },
+    {
+      "accept_rate": 0.0332089552238806,
+      "layer": 20,
+      "mean_accepted_per_step": 2.9925373134328357,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        20
+      ],
+      "task_score": 0.15195783354237807,
+      "tok_per_s": 83.68310872946229
+    },
+    {
+      "accept_rate": 0.03208020050125313,
+      "layer": 21,
+      "mean_accepted_per_step": 2.924812030075188,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        21
+      ],
+      "task_score": 0.15676423444226756,
+      "tok_per_s": 88.10539743366948
+    },
+    {
+      "accept_rate": 0.03333333333333333,
+      "layer": 22,
+      "mean_accepted_per_step": 3.0,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        22
+      ],
+      "task_score": 0.1608963866842778,
+      "tok_per_s": 91.32626144984911
+    },
+    {
+      "accept_rate": 0.040497076023391816,
+      "layer": 23,
+      "mean_accepted_per_step": 3.4298245614035086,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        23
+      ],
+      "task_score": 0.17553569993435109,
+      "tok_per_s": 102.12501042121255
+    },
+    {
+      "accept_rate": 0.0352,
+      "layer": 24,
+      "mean_accepted_per_step": 3.112,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        24
+      ],
+      "task_score": 0.17024013916242364,
+      "tok_per_s": 94.19059349579813
+    },
+    {
+      "accept_rate": 0.02266260162601626,
+      "layer": 25,
+      "mean_accepted_per_step": 2.3597560975609757,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        25
+      ],
+      "task_score": 0.1984948845191452,
+      "tok_per_s": 70.05342129577508
+    },
+    {
+      "accept_rate": 0.027701149425287355,
+      "layer": 26,
+      "mean_accepted_per_step": 2.6620689655172414,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        26
+      ],
+      "task_score": 0.17329167439994378,
+      "tok_per_s": 82.85103941912858
+    },
+    {
+      "accept_rate": 0.02973621103117506,
+      "layer": 27,
+      "mean_accepted_per_step": 2.7841726618705036,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        27
+      ],
+      "task_score": 0.1548256196190833,
+      "tok_per_s": 81.10476679521318
+    },
+    {
+      "accept_rate": 0.029699248120300753,
+      "layer": 28,
+      "mean_accepted_per_step": 2.781954887218045,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        28
+      ],
+      "task_score": 0.206507033023414,
+      "tok_per_s": 76.58304513074462
+    },
+    {
+      "accept_rate": 0.03546666666666667,
+      "layer": 29,
+      "mean_accepted_per_step": 3.128,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        29
+      ],
+      "task_score": 0.14856162692582536,
+      "tok_per_s": 94.54759394913303
+    },
+    {
+      "accept_rate": 0.04072463768115942,
+      "layer": 30,
+      "mean_accepted_per_step": 3.4434782608695653,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        30
+      ],
+      "task_score": 0.13019344508408015,
+      "tok_per_s": 97.2712501885239
+    },
+    {
+      "accept_rate": 0.023945147679324895,
+      "layer": 31,
+      "mean_accepted_per_step": 2.4367088607594938,
+      "phase": "accept_only",
+      "round": 1,
+      "skip_layers": [
+        31
+      ],
+      "task_score": 0.13309569352217052,
+      "tok_per_s": 74.48069136355376
+    },
+    {
+      "accept_rate": 0.03771186440677966,
+      "layer": 2,
+      "mean_accepted_per_step": 3.26271186440678,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        2,
+        15
+      ],
+      "task_score": 0.1674915163406475,
+      "tok_per_s": 94.52588816307608
+    },
+    {
+      "accept_rate": 0.05949612403100775,
+      "layer": 3,
+      "mean_accepted_per_step": 4.569767441860465,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        3,
+        15
+      ],
+      "task_score": 0.20117393420186264,
+      "tok_per_s": 134.0587138131593
+    },
+    {
+      "accept_rate": 0.055860805860805864,
+      "layer": 4,
+      "mean_accepted_per_step": 4.351648351648352,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        4,
+        15
+      ],
+      "task_score": 0.17306458270718852,
+      "tok_per_s": 118.51574514149611
+    },
+    {
+      "accept_rate": 0.03669354838709677,
+      "layer": 5,
+      "mean_accepted_per_step": 3.2016129032258065,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        5,
+        15
+      ],
+      "task_score": 0.131269283993903,
+      "tok_per_s": 94.70927188912401
+    },
+    {
+      "accept_rate": 0.038700564971751415,
+      "layer": 6,
+      "mean_accepted_per_step": 3.3220338983050848,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        6,
+        15
+      ],
+      "task_score": 0.16403030563877904,
+      "tok_per_s": 101.98468260130333
+    },
+    {
+      "accept_rate": 0.03207070707070707,
+      "layer": 7,
+      "mean_accepted_per_step": 2.9242424242424243,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        7,
+        15
+      ],
+      "task_score": 0.17177375650747295,
+      "tok_per_s": 79.5731173020424
+    },
+    {
+      "accept_rate": 0.03464566929133858,
+      "layer": 8,
+      "mean_accepted_per_step": 3.078740157480315,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        8,
+        15
+      ],
+      "task_score": 0.15973517970248596,
+      "tok_per_s": 94.83231468187728
+    },
+    {
+      "accept_rate": 0.039316239316239315,
+      "layer": 9,
+      "mean_accepted_per_step": 3.358974358974359,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        9,
+        15
+      ],
+      "task_score": 0.15335115472066305,
+      "tok_per_s": 94.8315996340536
+    },
+    {
+      "accept_rate": 0.03945868945868946,
+      "layer": 10,
+      "mean_accepted_per_step": 3.3675213675213675,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        10,
+        15
+      ],
+      "task_score": 0.1634750927935921,
+      "tok_per_s": 97.54505454546748
+    },
+    {
+      "accept_rate": 0.04008620689655172,
+      "layer": 11,
+      "mean_accepted_per_step": 3.4051724137931036,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        11,
+        15
+      ],
+      "task_score": 0.1930555446739386,
+      "tok_per_s": 103.83473306287827
+    },
+    {
+      "accept_rate": 0.04644012944983819,
+      "layer": 12,
+      "mean_accepted_per_step": 3.7864077669902914,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        12,
+        15
+      ],
+      "task_score": 0.13675455096240025,
+      "tok_per_s": 115.16048541013684
+    },
+    {
+      "accept_rate": 0.03894230769230769,
+      "layer": 13,
+      "mean_accepted_per_step": 3.3365384615384617,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        13,
+        15
+      ],
+      "task_score": 0.19415394748951953,
+      "tok_per_s": 102.58563458412702
+    },
+    {
+      "accept_rate": 0.03777777777777778,
+      "layer": 14,
+      "mean_accepted_per_step": 3.2666666666666666,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        14,
+        15
+      ],
+      "task_score": 0.14820143164667338,
+      "tok_per_s": 99.17083027798186
+    },
+    {
+      "accept_rate": 0.03647540983606557,
+      "layer": 16,
+      "mean_accepted_per_step": 3.1885245901639343,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        16
+      ],
+      "task_score": 0.14358861940496487,
+      "tok_per_s": 97.31781380087233
+    },
+    {
+      "accept_rate": 0.036825396825396824,
+      "layer": 17,
+      "mean_accepted_per_step": 3.2095238095238097,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        17
+      ],
+      "task_score": 0.1737507775389852,
+      "tok_per_s": 98.18721138583165
+    },
+    {
+      "accept_rate": 0.04303030303030303,
+      "layer": 18,
+      "mean_accepted_per_step": 3.581818181818182,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        18
+      ],
+      "task_score": 0.13659596633532423,
+      "tok_per_s": 110.2241367855046
+    },
+    {
+      "accept_rate": 0.037431693989071035,
+      "layer": 19,
+      "mean_accepted_per_step": 3.2459016393442623,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        19
+      ],
+      "task_score": 0.1455585686368922,
+      "tok_per_s": 92.8333363436543
+    },
+    {
+      "accept_rate": 0.039224137931034485,
+      "layer": 20,
+      "mean_accepted_per_step": 3.353448275862069,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        20
+      ],
+      "task_score": 0.12862182913961298,
+      "tok_per_s": 96.35085330542218
+    },
+    {
+      "accept_rate": 0.0446969696969697,
+      "layer": 21,
+      "mean_accepted_per_step": 3.6818181818181817,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        21
+      ],
+      "task_score": 0.1917879449824465,
+      "tok_per_s": 108.54854864416649
+    },
+    {
+      "accept_rate": 0.0475,
+      "layer": 22,
+      "mean_accepted_per_step": 3.85,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        22
+      ],
+      "task_score": 0.14394420660892104,
+      "tok_per_s": 116.3361296673391
+    },
+    {
+      "accept_rate": 0.04212121212121212,
+      "layer": 23,
+      "mean_accepted_per_step": 3.5272727272727273,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        23
+      ],
+      "task_score": 0.1488707045015991,
+      "tok_per_s": 99.365290756184
+    },
+    {
+      "accept_rate": 0.03979591836734694,
+      "layer": 24,
+      "mean_accepted_per_step": 3.3877551020408165,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        24
+      ],
+      "task_score": 0.21874969995446616,
+      "tok_per_s": 92.43472349558174
+    },
+    {
+      "accept_rate": 0.029285714285714286,
+      "layer": 25,
+      "mean_accepted_per_step": 2.757142857142857,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        25
+      ],
+      "task_score": 0.153704406602543,
+      "tok_per_s": 84.31444253898727
+    },
+    {
+      "accept_rate": 0.036885245901639344,
+      "layer": 26,
+      "mean_accepted_per_step": 3.2131147540983607,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        26
+      ],
+      "task_score": 0.1471937995019133,
+      "tok_per_s": 89.76680003626717
+    },
+    {
+      "accept_rate": 0.03854166666666667,
+      "layer": 27,
+      "mean_accepted_per_step": 3.3125,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        27
+      ],
+      "task_score": 0.24234597693120521,
+      "tok_per_s": 95.30414780802958
+    },
+    {
+      "accept_rate": 0.028743961352657006,
+      "layer": 28,
+      "mean_accepted_per_step": 2.7246376811594204,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        28
+      ],
+      "task_score": 0.2146692790819002,
+      "tok_per_s": 83.16966030816396
+    },
+    {
+      "accept_rate": 0.030413625304136254,
+      "layer": 29,
+      "mean_accepted_per_step": 2.8248175182481754,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        29
+      ],
+      "task_score": 0.15504283493739057,
+      "tok_per_s": 85.26662676245118
+    },
+    {
+      "accept_rate": 0.03942028985507246,
+      "layer": 30,
+      "mean_accepted_per_step": 3.365217391304348,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        30
+      ],
+      "task_score": 0.14153586431665796,
+      "tok_per_s": 95.80329194035752
+    },
+    {
+      "accept_rate": 0.026296296296296297,
+      "layer": 31,
+      "mean_accepted_per_step": 2.5777777777777775,
+      "phase": "accept_only",
+      "round": 2,
+      "skip_layers": [
+        15,
+        31
+      ],
+      "task_score": 0.19073635174893644,
+      "tok_per_s": 77.29778524799214
+    },
+    {
+      "accept_rate": 0.04406392694063927,
+      "layer": 2,
+      "mean_accepted_per_step": 3.643835616438356,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        2,
+        3,
+        15
+      ],
+      "task_score": 0.2967446081634552,
+      "tok_per_s": 108.48792152317341
+    },
+    {
+      "accept_rate": 0.04702970297029703,
+      "layer": 4,
+      "mean_accepted_per_step": 3.8217821782178216,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        4,
+        15
+      ],
+      "task_score": 0.20586092686889274,
+      "tok_per_s": 113.47665873053113
+    },
+    {
+      "accept_rate": 0.030555555555555555,
+      "layer": 5,
+      "mean_accepted_per_step": 2.833333333333333,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        5,
+        15
+      ],
+      "task_score": 0.3191668948360512,
+      "tok_per_s": 77.13119514633675
+    },
+    {
+      "accept_rate": 0.04057971014492753,
+      "layer": 6,
+      "mean_accepted_per_step": 3.4347826086956523,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        6,
+        15
+      ],
+      "task_score": 0.1676745341209136,
+      "tok_per_s": 108.25457389019718
+    },
+    {
+      "accept_rate": 0.03160493827160494,
+      "layer": 7,
+      "mean_accepted_per_step": 2.8962962962962964,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        7,
+        15
+      ],
+      "task_score": 0.16955367801646365,
+      "tok_per_s": 90.69305964204179
+    },
+    {
+      "accept_rate": 0.031127450980392157,
+      "layer": 8,
+      "mean_accepted_per_step": 2.8676470588235294,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        8,
+        15
+      ],
+      "task_score": 0.16954643043353176,
+      "tok_per_s": 88.82225601989755
+    },
+    {
+      "accept_rate": 0.046153846153846156,
+      "layer": 9,
+      "mean_accepted_per_step": 3.769230769230769,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        9,
+        15
+      ],
+      "task_score": 0.19351274783222777,
+      "tok_per_s": 112.42224726568459
+    },
+    {
+      "accept_rate": 0.03575268817204301,
+      "layer": 10,
+      "mean_accepted_per_step": 3.1451612903225805,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        10,
+        15
+      ],
+      "task_score": 0.1498834456057868,
+      "tok_per_s": 98.21831611445924
+    },
+    {
+      "accept_rate": 0.03985507246376811,
+      "layer": 11,
+      "mean_accepted_per_step": 3.391304347826087,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        11,
+        15
+      ],
+      "task_score": 0.1423412066203196,
+      "tok_per_s": 101.83046281201969
+    },
+    {
+      "accept_rate": 0.05652173913043478,
+      "layer": 12,
+      "mean_accepted_per_step": 4.391304347826087,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        12,
+        15
+      ],
+      "task_score": 0.1718044833568978,
+      "tok_per_s": 133.75733166389065
+    },
+    {
+      "accept_rate": 0.03372395833333333,
+      "layer": 13,
+      "mean_accepted_per_step": 3.0234375,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        13,
+        15
+      ],
+      "task_score": 0.10419335082686086,
+      "tok_per_s": 86.82822079120817
+    },
+    {
+      "accept_rate": 0.05909090909090909,
+      "layer": 14,
+      "mean_accepted_per_step": 4.545454545454545,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        14,
+        15
+      ],
+      "task_score": 0.2232310958268977,
+      "tok_per_s": 134.06427118834398
+    },
+    {
+      "accept_rate": 0.04133333333333333,
+      "layer": 16,
+      "mean_accepted_per_step": 3.48,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        16
+      ],
+      "task_score": 0.17350973772389303,
+      "tok_per_s": 107.83837161703222
+    },
+    {
+      "accept_rate": 0.03666666666666667,
+      "layer": 17,
+      "mean_accepted_per_step": 3.2,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        17
+      ],
+      "task_score": 0.2924631717594484,
+      "tok_per_s": 96.64002299350169
+    },
+    {
+      "accept_rate": 0.03677685950413223,
+      "layer": 18,
+      "mean_accepted_per_step": 3.206611570247934,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        18
+      ],
+      "task_score": 0.1543616968714214,
+      "tok_per_s": 100.69460305181401
+    },
+    {
+      "accept_rate": 0.03819444444444445,
+      "layer": 19,
+      "mean_accepted_per_step": 3.2916666666666665,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        19
+      ],
+      "task_score": 0.16240892205249616,
+      "tok_per_s": 101.02473745824906
+    },
+    {
+      "accept_rate": 0.03493333333333333,
+      "layer": 20,
+      "mean_accepted_per_step": 3.096,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        20
+      ],
+      "task_score": 0.11937283298204887,
+      "tok_per_s": 97.29243279788206
+    },
+    {
+      "accept_rate": 0.04512820512820513,
+      "layer": 21,
+      "mean_accepted_per_step": 3.707692307692308,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        21
+      ],
+      "task_score": 0.3818843733695332,
+      "tok_per_s": 96.78091703285588
+    },
+    {
+      "accept_rate": 0.04512578616352201,
+      "layer": 22,
+      "mean_accepted_per_step": 3.707547169811321,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        22
+      ],
+      "task_score": 0.159691977399408,
+      "tok_per_s": 104.94314374000615
+    },
+    {
+      "accept_rate": 0.04598393574297189,
+      "layer": 23,
+      "mean_accepted_per_step": 3.7590361445783134,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        23
+      ],
+      "task_score": 0.3065802779505579,
+      "tok_per_s": 111.64668230841565
+    },
+    {
+      "accept_rate": 0.05570175438596491,
+      "layer": 24,
+      "mean_accepted_per_step": 4.342105263157895,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        24
+      ],
+      "task_score": 0.2437134261601827,
+      "tok_per_s": 127.27099710247506
+    },
+    {
+      "accept_rate": 0.03521505376344086,
+      "layer": 25,
+      "mean_accepted_per_step": 3.1129032258064515,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        25
+      ],
+      "task_score": 0.16597280982840065,
+      "tok_per_s": 94.09512320868453
+    },
+    {
+      "accept_rate": 0.04,
+      "layer": 26,
+      "mean_accepted_per_step": 3.4,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        26
+      ],
+      "task_score": 0.3192354813082352,
+      "tok_per_s": 99.27613198979023
+    },
+    {
+      "accept_rate": 0.03650137741046832,
+      "layer": 27,
+      "mean_accepted_per_step": 3.190082644628099,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        27
+      ],
+      "task_score": 0.15003076725930947,
+      "tok_per_s": 92.10888146450327
+    },
+    {
+      "accept_rate": 0.051096491228070175,
+      "layer": 28,
+      "mean_accepted_per_step": 4.065789473684211,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        28
+      ],
+      "task_score": 0.3375348173491348,
+      "tok_per_s": 116.35788913356421
+    },
+    {
+      "accept_rate": 0.0412280701754386,
+      "layer": 29,
+      "mean_accepted_per_step": 3.473684210526316,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        29
+      ],
+      "task_score": 0.1606289703759477,
+      "tok_per_s": 108.01401970236243
+    },
+    {
+      "accept_rate": 0.0365979381443299,
+      "layer": 30,
+      "mean_accepted_per_step": 3.195876288659794,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        30
+      ],
+      "task_score": 0.29286363793964687,
+      "tok_per_s": 89.71949605405584
+    },
+    {
+      "accept_rate": 0.03819444444444445,
+      "layer": 31,
+      "mean_accepted_per_step": 3.2916666666666665,
+      "phase": "accept_only",
+      "round": 3,
+      "skip_layers": [
+        3,
+        15,
+        31
+      ],
+      "task_score": 0.1473472138382957,
+      "tok_per_s": 102.81795444644165
+    }
+  ],
+  "method_backend": "eagle",
+  "mode": "accept_only",
+  "preset": "vicuna7",
+  "protocol_note": "fast search on first 4 of official train-16; heldout uses test-64",
+  "search_config": {
+    "early_barrier": 2,
+    "latter_barrier": 0,
+    "layer_step": 1,
+    "max_skip_layers": 4,
+    "random_budget": null
+  },
+  "search_evaluations": 87,
+  "selection_criterion": "Forward greedy maximize accept only; ignore metric/toks",
+  "size": "7b",
+  "skip_layers": [
+    3,
+    15
+  ],
+  "split": "train",
+  "train_size": 4,
+  "wall_s": 343.1695418357849
+}
